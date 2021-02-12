@@ -1,117 +1,20 @@
-22:11:14 **** Build of project DMA_FIFO_wrapper ****
-buildplatform.bat 53022 DMA_FIFO_wrapper  
-XSDB Server Channel: tcfchan#1
-Building the BSP Library for domain  - standalone_domain on processor microblaze_0
-"Running Make include in microblaze_0/libsrc/axidma_v9_10/src"
+Nothing to build in platform 'DMA_FIFO_wrapper'
 
-make -C microblaze_0/libsrc/axidma_v9_10/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
-ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wa
-ll -Wextra"
-
-"Running Make include in microblaze_0/libsrc/bram_v4_3/src"
-
-make -C microblaze_0/libsrc/bram_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
-R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
--Wextra"
-
-"Running Make include in microblaze_0/libsrc/cpu_v2_10/src"
-
-make -C microblaze_0/libsrc/cpu_v2_10/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
-R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
--Wextra"
-
-"Running Make include in microblaze_0/libsrc/intc_v3_10/src"
-
-make -C microblaze_0/libsrc/intc_v3_10/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
-ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
- -Wextra"
-
-"Running Make include in microblaze_0/libsrc/standalone_v7_1/src"
-
-make -C microblaze_0/libsrc/standalone_v7_1/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
-OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
--Wall -Wextra"
-
-"Running Make include in microblaze_0/libsrc/uartlite_v3_3/src"
-
-make -C microblaze_0/libsrc/uartlite_v3_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
-PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
-all -Wextra"
-
-"Running Make libs in microblaze_0/libsrc/axidma_v9_10/src"
-
-make -C microblaze_0/libsrc/axidma_v9_10/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
-R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
--Wextra"
-
-"Compiling axidma"
-
-mb-ar: creating ../../../lib/libxil.a
-"Running Make libs in microblaze_0/libsrc/bram_v4_3/src"
-
-make -C microblaze_0/libsrc/bram_v4_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
-LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
-xtra"
-
-"Compiling bram"
-
-"Running Make libs in microblaze_0/libsrc/cpu_v2_10/src"
-
-make -C microblaze_0/libsrc/cpu_v2_10/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
-LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
-xtra"
-
-"Compiling cpu"
-
-"Running Make libs in microblaze_0/libsrc/intc_v3_10/src"
-
-make -C microblaze_0/libsrc/intc_v3_10/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_
-FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -W
-extra"
-
-"Compiling intc"
-
-"Running Make libs in microblaze_0/libsrc/standalone_v7_1/src"
-
-make -C microblaze_0/libsrc/standalone_v7_1/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
-ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wa
-ll -Wextra"
-
-"Compiling standalone";
-
-microblaze_sleep.c:75:9: note: #pragma message: For the sleep routines, assembly instructions are used
- #pragma message ("For the sleep routines, assembly instructions are used")
-         ^~~~~~~
-"Running Make libs in microblaze_0/libsrc/uartlite_v3_3/src"
-
-make -C microblaze_0/libsrc/uartlite_v3_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
-ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
- -Wextra"
-
-"Compiling uartlite"
-
-'Finished building libraries'
-
-22:11:31 **** Build of configuration Debug for project test_bram ****
+20:59:10 **** Incremental Build of configuration Debug for project test_bram ****
 make all 
-'Building file: ../src/platform.c'
+'Building file: ../src/xaxidma_example_sg_poll.c'
 'Invoking: MicroBlaze gcc compiler'
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -ID:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/export/DMA_FIFO_wrapper/sw/DMA_FIFO_wrapper/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
-'Finished building: ../src/platform.c'
-' '
-'Building file: ../src/xbram_example.c'
-'Invoking: MicroBlaze gcc compiler'
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xbram_example.o" -ID:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/export/DMA_FIFO_wrapper/sw/DMA_FIFO_wrapper/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xbram_example.d" -MT"src/xbram_example.o" -o "src/xbram_example.o" "../src/xbram_example.c"
-'Finished building: ../src/xbram_example.c'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xaxidma_example_sg_poll.o" -ID:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/export/DMA_FIFO_wrapper/sw/DMA_FIFO_wrapper/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xaxidma_example_sg_poll.d" -MT"src/xaxidma_example_sg_poll.o" -o "src/xaxidma_example_sg_poll.o" "../src/xaxidma_example_sg_poll.c"
+'Finished building: ../src/xaxidma_example_sg_poll.c'
 ' '
 'Building target: test_bram.elf'
 'Invoking: MicroBlaze gcc linker'
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -LD:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/export/DMA_FIFO_wrapper/sw/DMA_FIFO_wrapper/standalone_domain/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "test_bram.elf"  ./src/platform.o ./src/xbram_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LD:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/export/DMA_FIFO_wrapper/sw/DMA_FIFO_wrapper/standalone_domain/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "test_bram.elf"  ./src/platform.o ./src/xaxidma_example_sg_poll.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
 'Finished building target: test_bram.elf'
 ' '
 'Invoking: MicroBlaze Print Size'
 mb-size test_bram.elf  |tee "test_bram.elf.size"
    text	   data	    bss	    dec	    hex	filename
-  12384	    892	   3196	  16472	   4058	test_bram.elf
+  31884	   2004	   5128	  39016	   9868	test_bram.elf
 'Finished building: test_bram.elf.size'
 ' '

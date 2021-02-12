@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "xaxidma.h": "c",
+        "xparameters.h": "c",
+        "xbram.h": "c",
+        "xbram_hw.h": "c"
+    }
+}

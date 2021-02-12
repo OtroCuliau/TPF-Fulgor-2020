@@ -2,3 +2,19 @@ timestamp=[2021-02-08 22:09:00], mode=WORKBENCH_START, duration=0:00:11.876, dur
 timestamp=[2021-02-08 22:09:02], mode=WORKBENCH_UI_INIT, duration=0:00:01.834, duration_ms=1834, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
 timestamp=[2021-02-08 22:10:44], mode=APP_CREATION, duration=0:00:19.844, duration_ms=19844, data={name=test_bram, project_type=sdk, os=standalone, processor=microblaze, runtime=cpp, platform=DMA_FIFO_wrapper, application_type=application}
 timestamp=[2021-02-08 22:11:30], mode=PLATFORM_GENERATION, duration=0:00:16.940, duration_ms=16940, data={name=DMA_FIFO_wrapper}
+timestamp=[2021-02-09 23:34:26], mode=WORKBENCH_START, duration=0:00:28.340, duration_ms=28340, data={}
+timestamp=[2021-02-09 23:34:30], mode=WORKBENCH_UI_INIT, duration=0:00:03.307, duration_ms=3307, data={editors_count=5, platform_editors_count=2, projects_count=4, platform_projects_count=1, active_platform_editor=true, projects=DMA_FIFO_wrapper,RemoteSystemsTempFiles,test_bram,test_bram_system}
+timestamp=[2021-02-09 23:41:15], mode=WORKBENCH_START, duration=0:00:24.583, duration_ms=24583, data={}
+timestamp=[2021-02-09 23:41:20], mode=WORKBENCH_UI_INIT, duration=0:00:04.988, duration_ms=4988, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=DMA_FIFO_wrapper,RemoteSystemsTempFiles,test_bram,test_bram_system}
+timestamp=[2021-02-10 00:45:56], mode=WORKBENCH_START, duration=0:00:25.429, duration_ms=25429, data={}
+timestamp=[2021-02-10 00:46:01], mode=WORKBENCH_UI_INIT, duration=0:00:04.606, duration_ms=4606, data={editors_count=5, platform_editors_count=2, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=DMA_FIFO_wrapper,RemoteSystemsTempFiles,test_bram,test_bram_system}
+timestamp=[2021-02-10 01:56:04], mode=PLATFORM_GENERATION, duration=0:00:04.985, duration_ms=4985, data={name=DMA_FIFO_wrapper}
+timestamp=[2021-02-10 17:10:10], mode=WORKBENCH_START, duration=0:00:27.930, duration_ms=27930, data={}
+timestamp=[2021-02-10 17:10:13], mode=WORKBENCH_UI_INIT, duration=0:00:02.745, duration_ms=2745, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=DMA_FIFO_wrapper,RemoteSystemsTempFiles,test_bram,test_bram_system}
+timestamp=[2021-02-10 18:18:42], mode=WORKBENCH_START, duration=0:00:19.257, duration_ms=19257, data={}
+timestamp=[2021-02-10 18:18:45], mode=WORKBENCH_UI_INIT, duration=0:00:03.178, duration_ms=3178, data={editors_count=4, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=true, projects=DMA_FIFO_wrapper,RemoteSystemsTempFiles,test_bram,test_bram_system}
+timestamp=[2021-02-11 16:55:45], mode=WORKBENCH_START, duration=0:00:30.808, duration_ms=30808, data={}
+timestamp=[2021-02-11 16:55:49], mode=WORKBENCH_UI_INIT, duration=0:00:03.918, duration_ms=3918, data={editors_count=4, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=true, projects=DMA_FIFO_wrapper,RemoteSystemsTempFiles,test_bram,test_bram_system}
+timestamp=[2021-02-11 17:48:30], mode=PLATFORM_GENERATION, duration=0:00:28.396, duration_ms=28396, data={name=DMA_FIFO_wrapper}
+timestamp=[2021-02-11 20:36:44], mode=WORKBENCH_START, duration=0:00:28.732, duration_ms=28732, data={}
+timestamp=[2021-02-11 20:36:47], mode=WORKBENCH_UI_INIT, duration=0:00:03.049, duration_ms=3049, data={editors_count=6, platform_editors_count=3, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=DMA_FIFO_wrapper,RemoteSystemsTempFiles,test_bram,test_bram_system}

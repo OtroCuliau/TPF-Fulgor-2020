@@ -1,26 +1,21 @@
-22:11:31 **** Build of configuration Debug for project test_bram ****
+20:59:10 **** Incremental Build of configuration Debug for project test_bram ****
 make all 
-'Building file: ../src/platform.c'
+'Building file: ../src/xaxidma_example_sg_poll.c'
 'Invoking: MicroBlaze gcc compiler'
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -ID:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/export/DMA_FIFO_wrapper/sw/DMA_FIFO_wrapper/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
-'Finished building: ../src/platform.c'
-' '
-'Building file: ../src/xbram_example.c'
-'Invoking: MicroBlaze gcc compiler'
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xbram_example.o" -ID:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/export/DMA_FIFO_wrapper/sw/DMA_FIFO_wrapper/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xbram_example.d" -MT"src/xbram_example.o" -o "src/xbram_example.o" "../src/xbram_example.c"
-'Finished building: ../src/xbram_example.c'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xaxidma_example_sg_poll.o" -ID:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/export/DMA_FIFO_wrapper/sw/DMA_FIFO_wrapper/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xaxidma_example_sg_poll.d" -MT"src/xaxidma_example_sg_poll.o" -o "src/xaxidma_example_sg_poll.o" "../src/xaxidma_example_sg_poll.c"
+'Finished building: ../src/xaxidma_example_sg_poll.c'
 ' '
 'Building target: test_bram.elf'
 'Invoking: MicroBlaze gcc linker'
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -LD:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/export/DMA_FIFO_wrapper/sw/DMA_FIFO_wrapper/standalone_domain/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "test_bram.elf"  ./src/platform.o ./src/xbram_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LD:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/export/DMA_FIFO_wrapper/sw/DMA_FIFO_wrapper/standalone_domain/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "test_bram.elf"  ./src/platform.o ./src/xaxidma_example_sg_poll.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
 'Finished building target: test_bram.elf'
 ' '
 'Invoking: MicroBlaze Print Size'
 mb-size test_bram.elf  |tee "test_bram.elf.size"
    text	   data	    bss	    dec	    hex	filename
-  12384	    892	   3196	  16472	   4058	test_bram.elf
+  31884	   2004	   5128	  39016	   9868	test_bram.elf
 'Finished building: test_bram.elf.size'
 ' '
 
-22:11:35 Build Finished (took 4s.243ms)
+20:59:12 Build Finished (took 2s.203ms)
 
