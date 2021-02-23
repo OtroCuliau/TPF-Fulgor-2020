@@ -1,7 +1,7 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
-| Date         : Wed Jan 20 01:16:35 2021
+| Date         : Mon Feb 22 18:45:23 2021
 | Host         : DESKTOP-9VJG89D running 64-bit major release  (build 9200)
 | Command      : report_utilization -file eth1_microblaze_0_2_utilization_synth.rpt -pb eth1_microblaze_0_2_utilization_synth.pb
 | Design       : eth1_microblaze_0_2
@@ -35,8 +35,8 @@ Table of Contents
 |   LUT as Memory            |  302 |     0 |     64000 |  0.47 |
 |     LUT as Distributed RAM |  128 |     0 |           |       |
 |     LUT as Shift Register  |  174 |     0 |           |       |
-| Slice Registers            | 2115 |     0 |    407600 |  0.52 |
-|   Register as Flip Flop    | 2111 |     0 |    407600 |  0.52 |
+| Slice Registers            | 2119 |     0 |    407600 |  0.52 |
+|   Register as Flip Flop    | 2115 |     0 |    407600 |  0.52 |
 |   Register as Latch        |    0 |     0 |    407600 |  0.00 |
 |   Register as AND/OR       |    4 |     0 |    407600 | <0.01 |
 | F7 Muxes                   |  111 |     0 |    101900 |  0.11 |
@@ -60,7 +60,7 @@ Table of Contents
 | 0     |          Yes |           - |          Set |
 | 143   |          Yes |           - |        Reset |
 | 61    |          Yes |         Set |            - |
-| 1907  |          Yes |       Reset |            - |
+| 1911  |          Yes |       Reset |            - |
 +-------+--------------+-------------+--------------+
 
 
@@ -155,18 +155,18 @@ Table of Contents
 +----------+------+---------------------+
 | Ref Name | Used | Functional Category |
 +----------+------+---------------------+
-| FDRE     | 1907 |        Flop & Latch |
+| FDRE     | 1911 |        Flop & Latch |
 | LUT6     |  567 |                 LUT |
 | LUT5     |  369 |                 LUT |
 | LUT3     |  316 |                 LUT |
 | LUT4     |  267 |                 LUT |
 | SRL16E   |  166 |  Distributed Memory |
 | RAMD32   |  160 |  Distributed Memory |
-| LUT2     |  148 |                 LUT |
+| LUT2     |  149 |                 LUT |
 | FDCE     |  143 |        Flop & Latch |
 | MUXF7    |  111 |               MuxFx |
 | FDSE     |   61 |        Flop & Latch |
-| CARRY4   |   48 |          CarryLogic |
+| CARRY4   |   49 |          CarryLogic |
 | RAMS32   |   32 |  Distributed Memory |
 | LUT1     |   32 |                 LUT |
 | RAMB36E1 |   10 |        Block Memory |

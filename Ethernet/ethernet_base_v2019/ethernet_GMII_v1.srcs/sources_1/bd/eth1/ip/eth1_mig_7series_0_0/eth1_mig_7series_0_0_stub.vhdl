@@ -1,10 +1,10 @@
 -- Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
--- Date        : Wed Jan 20 12:10:33 2021
+-- Date        : Wed Jan 20 12:10:10 2021
 -- Host        : DESKTOP-9VJG89D running 64-bit major release  (build 9200)
--- Command     : write_vhdl -force -mode synth_stub
---               D:/dario/fulgor/trabajo_final/vivado_projects/ethernet_GMII_v1/ethernet_GMII_v1.srcs/sources_1/bd/eth1/ip/eth1_mig_7series_0_0/eth1_mig_7series_0_0_stub.vhdl
+-- Command     : write_vhdl -force -mode synth_stub -rename_top eth1_mig_7series_0_0 -prefix
+--               eth1_mig_7series_0_0_ eth1_mig_7series_0_0_stub.vhdl
 -- Design      : eth1_mig_7series_0_0
 -- Purpose     : Stub declaration of top-level module interface
 -- Device      : xc7k325tffg900-2

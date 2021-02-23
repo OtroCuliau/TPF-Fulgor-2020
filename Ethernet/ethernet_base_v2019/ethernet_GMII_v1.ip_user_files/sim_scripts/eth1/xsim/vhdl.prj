@@ -18,5 +18,7 @@ vhdl xil_defaultlib  \
 "../../../bd/eth1/ip/eth1_axi_ethernet_0_0/bd_0/ip/ip_2/sim/bd_d93c_c_shift_ram_0_0.vhd" \
 "../../../bd/eth1/ip/eth1_axi_ethernet_0_0/bd_0/ip/ip_3/sim/bd_d93c_c_counter_binary_0_0.vhd" \
 "../../../bd/eth1/ip/eth1_axi_ethernet_0_dma_0/sim/eth1_axi_ethernet_0_dma_0.vhd" \
+"../../../bd/eth1/ip/eth1_axi_bram_ctrl_0_0/sim/eth1_axi_bram_ctrl_0_0.vhd" \
+"../../../bd/eth1/ip/eth1_axi_cdma_0_0/sim/eth1_axi_cdma_0_0.vhd" \
 
 nosort

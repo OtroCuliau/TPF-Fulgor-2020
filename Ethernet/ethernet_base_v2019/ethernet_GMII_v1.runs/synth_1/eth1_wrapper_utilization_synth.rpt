@@ -1,7 +1,7 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
-| Date         : Wed Jan 20 12:14:51 2021
+| Date         : Mon Feb 22 19:17:44 2021
 | Host         : DESKTOP-9VJG89D running 64-bit major release  (build 9200)
 | Command      : report_utilization -file eth1_wrapper_utilization_synth.rpt -pb eth1_wrapper_utilization_synth.pb
 | Design       : eth1_wrapper
@@ -175,12 +175,15 @@ Table of Contents
 | eth1_ilmb_bram_if_cntlr_3     |    1 |
 | eth1_dlmb_v10_3               |    1 |
 | eth1_dlmb_bram_if_cntlr_3     |    1 |
+| eth1_blk_mem_gen_0_0          |    1 |
 | eth1_axi_uartlite_0_0         |    1 |
 | eth1_axi_timer_0_0            |    1 |
 | eth1_axi_smc_1                |    1 |
 | eth1_axi_ethernet_0_gtxclk_0  |    1 |
 | eth1_axi_ethernet_0_dma_0     |    1 |
 | eth1_axi_ethernet_0_0         |    1 |
+| eth1_axi_cdma_0_0             |    1 |
+| eth1_axi_bram_ctrl_0_0        |    1 |
 +-------------------------------+------+
 
 

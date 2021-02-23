@@ -67,11 +67,11 @@ set rc [catch {
   create_msg_db write_bitstream.pb
   set_param chipscope.maxJobs 1
   open_checkpoint eth1_wrapper_routed.dcp
-  set_property webtalk.parent_dir D:/dario/fulgor/trabajo_final/vivado_projects/ethernet_GMII_v1/ethernet_GMII_v1.cache/wt [current_project]
+  set_property webtalk.parent_dir D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.cache/wt [current_project]
   set_property XPM_LIBRARIES {XPM_CDC XPM_FIFO XPM_MEMORY} [current_project]
-  add_files d:/dario/fulgor/trabajo_final/vivado_projects/ethernet_GMII_v1/ethernet_GMII_v1.srcs/sources_1/bd/eth1/ip/eth1_microblaze_0_2/data/mb_bootloop_le.elf
-  set_property SCOPED_TO_REF eth1 [get_files -all d:/dario/fulgor/trabajo_final/vivado_projects/ethernet_GMII_v1/ethernet_GMII_v1.srcs/sources_1/bd/eth1/ip/eth1_microblaze_0_2/data/mb_bootloop_le.elf]
-  set_property SCOPED_TO_CELLS microblaze_0 [get_files -all d:/dario/fulgor/trabajo_final/vivado_projects/ethernet_GMII_v1/ethernet_GMII_v1.srcs/sources_1/bd/eth1/ip/eth1_microblaze_0_2/data/mb_bootloop_le.elf]
+  add_files d:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.srcs/sources_1/bd/eth1/ip/eth1_microblaze_0_2/data/mb_bootloop_le.elf
+  set_property SCOPED_TO_REF eth1 [get_files -all d:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.srcs/sources_1/bd/eth1/ip/eth1_microblaze_0_2/data/mb_bootloop_le.elf]
+  set_property SCOPED_TO_CELLS microblaze_0 [get_files -all d:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.srcs/sources_1/bd/eth1/ip/eth1_microblaze_0_2/data/mb_bootloop_le.elf]
   catch { write_mem_info -force eth1_wrapper.mmi }
   catch { write_bmm -force eth1_wrapper_bd.bmm }
   write_bitstream -force eth1_wrapper.bit 

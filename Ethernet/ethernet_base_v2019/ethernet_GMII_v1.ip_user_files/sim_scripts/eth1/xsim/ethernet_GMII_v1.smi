@@ -20,6 +20,16 @@
         </BitLane>
       </BusBlock>
     </AddressSpace>
+    <AddressSpace Name="eth1_i_microblaze_0.eth1_i_blk_mem_gen_0_ADDR_SPACE" ECC="NONE" Begin="3221225472" End="3221233663">
+      <BusBlock>
+        <BitLane MemType="blk_mem_gen_0_MEM_DEVICE" MemType_DataWidth="32" MemType_AddressDepth="3221233663">
+          <DataWidth MSB="31" LSB="0"/>
+          <AddressRange Begin="0" End="2047"/>
+          <Parity ON="false" NumBits="0"/>
+          <MemFile Name="eth1_blk_mem_gen_0_0.mem"/>
+        </BitLane>
+      </BusBlock>
+    </AddressSpace>
   </Processor>
   <Config>
     <Option Name="Part" Val="xc7k325tffg900-2"/>

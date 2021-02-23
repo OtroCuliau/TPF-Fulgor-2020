@@ -74,8 +74,14 @@ eth1_axi_smc_1_sc::eth1_axi_smc_1_sc(const sc_core::sc_module_name& nm) : sc_cor
   S03_AXI_tlm_aximm_write_socket = mp_impl->S03_AXI_tlm_aximm_write_socket;
   S04_AXI_tlm_aximm_read_socket = mp_impl->S04_AXI_tlm_aximm_read_socket;
   S04_AXI_tlm_aximm_write_socket = mp_impl->S04_AXI_tlm_aximm_write_socket;
+  S05_AXI_tlm_aximm_read_socket = mp_impl->S05_AXI_tlm_aximm_read_socket;
+  S05_AXI_tlm_aximm_write_socket = mp_impl->S05_AXI_tlm_aximm_write_socket;
+  S06_AXI_tlm_aximm_read_socket = mp_impl->S06_AXI_tlm_aximm_read_socket;
+  S06_AXI_tlm_aximm_write_socket = mp_impl->S06_AXI_tlm_aximm_write_socket;
   M00_AXI_tlm_aximm_read_socket = mp_impl->M00_AXI_tlm_aximm_read_socket;
   M00_AXI_tlm_aximm_write_socket = mp_impl->M00_AXI_tlm_aximm_write_socket;
+  M01_AXI_tlm_aximm_read_socket = mp_impl->M01_AXI_tlm_aximm_read_socket;
+  M01_AXI_tlm_aximm_write_socket = mp_impl->M01_AXI_tlm_aximm_write_socket;
 }
 
 eth1_axi_smc_1_sc::~eth1_axi_smc_1_sc()

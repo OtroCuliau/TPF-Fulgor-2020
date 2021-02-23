@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7k325tffg900-2" LaunchTime="1611157953">
+<GenRun Id="impl_1" LaunchPart="xc7k325tffg900-2" LaunchTime="1614032303">
   <File Type="BITSTR-BMM" Name="eth1_wrapper_bd.bmm"/>
   <File Type="OPT-METHODOLOGY-DRC" Name="eth1_wrapper_methodology_drc_opted.rpt"/>
   <File Type="INIT-TIMING" Name="eth1_wrapper_timing_summary_init.rpt"/>
@@ -139,13 +139,16 @@
     <Step Id="post_route_phys_opt_design"/>
     <Step Id="write_bitstream"/>
   </Strategy>
-  <BlockFileSet Type="BlockSrcs" Name="eth1_axi_ethernet_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="eth1_lmb_bram_3"/>
-  <BlockFileSet Type="BlockSrcs" Name="eth1_mig_7series_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="eth1_microblaze_0_2"/>
   <BlockFileSet Type="BlockSrcs" Name="eth1_xbar_1"/>
   <BlockFileSet Type="BlockSrcs" Name="eth1_ilmb_bram_if_cntlr_3"/>
+  <BlockFileSet Type="BlockSrcs" Name="eth1_axi_ethernet_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="eth1_lmb_bram_3"/>
   <BlockFileSet Type="BlockSrcs" Name="eth1_microblaze_0_axi_intc_3"/>
+  <BlockFileSet Type="BlockSrcs" Name="eth1_axi_cdma_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="eth1_axi_ethernet_0_gtxclk_0"/>
   <BlockFileSet Type="BlockSrcs" Name="bd_d93c_mac_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="eth1_axi_smc_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="eth1_axi_bram_ctrl_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="eth1_blk_mem_gen_0_0"/>
 </GenRun>

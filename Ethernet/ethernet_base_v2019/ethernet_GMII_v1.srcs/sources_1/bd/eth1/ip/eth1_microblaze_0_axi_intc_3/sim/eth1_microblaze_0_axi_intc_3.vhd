@@ -77,7 +77,7 @@ ENTITY eth1_microblaze_0_axi_intc_3 IS
     s_axi_rresp : OUT STD_LOGIC_VECTOR(1 DOWNTO 0);
     s_axi_rvalid : OUT STD_LOGIC;
     s_axi_rready : IN STD_LOGIC;
-    intr : IN STD_LOGIC_VECTOR(5 DOWNTO 0);
+    intr : IN STD_LOGIC_VECTOR(6 DOWNTO 0);
     processor_clk : IN STD_LOGIC;
     processor_rst : IN STD_LOGIC;
     irq : OUT STD_LOGIC;
@@ -138,7 +138,7 @@ ARCHITECTURE eth1_microblaze_0_axi_intc_3_arch OF eth1_microblaze_0_axi_intc_3 I
       s_axi_rresp : OUT STD_LOGIC_VECTOR(1 DOWNTO 0);
       s_axi_rvalid : OUT STD_LOGIC;
       s_axi_rready : IN STD_LOGIC;
-      intr : IN STD_LOGIC_VECTOR(5 DOWNTO 0);
+      intr : IN STD_LOGIC_VECTOR(6 DOWNTO 0);
       processor_clk : IN STD_LOGIC;
       processor_rst : IN STD_LOGIC;
       irq : OUT STD_LOGIC;
@@ -159,7 +159,7 @@ ARCHITECTURE eth1_microblaze_0_axi_intc_3_arch OF eth1_microblaze_0_axi_intc_3 I
   ATTRIBUTE X_INTERFACE_INFO OF processor_rst: SIGNAL IS "xilinx.com:signal:reset:1.0 proc_reset RST";
   ATTRIBUTE X_INTERFACE_PARAMETER OF processor_clk: SIGNAL IS "XIL_INTERFACENAME proc_clock, ASSOCIATED_BUSIF interrupt, ASSOCIATED_RESET processor_rst, FREQ_HZ 100000000, PHASE 0, CLK_DOMAIN eth1_mig_7series_0_0_ui_clk, INSERT_VIP 0";
   ATTRIBUTE X_INTERFACE_INFO OF processor_clk: SIGNAL IS "xilinx.com:signal:clock:1.0 proc_clock CLK";
-  ATTRIBUTE X_INTERFACE_PARAMETER OF intr: SIGNAL IS "XIL_INTERFACENAME interrupt_input, SENSITIVITY EDGE_RISING:EDGE_RISING:LEVEL_HIGH:LEVEL_HIGH:LEVEL_HIGH:LEVEL_HIGH, PortWidth 6";
+  ATTRIBUTE X_INTERFACE_PARAMETER OF intr: SIGNAL IS "XIL_INTERFACENAME interrupt_input, SENSITIVITY LEVEL_HIGH:EDGE_RISING:EDGE_RISING:LEVEL_HIGH:LEVEL_HIGH:LEVEL_HIGH:LEVEL_HIGH, PortWidth 7";
   ATTRIBUTE X_INTERFACE_INFO OF intr: SIGNAL IS "xilinx.com:signal:interrupt:1.0 interrupt_input INTERRUPT";
   ATTRIBUTE X_INTERFACE_INFO OF s_axi_rready: SIGNAL IS "xilinx.com:interface:aximm:1.0 s_axi RREADY";
   ATTRIBUTE X_INTERFACE_INFO OF s_axi_rvalid: SIGNAL IS "xilinx.com:interface:aximm:1.0 s_axi RVALID";
@@ -191,12 +191,12 @@ BEGIN
       C_INSTANCE => "eth1_microblaze_0_axi_intc_3",
       C_S_AXI_ADDR_WIDTH => 9,
       C_S_AXI_DATA_WIDTH => 32,
-      C_NUM_INTR_INPUTS => 6,
+      C_NUM_INTR_INPUTS => 7,
       C_NUM_SW_INTR => 0,
-      C_KIND_OF_INTR => X"fffffff0",
+      C_KIND_OF_INTR => X"ffffff30",
       C_KIND_OF_EDGE => X"FFFFFFFF",
       C_KIND_OF_LVL => X"FFFFFFFF",
-      C_ASYNC_INTR => X"FFFFFFD2",
+      C_ASYNC_INTR => X"FFFFFF92",
       C_NUM_SYNC_FF => 2,
       C_ADDR_WIDTH => 32,
       C_IVAR_RESET_VALUE => X"0000000000000010",

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Wed Jan 20 11:59:21 2021" VIVADOVERSION="2019.2">
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Mon Feb 22 18:40:26 2021" VIVADOVERSION="2019.2">
 
   <SYSTEMINFO ARCH="kintex7" BOARD="xilinx.com:kc705:part0:1.6" DEVICE="7k325t" NAME="bd_d93c" PACKAGE="ffg900" SPEEDGRADE="-2"/>
 
@@ -183,81 +183,6 @@
         <CONNECTION INSTANCE="eth_buf" PORT="AXI_STR_TXC_TVALID"/>
       </CONNECTIONS>
     </PORT>
-    <PORT DIR="O" LEFT="31" NAME="m_axis_rxs_tdata" RIGHT="0" SIGIS="undef" SIGNAME="eth_buf_AXI_STR_RXS_DATA">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="eth_buf" PORT="AXI_STR_RXS_DATA"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="O" LEFT="3" NAME="m_axis_rxs_tkeep" RIGHT="0" SIGIS="undef" SIGNAME="eth_buf_AXI_STR_RXS_KEEP">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="eth_buf" PORT="AXI_STR_RXS_KEEP"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="O" NAME="m_axis_rxs_tlast" SIGIS="undef" SIGNAME="eth_buf_AXI_STR_RXS_LAST">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="eth_buf" PORT="AXI_STR_RXS_LAST"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="I" NAME="m_axis_rxs_tready" SIGIS="undef" SIGNAME="eth_buf_AXI_STR_RXS_READY">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="eth_buf" PORT="AXI_STR_RXS_READY"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="O" NAME="m_axis_rxs_tvalid" SIGIS="undef" SIGNAME="eth_buf_AXI_STR_RXS_VALID">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="eth_buf" PORT="AXI_STR_RXS_VALID"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="O" LEFT="31" NAME="m_axis_rxd_tdata" RIGHT="0" SIGIS="undef" SIGNAME="eth_buf_AXI_STR_RXD_DATA">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="eth_buf" PORT="AXI_STR_RXD_DATA"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="O" LEFT="3" NAME="m_axis_rxd_tkeep" RIGHT="0" SIGIS="undef" SIGNAME="eth_buf_AXI_STR_RXD_KEEP">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="eth_buf" PORT="AXI_STR_RXD_KEEP"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="O" NAME="m_axis_rxd_tlast" SIGIS="undef" SIGNAME="eth_buf_AXI_STR_RXD_LAST">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="eth_buf" PORT="AXI_STR_RXD_LAST"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="I" NAME="m_axis_rxd_tready" SIGIS="undef" SIGNAME="eth_buf_AXI_STR_RXD_READY">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="eth_buf" PORT="AXI_STR_RXD_READY"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="O" NAME="m_axis_rxd_tvalid" SIGIS="undef" SIGNAME="eth_buf_AXI_STR_RXD_VALID">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="eth_buf" PORT="AXI_STR_RXD_VALID"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="I" LEFT="31" NAME="s_axis_txd_tdata" RIGHT="0" SIGIS="undef" SIGNAME="eth_buf_AXI_STR_TXD_TDATA">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="eth_buf" PORT="AXI_STR_TXD_TDATA"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="I" LEFT="3" NAME="s_axis_txd_tkeep" RIGHT="0" SIGIS="undef" SIGNAME="eth_buf_AXI_STR_TXD_TKEEP">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="eth_buf" PORT="AXI_STR_TXD_TKEEP"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="I" NAME="s_axis_txd_tlast" SIGIS="undef" SIGNAME="eth_buf_AXI_STR_TXD_TLAST">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="eth_buf" PORT="AXI_STR_TXD_TLAST"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="O" NAME="s_axis_txd_tready" SIGIS="undef" SIGNAME="eth_buf_AXI_STR_TXD_TREADY">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="eth_buf" PORT="AXI_STR_TXD_TREADY"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="I" NAME="s_axis_txd_tvalid" SIGIS="undef" SIGNAME="eth_buf_AXI_STR_TXD_TVALID">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="eth_buf" PORT="AXI_STR_TXD_TVALID"/>
-      </CONNECTIONS>
-    </PORT>
     <PORT CLKFREQUENCY="100000000" DIR="O" NAME="gmii_gtx_clk" SIGIS="clk" SIGNAME="mac_gmii_tx_clk">
       <CONNECTIONS>
         <CONNECTION INSTANCE="mac" PORT="gmii_tx_clk"/>
@@ -301,6 +226,81 @@
     <PORT DIR="O" LEFT="7" NAME="gmii_txd" RIGHT="0" SIGIS="undef" SIGNAME="mac_gmii_txd">
       <CONNECTIONS>
         <CONNECTION INSTANCE="mac" PORT="gmii_txd"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" LEFT="31" NAME="s_axis_txd_tdata" RIGHT="0" SIGIS="undef" SIGNAME="eth_buf_AXI_STR_TXD_TDATA">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="eth_buf" PORT="AXI_STR_TXD_TDATA"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" LEFT="3" NAME="s_axis_txd_tkeep" RIGHT="0" SIGIS="undef" SIGNAME="eth_buf_AXI_STR_TXD_TKEEP">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="eth_buf" PORT="AXI_STR_TXD_TKEEP"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="s_axis_txd_tlast" SIGIS="undef" SIGNAME="eth_buf_AXI_STR_TXD_TLAST">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="eth_buf" PORT="AXI_STR_TXD_TLAST"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="s_axis_txd_tready" SIGIS="undef" SIGNAME="eth_buf_AXI_STR_TXD_TREADY">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="eth_buf" PORT="AXI_STR_TXD_TREADY"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="s_axis_txd_tvalid" SIGIS="undef" SIGNAME="eth_buf_AXI_STR_TXD_TVALID">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="eth_buf" PORT="AXI_STR_TXD_TVALID"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="31" NAME="m_axis_rxd_tdata" RIGHT="0" SIGIS="undef" SIGNAME="eth_buf_AXI_STR_RXD_DATA">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="eth_buf" PORT="AXI_STR_RXD_DATA"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="3" NAME="m_axis_rxd_tkeep" RIGHT="0" SIGIS="undef" SIGNAME="eth_buf_AXI_STR_RXD_KEEP">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="eth_buf" PORT="AXI_STR_RXD_KEEP"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="m_axis_rxd_tlast" SIGIS="undef" SIGNAME="eth_buf_AXI_STR_RXD_LAST">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="eth_buf" PORT="AXI_STR_RXD_LAST"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="m_axis_rxd_tready" SIGIS="undef" SIGNAME="eth_buf_AXI_STR_RXD_READY">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="eth_buf" PORT="AXI_STR_RXD_READY"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="m_axis_rxd_tvalid" SIGIS="undef" SIGNAME="eth_buf_AXI_STR_RXD_VALID">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="eth_buf" PORT="AXI_STR_RXD_VALID"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="31" NAME="m_axis_rxs_tdata" RIGHT="0" SIGIS="undef" SIGNAME="eth_buf_AXI_STR_RXS_DATA">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="eth_buf" PORT="AXI_STR_RXS_DATA"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="3" NAME="m_axis_rxs_tkeep" RIGHT="0" SIGIS="undef" SIGNAME="eth_buf_AXI_STR_RXS_KEEP">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="eth_buf" PORT="AXI_STR_RXS_KEEP"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="m_axis_rxs_tlast" SIGIS="undef" SIGNAME="eth_buf_AXI_STR_RXS_LAST">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="eth_buf" PORT="AXI_STR_RXS_LAST"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="m_axis_rxs_tready" SIGIS="undef" SIGNAME="eth_buf_AXI_STR_RXS_READY">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="eth_buf" PORT="AXI_STR_RXS_READY"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="m_axis_rxs_tvalid" SIGIS="undef" SIGNAME="eth_buf_AXI_STR_RXS_VALID">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="eth_buf" PORT="AXI_STR_RXS_VALID"/>
       </CONNECTIONS>
     </PORT>
     <PORT CLKFREQUENCY="100000000" DIR="O" NAME="mdio_mdc" SIGIS="clk" SIGNAME="mac_mdc">

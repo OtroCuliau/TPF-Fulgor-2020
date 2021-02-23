@@ -25,16 +25,16 @@ set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
 set_msg_config -source 4 -id {IP_Flow 19-2162} -severity warning -new_severity info
-set_property webtalk.parent_dir D:/dario/fulgor/trabajo_final/vivado_projects/ethernet_GMII_v1/ethernet_GMII_v1.cache/wt [current_project]
-set_property parent.project_path D:/dario/fulgor/trabajo_final/vivado_projects/ethernet_GMII_v1/ethernet_GMII_v1.xpr [current_project]
+set_property webtalk.parent_dir D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.cache/wt [current_project]
+set_property parent.project_path D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.xpr [current_project]
 set_property XPM_LIBRARIES {XPM_CDC XPM_FIFO XPM_MEMORY} [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
 set_property board_part xilinx.com:kc705:part0:1.6 [current_project]
-set_property ip_output_repo d:/dario/fulgor/trabajo_final/vivado_projects/ethernet_GMII_v1/ethernet_GMII_v1.cache/ip [current_project]
+set_property ip_output_repo d:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
-read_ip -quiet d:/dario/fulgor/trabajo_final/vivado_projects/ethernet_GMII_v1/ethernet_GMII_v1.srcs/sources_1/bd/eth1/ip/eth1_xbar_1/eth1_xbar_1.xci
-set_property used_in_implementation false [get_files -all d:/dario/fulgor/trabajo_final/vivado_projects/ethernet_GMII_v1/ethernet_GMII_v1.srcs/sources_1/bd/eth1/ip/eth1_xbar_1/eth1_xbar_1_ooc.xdc]
+read_ip -quiet D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.srcs/sources_1/bd/eth1/ip/eth1_xbar_1/eth1_xbar_1.xci
+set_property used_in_implementation false [get_files -all d:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.srcs/sources_1/bd/eth1/ip/eth1_xbar_1/eth1_xbar_1_ooc.xdc]
 
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the
@@ -48,7 +48,7 @@ read_xdc dont_touch.xdc
 set_property used_in_implementation false [get_files dont_touch.xdc]
 set_param ips.enableIPCacheLiteLoad 1
 
-set cached_ip [config_ip_cache -export -no_bom  -dir D:/dario/fulgor/trabajo_final/vivado_projects/ethernet_GMII_v1/ethernet_GMII_v1.runs/eth1_xbar_1_synth_1 -new_name eth1_xbar_1 -ip [get_ips eth1_xbar_1]]
+set cached_ip [config_ip_cache -export -no_bom  -dir D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/eth1_xbar_1_synth_1 -new_name eth1_xbar_1 -ip [get_ips eth1_xbar_1]]
 
 if { $cached_ip eq {} } {
 close [open __synthesis_is_running__ w]
@@ -89,32 +89,32 @@ write_checkpoint -force -noxdef eth1_xbar_1.dcp
 create_report "eth1_xbar_1_synth_1_synth_report_utilization_0" "report_utilization -file eth1_xbar_1_utilization_synth.rpt -pb eth1_xbar_1_utilization_synth.pb"
 
 if { [catch {
-  file copy -force D:/dario/fulgor/trabajo_final/vivado_projects/ethernet_GMII_v1/ethernet_GMII_v1.runs/eth1_xbar_1_synth_1/eth1_xbar_1.dcp d:/dario/fulgor/trabajo_final/vivado_projects/ethernet_GMII_v1/ethernet_GMII_v1.srcs/sources_1/bd/eth1/ip/eth1_xbar_1/eth1_xbar_1.dcp
+  file copy -force D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/eth1_xbar_1_synth_1/eth1_xbar_1.dcp D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.srcs/sources_1/bd/eth1/ip/eth1_xbar_1/eth1_xbar_1.dcp
 } _RESULT ] } { 
   send_msg_id runtcl-3 error "ERROR: Unable to successfully create or copy the sub-design checkpoint file."
   error "ERROR: Unable to successfully create or copy the sub-design checkpoint file."
 }
 
 if { [catch {
-  write_verilog -force -mode synth_stub d:/dario/fulgor/trabajo_final/vivado_projects/ethernet_GMII_v1/ethernet_GMII_v1.srcs/sources_1/bd/eth1/ip/eth1_xbar_1/eth1_xbar_1_stub.v
+  write_verilog -force -mode synth_stub D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.srcs/sources_1/bd/eth1/ip/eth1_xbar_1/eth1_xbar_1_stub.v
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create a Verilog synthesis stub for the sub-design. This may lead to errors in top level synthesis of the design. Error reported: $_RESULT"
 }
 
 if { [catch {
-  write_vhdl -force -mode synth_stub d:/dario/fulgor/trabajo_final/vivado_projects/ethernet_GMII_v1/ethernet_GMII_v1.srcs/sources_1/bd/eth1/ip/eth1_xbar_1/eth1_xbar_1_stub.vhdl
+  write_vhdl -force -mode synth_stub D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.srcs/sources_1/bd/eth1/ip/eth1_xbar_1/eth1_xbar_1_stub.vhdl
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create a VHDL synthesis stub for the sub-design. This may lead to errors in top level synthesis of the design. Error reported: $_RESULT"
 }
 
 if { [catch {
-  write_verilog -force -mode funcsim d:/dario/fulgor/trabajo_final/vivado_projects/ethernet_GMII_v1/ethernet_GMII_v1.srcs/sources_1/bd/eth1/ip/eth1_xbar_1/eth1_xbar_1_sim_netlist.v
+  write_verilog -force -mode funcsim D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.srcs/sources_1/bd/eth1/ip/eth1_xbar_1/eth1_xbar_1_sim_netlist.v
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create the Verilog functional simulation sub-design file. Post-Synthesis Functional Simulation with this file may not be possible or may give incorrect results. Error reported: $_RESULT"
 }
 
 if { [catch {
-  write_vhdl -force -mode funcsim d:/dario/fulgor/trabajo_final/vivado_projects/ethernet_GMII_v1/ethernet_GMII_v1.srcs/sources_1/bd/eth1/ip/eth1_xbar_1/eth1_xbar_1_sim_netlist.vhdl
+  write_vhdl -force -mode funcsim D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.srcs/sources_1/bd/eth1/ip/eth1_xbar_1/eth1_xbar_1_sim_netlist.vhdl
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create the VHDL functional simulation sub-design file. Post-Synthesis Functional Simulation with this file may not be possible or may give incorrect results. Error reported: $_RESULT"
 }
@@ -124,47 +124,47 @@ if { [catch {
 
 
 if { [catch {
-  file copy -force D:/dario/fulgor/trabajo_final/vivado_projects/ethernet_GMII_v1/ethernet_GMII_v1.runs/eth1_xbar_1_synth_1/eth1_xbar_1.dcp d:/dario/fulgor/trabajo_final/vivado_projects/ethernet_GMII_v1/ethernet_GMII_v1.srcs/sources_1/bd/eth1/ip/eth1_xbar_1/eth1_xbar_1.dcp
+  file copy -force D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/eth1_xbar_1_synth_1/eth1_xbar_1.dcp D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.srcs/sources_1/bd/eth1/ip/eth1_xbar_1/eth1_xbar_1.dcp
 } _RESULT ] } { 
   send_msg_id runtcl-3 error "ERROR: Unable to successfully create or copy the sub-design checkpoint file."
   error "ERROR: Unable to successfully create or copy the sub-design checkpoint file."
 }
 
 if { [catch {
-  file rename -force D:/dario/fulgor/trabajo_final/vivado_projects/ethernet_GMII_v1/ethernet_GMII_v1.runs/eth1_xbar_1_synth_1/eth1_xbar_1_stub.v d:/dario/fulgor/trabajo_final/vivado_projects/ethernet_GMII_v1/ethernet_GMII_v1.srcs/sources_1/bd/eth1/ip/eth1_xbar_1/eth1_xbar_1_stub.v
+  file rename -force D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/eth1_xbar_1_synth_1/eth1_xbar_1_stub.v D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.srcs/sources_1/bd/eth1/ip/eth1_xbar_1/eth1_xbar_1_stub.v
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create a Verilog synthesis stub for the sub-design. This may lead to errors in top level synthesis of the design. Error reported: $_RESULT"
 }
 
 if { [catch {
-  file rename -force D:/dario/fulgor/trabajo_final/vivado_projects/ethernet_GMII_v1/ethernet_GMII_v1.runs/eth1_xbar_1_synth_1/eth1_xbar_1_stub.vhdl d:/dario/fulgor/trabajo_final/vivado_projects/ethernet_GMII_v1/ethernet_GMII_v1.srcs/sources_1/bd/eth1/ip/eth1_xbar_1/eth1_xbar_1_stub.vhdl
+  file rename -force D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/eth1_xbar_1_synth_1/eth1_xbar_1_stub.vhdl D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.srcs/sources_1/bd/eth1/ip/eth1_xbar_1/eth1_xbar_1_stub.vhdl
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create a VHDL synthesis stub for the sub-design. This may lead to errors in top level synthesis of the design. Error reported: $_RESULT"
 }
 
 if { [catch {
-  file rename -force D:/dario/fulgor/trabajo_final/vivado_projects/ethernet_GMII_v1/ethernet_GMII_v1.runs/eth1_xbar_1_synth_1/eth1_xbar_1_sim_netlist.v d:/dario/fulgor/trabajo_final/vivado_projects/ethernet_GMII_v1/ethernet_GMII_v1.srcs/sources_1/bd/eth1/ip/eth1_xbar_1/eth1_xbar_1_sim_netlist.v
+  file rename -force D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/eth1_xbar_1_synth_1/eth1_xbar_1_sim_netlist.v D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.srcs/sources_1/bd/eth1/ip/eth1_xbar_1/eth1_xbar_1_sim_netlist.v
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create the Verilog functional simulation sub-design file. Post-Synthesis Functional Simulation with this file may not be possible or may give incorrect results. Error reported: $_RESULT"
 }
 
 if { [catch {
-  file rename -force D:/dario/fulgor/trabajo_final/vivado_projects/ethernet_GMII_v1/ethernet_GMII_v1.runs/eth1_xbar_1_synth_1/eth1_xbar_1_sim_netlist.vhdl d:/dario/fulgor/trabajo_final/vivado_projects/ethernet_GMII_v1/ethernet_GMII_v1.srcs/sources_1/bd/eth1/ip/eth1_xbar_1/eth1_xbar_1_sim_netlist.vhdl
+  file rename -force D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/eth1_xbar_1_synth_1/eth1_xbar_1_sim_netlist.vhdl D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.srcs/sources_1/bd/eth1/ip/eth1_xbar_1/eth1_xbar_1_sim_netlist.vhdl
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create the VHDL functional simulation sub-design file. Post-Synthesis Functional Simulation with this file may not be possible or may give incorrect results. Error reported: $_RESULT"
 }
 
 }; # end if cached_ip 
 
-if {[file isdir D:/dario/fulgor/trabajo_final/vivado_projects/ethernet_GMII_v1/ethernet_GMII_v1.ip_user_files/ip/eth1_xbar_1]} {
+if {[file isdir D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.ip_user_files/ip/eth1_xbar_1]} {
   catch { 
-    file copy -force d:/dario/fulgor/trabajo_final/vivado_projects/ethernet_GMII_v1/ethernet_GMII_v1.srcs/sources_1/bd/eth1/ip/eth1_xbar_1/eth1_xbar_1_stub.v D:/dario/fulgor/trabajo_final/vivado_projects/ethernet_GMII_v1/ethernet_GMII_v1.ip_user_files/ip/eth1_xbar_1
+    file copy -force D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.srcs/sources_1/bd/eth1/ip/eth1_xbar_1/eth1_xbar_1_stub.v D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.ip_user_files/ip/eth1_xbar_1
   }
 }
 
-if {[file isdir D:/dario/fulgor/trabajo_final/vivado_projects/ethernet_GMII_v1/ethernet_GMII_v1.ip_user_files/ip/eth1_xbar_1]} {
+if {[file isdir D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.ip_user_files/ip/eth1_xbar_1]} {
   catch { 
-    file copy -force d:/dario/fulgor/trabajo_final/vivado_projects/ethernet_GMII_v1/ethernet_GMII_v1.srcs/sources_1/bd/eth1/ip/eth1_xbar_1/eth1_xbar_1_stub.vhdl D:/dario/fulgor/trabajo_final/vivado_projects/ethernet_GMII_v1/ethernet_GMII_v1.ip_user_files/ip/eth1_xbar_1
+    file copy -force D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.srcs/sources_1/bd/eth1/ip/eth1_xbar_1/eth1_xbar_1_stub.vhdl D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.ip_user_files/ip/eth1_xbar_1
   }
 }
 file delete __synthesis_is_running__

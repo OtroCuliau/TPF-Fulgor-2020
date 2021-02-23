@@ -48,6 +48,8 @@ vlib riviera/lib_fifo_v1_0_14
 vlib riviera/axi_datamover_v5_1_22
 vlib riviera/axi_sg_v4_1_13
 vlib riviera/axi_dma_v7_1_21
+vlib riviera/axi_bram_ctrl_v4_1_2
+vlib riviera/axi_cdma_v4_1_20
 
 vmap xilinx_vip riviera/xilinx_vip
 vmap xpm riviera/xpm
@@ -96,6 +98,8 @@ vmap lib_fifo_v1_0_14 riviera/lib_fifo_v1_0_14
 vmap axi_datamover_v5_1_22 riviera/axi_datamover_v5_1_22
 vmap axi_sg_v4_1_13 riviera/axi_sg_v4_1_13
 vmap axi_dma_v7_1_21 riviera/axi_dma_v7_1_21
+vmap axi_bram_ctrl_v4_1_2 riviera/axi_bram_ctrl_v4_1_2
+vmap axi_cdma_v4_1_20 riviera/axi_cdma_v4_1_20
 
 vlog -work xilinx_vip  -sv2k12 "+incdir+D:/Xilinx/Vivado/2019.2/data/xilinx_vip/include" \
 "D:/Xilinx/Vivado/2019.2/data/xilinx_vip/hdl/axi4stream_vip_axi4streampc.sv" \
@@ -302,9 +306,6 @@ vcom -work proc_sys_reset_v5_0_13 -93 \
 vcom -work xil_defaultlib -93 \
 "../../../bd/eth1/ip/eth1_rst_mig_7series_0_100M_1/sim/eth1_rst_mig_7series_0_100M_1.vhd" \
 
-vlog -work xil_defaultlib  -v2k5 "+incdir+../../../../ethernet_GMII_v1.srcs/sources_1/bd/eth1/ipshared/ec67/hdl" "+incdir+../../../../ethernet_GMII_v1.srcs/sources_1/bd/eth1/ipshared/1ddd/hdl/verilog" "+incdir+../../../../ethernet_GMII_v1.srcs/sources_1/bd/eth1/ipshared/b2d0/hdl/verilog" "+incdir+../../../bd/eth1/ip/eth1_axi_ethernet_0_0/bd_0/ip/ip_1/header_files" "+incdir+../../../../ethernet_GMII_v1.srcs/sources_1/bd/eth1/ipshared/4fba" "+incdir+../../../../ethernet_GMII_v1.srcs/sources_1/bd/eth1/ip/eth1_axi_ethernet_0_0/bd_0/ip/ip_1/header_files" "+incdir+../../../../ethernet_GMII_v1.srcs/sources_1/bd/eth1/ip/eth1_axi_ethernet_0_0/header_files" "+incdir+D:/Xilinx/Vivado/2019.2/data/xilinx_vip/include" \
-"../../../bd/eth1/ip/eth1_axi_smc_1/bd_0/sim/bd_e73a.v" \
-
 vlog -work xlconstant_v1_1_6  -v2k5 "+incdir+../../../../ethernet_GMII_v1.srcs/sources_1/bd/eth1/ipshared/ec67/hdl" "+incdir+../../../../ethernet_GMII_v1.srcs/sources_1/bd/eth1/ipshared/1ddd/hdl/verilog" "+incdir+../../../../ethernet_GMII_v1.srcs/sources_1/bd/eth1/ipshared/b2d0/hdl/verilog" "+incdir+../../../bd/eth1/ip/eth1_axi_ethernet_0_0/bd_0/ip/ip_1/header_files" "+incdir+../../../../ethernet_GMII_v1.srcs/sources_1/bd/eth1/ipshared/4fba" "+incdir+../../../../ethernet_GMII_v1.srcs/sources_1/bd/eth1/ip/eth1_axi_ethernet_0_0/bd_0/ip/ip_1/header_files" "+incdir+../../../../ethernet_GMII_v1.srcs/sources_1/bd/eth1/ip/eth1_axi_ethernet_0_0/header_files" "+incdir+D:/Xilinx/Vivado/2019.2/data/xilinx_vip/include" \
 "../../../../ethernet_GMII_v1.srcs/sources_1/bd/eth1/ipshared/34f7/hdl/xlconstant_v1_1_vl_rfs.v" \
 
@@ -388,23 +389,42 @@ vlog -work xil_defaultlib  -sv2k12 "+incdir+../../../../ethernet_GMII_v1.srcs/so
 "../../../bd/eth1/ip/eth1_axi_smc_1/bd_0/ip/ip_43/sim/bd_e73a_sawn_2.sv" \
 "../../../bd/eth1/ip/eth1_axi_smc_1/bd_0/ip/ip_44/sim/bd_e73a_swn_2.sv" \
 "../../../bd/eth1/ip/eth1_axi_smc_1/bd_0/ip/ip_45/sim/bd_e73a_sbn_2.sv" \
+"../../../bd/eth1/ip/eth1_axi_smc_1/bd_0/ip/ip_46/sim/bd_e73a_s05mmu_0.sv" \
+"../../../bd/eth1/ip/eth1_axi_smc_1/bd_0/ip/ip_47/sim/bd_e73a_s05tr_0.sv" \
+"../../../bd/eth1/ip/eth1_axi_smc_1/bd_0/ip/ip_48/sim/bd_e73a_s05sic_0.sv" \
+"../../../bd/eth1/ip/eth1_axi_smc_1/bd_0/ip/ip_49/sim/bd_e73a_s05a2s_0.sv" \
+"../../../bd/eth1/ip/eth1_axi_smc_1/bd_0/ip/ip_50/sim/bd_e73a_sarn_4.sv" \
+"../../../bd/eth1/ip/eth1_axi_smc_1/bd_0/ip/ip_51/sim/bd_e73a_srn_4.sv" \
+"../../../bd/eth1/ip/eth1_axi_smc_1/bd_0/ip/ip_52/sim/bd_e73a_sawn_3.sv" \
+"../../../bd/eth1/ip/eth1_axi_smc_1/bd_0/ip/ip_53/sim/bd_e73a_swn_3.sv" \
+"../../../bd/eth1/ip/eth1_axi_smc_1/bd_0/ip/ip_54/sim/bd_e73a_sbn_3.sv" \
 
 vlog -work smartconnect_v1_0  -sv2k12 "+incdir+../../../../ethernet_GMII_v1.srcs/sources_1/bd/eth1/ipshared/ec67/hdl" "+incdir+../../../../ethernet_GMII_v1.srcs/sources_1/bd/eth1/ipshared/1ddd/hdl/verilog" "+incdir+../../../../ethernet_GMII_v1.srcs/sources_1/bd/eth1/ipshared/b2d0/hdl/verilog" "+incdir+../../../bd/eth1/ip/eth1_axi_ethernet_0_0/bd_0/ip/ip_1/header_files" "+incdir+../../../../ethernet_GMII_v1.srcs/sources_1/bd/eth1/ipshared/4fba" "+incdir+../../../../ethernet_GMII_v1.srcs/sources_1/bd/eth1/ip/eth1_axi_ethernet_0_0/bd_0/ip/ip_1/header_files" "+incdir+../../../../ethernet_GMII_v1.srcs/sources_1/bd/eth1/ip/eth1_axi_ethernet_0_0/header_files" "+incdir+D:/Xilinx/Vivado/2019.2/data/xilinx_vip/include" \
 "../../../../ethernet_GMII_v1.srcs/sources_1/bd/eth1/ipshared/7005/hdl/sc_sc2axi_v1_0_vl_rfs.sv" \
 
 vlog -work xil_defaultlib  -sv2k12 "+incdir+../../../../ethernet_GMII_v1.srcs/sources_1/bd/eth1/ipshared/ec67/hdl" "+incdir+../../../../ethernet_GMII_v1.srcs/sources_1/bd/eth1/ipshared/1ddd/hdl/verilog" "+incdir+../../../../ethernet_GMII_v1.srcs/sources_1/bd/eth1/ipshared/b2d0/hdl/verilog" "+incdir+../../../bd/eth1/ip/eth1_axi_ethernet_0_0/bd_0/ip/ip_1/header_files" "+incdir+../../../../ethernet_GMII_v1.srcs/sources_1/bd/eth1/ipshared/4fba" "+incdir+../../../../ethernet_GMII_v1.srcs/sources_1/bd/eth1/ip/eth1_axi_ethernet_0_0/bd_0/ip/ip_1/header_files" "+incdir+../../../../ethernet_GMII_v1.srcs/sources_1/bd/eth1/ip/eth1_axi_ethernet_0_0/header_files" "+incdir+D:/Xilinx/Vivado/2019.2/data/xilinx_vip/include" \
-"../../../bd/eth1/ip/eth1_axi_smc_1/bd_0/ip/ip_46/sim/bd_e73a_m00s2a_0.sv" \
-"../../../bd/eth1/ip/eth1_axi_smc_1/bd_0/ip/ip_47/sim/bd_e73a_m00arn_0.sv" \
-"../../../bd/eth1/ip/eth1_axi_smc_1/bd_0/ip/ip_48/sim/bd_e73a_m00rn_0.sv" \
-"../../../bd/eth1/ip/eth1_axi_smc_1/bd_0/ip/ip_49/sim/bd_e73a_m00awn_0.sv" \
-"../../../bd/eth1/ip/eth1_axi_smc_1/bd_0/ip/ip_50/sim/bd_e73a_m00wn_0.sv" \
-"../../../bd/eth1/ip/eth1_axi_smc_1/bd_0/ip/ip_51/sim/bd_e73a_m00bn_0.sv" \
+"../../../bd/eth1/ip/eth1_axi_smc_1/bd_0/ip/ip_55/sim/bd_e73a_m00s2a_0.sv" \
+"../../../bd/eth1/ip/eth1_axi_smc_1/bd_0/ip/ip_56/sim/bd_e73a_m00arn_0.sv" \
+"../../../bd/eth1/ip/eth1_axi_smc_1/bd_0/ip/ip_57/sim/bd_e73a_m00rn_0.sv" \
+"../../../bd/eth1/ip/eth1_axi_smc_1/bd_0/ip/ip_58/sim/bd_e73a_m00awn_0.sv" \
+"../../../bd/eth1/ip/eth1_axi_smc_1/bd_0/ip/ip_59/sim/bd_e73a_m00wn_0.sv" \
+"../../../bd/eth1/ip/eth1_axi_smc_1/bd_0/ip/ip_60/sim/bd_e73a_m00bn_0.sv" \
 
 vlog -work smartconnect_v1_0  -sv2k12 "+incdir+../../../../ethernet_GMII_v1.srcs/sources_1/bd/eth1/ipshared/ec67/hdl" "+incdir+../../../../ethernet_GMII_v1.srcs/sources_1/bd/eth1/ipshared/1ddd/hdl/verilog" "+incdir+../../../../ethernet_GMII_v1.srcs/sources_1/bd/eth1/ipshared/b2d0/hdl/verilog" "+incdir+../../../bd/eth1/ip/eth1_axi_ethernet_0_0/bd_0/ip/ip_1/header_files" "+incdir+../../../../ethernet_GMII_v1.srcs/sources_1/bd/eth1/ipshared/4fba" "+incdir+../../../../ethernet_GMII_v1.srcs/sources_1/bd/eth1/ip/eth1_axi_ethernet_0_0/bd_0/ip/ip_1/header_files" "+incdir+../../../../ethernet_GMII_v1.srcs/sources_1/bd/eth1/ip/eth1_axi_ethernet_0_0/header_files" "+incdir+D:/Xilinx/Vivado/2019.2/data/xilinx_vip/include" \
 "../../../../ethernet_GMII_v1.srcs/sources_1/bd/eth1/ipshared/901a/hdl/sc_exit_v1_0_vl_rfs.sv" \
 
 vlog -work xil_defaultlib  -sv2k12 "+incdir+../../../../ethernet_GMII_v1.srcs/sources_1/bd/eth1/ipshared/ec67/hdl" "+incdir+../../../../ethernet_GMII_v1.srcs/sources_1/bd/eth1/ipshared/1ddd/hdl/verilog" "+incdir+../../../../ethernet_GMII_v1.srcs/sources_1/bd/eth1/ipshared/b2d0/hdl/verilog" "+incdir+../../../bd/eth1/ip/eth1_axi_ethernet_0_0/bd_0/ip/ip_1/header_files" "+incdir+../../../../ethernet_GMII_v1.srcs/sources_1/bd/eth1/ipshared/4fba" "+incdir+../../../../ethernet_GMII_v1.srcs/sources_1/bd/eth1/ip/eth1_axi_ethernet_0_0/bd_0/ip/ip_1/header_files" "+incdir+../../../../ethernet_GMII_v1.srcs/sources_1/bd/eth1/ip/eth1_axi_ethernet_0_0/header_files" "+incdir+D:/Xilinx/Vivado/2019.2/data/xilinx_vip/include" \
-"../../../bd/eth1/ip/eth1_axi_smc_1/bd_0/ip/ip_52/sim/bd_e73a_m00e_0.sv" \
+"../../../bd/eth1/ip/eth1_axi_smc_1/bd_0/ip/ip_61/sim/bd_e73a_m00e_0.sv" \
+"../../../bd/eth1/ip/eth1_axi_smc_1/bd_0/ip/ip_62/sim/bd_e73a_m01s2a_0.sv" \
+"../../../bd/eth1/ip/eth1_axi_smc_1/bd_0/ip/ip_63/sim/bd_e73a_m01arn_0.sv" \
+"../../../bd/eth1/ip/eth1_axi_smc_1/bd_0/ip/ip_64/sim/bd_e73a_m01rn_0.sv" \
+"../../../bd/eth1/ip/eth1_axi_smc_1/bd_0/ip/ip_65/sim/bd_e73a_m01awn_0.sv" \
+"../../../bd/eth1/ip/eth1_axi_smc_1/bd_0/ip/ip_66/sim/bd_e73a_m01wn_0.sv" \
+"../../../bd/eth1/ip/eth1_axi_smc_1/bd_0/ip/ip_67/sim/bd_e73a_m01bn_0.sv" \
+"../../../bd/eth1/ip/eth1_axi_smc_1/bd_0/ip/ip_68/sim/bd_e73a_m01e_0.sv" \
+
+vlog -work xil_defaultlib  -v2k5 "+incdir+../../../../ethernet_GMII_v1.srcs/sources_1/bd/eth1/ipshared/ec67/hdl" "+incdir+../../../../ethernet_GMII_v1.srcs/sources_1/bd/eth1/ipshared/1ddd/hdl/verilog" "+incdir+../../../../ethernet_GMII_v1.srcs/sources_1/bd/eth1/ipshared/b2d0/hdl/verilog" "+incdir+../../../bd/eth1/ip/eth1_axi_ethernet_0_0/bd_0/ip/ip_1/header_files" "+incdir+../../../../ethernet_GMII_v1.srcs/sources_1/bd/eth1/ipshared/4fba" "+incdir+../../../../ethernet_GMII_v1.srcs/sources_1/bd/eth1/ip/eth1_axi_ethernet_0_0/bd_0/ip/ip_1/header_files" "+incdir+../../../../ethernet_GMII_v1.srcs/sources_1/bd/eth1/ip/eth1_axi_ethernet_0_0/header_files" "+incdir+D:/Xilinx/Vivado/2019.2/data/xilinx_vip/include" \
+"../../../bd/eth1/ip/eth1_axi_smc_1/bd_0/sim/bd_e73a.v" \
 
 vlog -work axi_vip_v1_1_6  -sv2k12 "+incdir+../../../../ethernet_GMII_v1.srcs/sources_1/bd/eth1/ipshared/ec67/hdl" "+incdir+../../../../ethernet_GMII_v1.srcs/sources_1/bd/eth1/ipshared/1ddd/hdl/verilog" "+incdir+../../../../ethernet_GMII_v1.srcs/sources_1/bd/eth1/ipshared/b2d0/hdl/verilog" "+incdir+../../../bd/eth1/ip/eth1_axi_ethernet_0_0/bd_0/ip/ip_1/header_files" "+incdir+../../../../ethernet_GMII_v1.srcs/sources_1/bd/eth1/ipshared/4fba" "+incdir+../../../../ethernet_GMII_v1.srcs/sources_1/bd/eth1/ip/eth1_axi_ethernet_0_0/bd_0/ip/ip_1/header_files" "+incdir+../../../../ethernet_GMII_v1.srcs/sources_1/bd/eth1/ip/eth1_axi_ethernet_0_0/header_files" "+incdir+D:/Xilinx/Vivado/2019.2/data/xilinx_vip/include" \
 "../../../../ethernet_GMII_v1.srcs/sources_1/bd/eth1/ipshared/dc12/hdl/axi_vip_v1_1_vl_rfs.sv" \
@@ -540,6 +560,21 @@ vlog -work xil_defaultlib  -v2k5 "+incdir+../../../../ethernet_GMII_v1.srcs/sour
 "../../../bd/eth1/ip/eth1_axi_ethernet_0_gtxclk_0/eth1_axi_ethernet_0_gtxclk_0_clk_wiz.v" \
 "../../../bd/eth1/ip/eth1_axi_ethernet_0_gtxclk_0/eth1_axi_ethernet_0_gtxclk_0.v" \
 "../../../bd/eth1/sim/eth1.v" \
+
+vcom -work axi_bram_ctrl_v4_1_2 -93 \
+"../../../../ethernet_GMII_v1.srcs/sources_1/bd/eth1/ipshared/a002/hdl/axi_bram_ctrl_v4_1_rfs.vhd" \
+
+vcom -work xil_defaultlib -93 \
+"../../../bd/eth1/ip/eth1_axi_bram_ctrl_0_0/sim/eth1_axi_bram_ctrl_0_0.vhd" \
+
+vlog -work xil_defaultlib  -v2k5 "+incdir+../../../../ethernet_GMII_v1.srcs/sources_1/bd/eth1/ipshared/ec67/hdl" "+incdir+../../../../ethernet_GMII_v1.srcs/sources_1/bd/eth1/ipshared/1ddd/hdl/verilog" "+incdir+../../../../ethernet_GMII_v1.srcs/sources_1/bd/eth1/ipshared/b2d0/hdl/verilog" "+incdir+../../../bd/eth1/ip/eth1_axi_ethernet_0_0/bd_0/ip/ip_1/header_files" "+incdir+../../../../ethernet_GMII_v1.srcs/sources_1/bd/eth1/ipshared/4fba" "+incdir+../../../../ethernet_GMII_v1.srcs/sources_1/bd/eth1/ip/eth1_axi_ethernet_0_0/bd_0/ip/ip_1/header_files" "+incdir+../../../../ethernet_GMII_v1.srcs/sources_1/bd/eth1/ip/eth1_axi_ethernet_0_0/header_files" "+incdir+D:/Xilinx/Vivado/2019.2/data/xilinx_vip/include" \
+"../../../bd/eth1/ip/eth1_blk_mem_gen_0_0/sim/eth1_blk_mem_gen_0_0.v" \
+
+vcom -work axi_cdma_v4_1_20 -93 \
+"../../../../ethernet_GMII_v1.srcs/sources_1/bd/eth1/ipshared/02b1/hdl/axi_cdma_v4_1_vh_rfs.vhd" \
+
+vcom -work xil_defaultlib -93 \
+"../../../bd/eth1/ip/eth1_axi_cdma_0_0/sim/eth1_axi_cdma_0_0.vhd" \
 
 vlog -work xil_defaultlib \
 "glbl.v"

@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='D:/dario/fulgor/trabajo_final/vivado_projects/ethernet_GMII_v1/ethernet_GMII_v1.runs/synth_1'
+HD_PWD='D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
