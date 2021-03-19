@@ -116,7 +116,7 @@ output wire [142 : 0] m_sc_payld;
     .C_NUM_MI(2),
     .C_CHANNEL(2),
     .C_PAYLD_WIDTH(143),
-    .C_S_NUM_BYTES_ARRAY(32'H00000004),
+    .C_S_NUM_BYTES_ARRAY(32'H00000040),
     .C_M_NUM_BYTES_ARRAY(64'H0000004000000040),
     .C_USER_BITS_PER_BYTE(0),
     .C_ARBITER_MODE(1),
@@ -129,7 +129,7 @@ output wire [142 : 0] m_sc_payld;
     .C_M_PIPELINE(0),
     .C_M_SEND_PIPELINE(1),
     .C_S_LATENCY(0),
-    .C_NUM_OUTSTANDING(2),
+    .C_NUM_OUTSTANDING(16),
     .C_ACLK_RELATIONSHIP(2),
     .C_ACLKEN_CONVERSION(0)
   ) inst (

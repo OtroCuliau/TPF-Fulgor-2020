@@ -1,10 +1,10 @@
 // Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
-// Date        : Mon Feb 22 18:45:23 2021
+// Date        : Wed Jan 20 01:16:25 2021
 // Host        : DESKTOP-9VJG89D running 64-bit major release  (build 9200)
-// Command     : write_verilog -force -mode synth_stub
-//               D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.srcs/sources_1/bd/eth1/ip/eth1_microblaze_0_2/eth1_microblaze_0_2_stub.v
+// Command     : write_verilog -force -mode synth_stub -rename_top eth1_microblaze_0_2 -prefix
+//               eth1_microblaze_0_2_ eth1_microblaze_0_2_stub.v
 // Design      : eth1_microblaze_0_2
 // Purpose     : Stub declaration of top-level module interface
 // Device      : xc7k325tffg900-2

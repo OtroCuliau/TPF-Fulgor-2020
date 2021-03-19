@@ -2654,7 +2654,7 @@
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:a5653875</spirit:value>
+            <spirit:value>9:3da4268e</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -2665,7 +2665,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:a5653875</spirit:value>
+            <spirit:value>9:3da4268e</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -2681,11 +2681,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Mon Feb 22 21:40:08 UTC 2021</spirit:value>
+            <spirit:value>Fri Mar 19 20:59:28 UTC 2021</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:a5653875</spirit:value>
+            <spirit:value>9:3da4268e</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -2708,7 +2708,7 @@
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:e0e8b010</spirit:value>
+            <spirit:value>9:ed309390</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -2724,11 +2724,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Mon Feb 22 21:40:08 UTC 2021</spirit:value>
+            <spirit:value>Fri Mar 19 20:59:28 UTC 2021</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:e0e8b010</spirit:value>
+            <spirit:value>9:ed309390</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -2779,7 +2779,7 @@
             </spirit:wireTypeDef>
           </spirit:wireTypeDefs>
           <spirit:driver>
-            <spirit:defaultValue spirit:format="bitString" spirit:resolve="dependent" spirit:dependency="(spirit:decode(id(&apos;MODELPARAM_VALUE.C_CONNECTIVITY&apos;)))" spirit:bitStringLength="2">0b01111110111111</spirit:defaultValue>
+            <spirit:defaultValue spirit:format="bitString" spirit:resolve="dependent" spirit:dependency="(spirit:decode(id(&apos;MODELPARAM_VALUE.C_CONNECTIVITY&apos;)))" spirit:bitStringLength="2">0b00000001111111</spirit:defaultValue>
           </spirit:driver>
         </spirit:wire>
         <spirit:vendorExtensions>
@@ -3004,7 +3004,7 @@
       <spirit:modelParameter spirit:dataType="bitstring">
         <spirit:name>C_CONNECTIVITY</spirit:name>
         <spirit:displayName>C_CONNECTIVITY</spirit:displayName>
-        <spirit:value spirit:format="bitString" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_CONNECTIVITY" spirit:dependency="{(spirit:decode(id(&apos;MODELPARAM_VALUE.C_NUM_SI&apos;)) * spirit:decode(id(&apos;MODELPARAM_VALUE.C_NUM_MI&apos;))){&quot;1&quot;}}" spirit:bitStringLength="14">0b01111110111111</spirit:value>
+        <spirit:value spirit:format="bitString" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_CONNECTIVITY" spirit:dependency="{(spirit:decode(id(&apos;MODELPARAM_VALUE.C_NUM_SI&apos;)) * spirit:decode(id(&apos;MODELPARAM_VALUE.C_NUM_MI&apos;))){&quot;1&quot;}}" spirit:bitStringLength="14">0b00000001111111</spirit:value>
         <spirit:vendorExtensions>
           <xilinx:parameterInfo>
             <xilinx:enablement>
@@ -3166,7 +3166,7 @@
     <spirit:parameter>
       <spirit:name>M00_S01_CONNECTIVITY</spirit:name>
       <spirit:displayName>My M00_S01_CONNECTIVITY</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.M00_S01_CONNECTIVITY" spirit:choiceRef="choice_pairs_4873554b">1</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.M00_S01_CONNECTIVITY" spirit:choiceRef="choice_pairs_4873554b">0</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>M00_S02_CONNECTIVITY</spirit:name>
@@ -3246,7 +3246,7 @@
     <spirit:parameter>
       <spirit:name>M01_S01_CONNECTIVITY</spirit:name>
       <spirit:displayName>My M01_S01_CONNECTIVITY</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.M01_S01_CONNECTIVITY" spirit:choiceRef="choice_pairs_4873554b">1</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.M01_S01_CONNECTIVITY" spirit:choiceRef="choice_pairs_4873554b">0</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>M01_S02_CONNECTIVITY</spirit:name>
@@ -3326,7 +3326,7 @@
     <spirit:parameter>
       <spirit:name>M02_S01_CONNECTIVITY</spirit:name>
       <spirit:displayName>My M02_S01_CONNECTIVITY</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.M02_S01_CONNECTIVITY" spirit:choiceRef="choice_pairs_4873554b">1</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.M02_S01_CONNECTIVITY" spirit:choiceRef="choice_pairs_4873554b">0</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>M02_S02_CONNECTIVITY</spirit:name>
@@ -3406,7 +3406,7 @@
     <spirit:parameter>
       <spirit:name>M03_S01_CONNECTIVITY</spirit:name>
       <spirit:displayName>My M03_S01_CONNECTIVITY</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.M03_S01_CONNECTIVITY" spirit:choiceRef="choice_pairs_4873554b">1</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.M03_S01_CONNECTIVITY" spirit:choiceRef="choice_pairs_4873554b">0</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>M03_S02_CONNECTIVITY</spirit:name>
@@ -3486,7 +3486,7 @@
     <spirit:parameter>
       <spirit:name>M04_S01_CONNECTIVITY</spirit:name>
       <spirit:displayName>My M04_S01_CONNECTIVITY</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.M04_S01_CONNECTIVITY" spirit:choiceRef="choice_pairs_4873554b">1</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.M04_S01_CONNECTIVITY" spirit:choiceRef="choice_pairs_4873554b">0</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>M04_S02_CONNECTIVITY</spirit:name>
@@ -3566,7 +3566,7 @@
     <spirit:parameter>
       <spirit:name>M05_S01_CONNECTIVITY</spirit:name>
       <spirit:displayName>My M05_S01_CONNECTIVITY</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.M05_S01_CONNECTIVITY" spirit:choiceRef="choice_pairs_4873554b">1</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.M05_S01_CONNECTIVITY" spirit:choiceRef="choice_pairs_4873554b">0</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>M05_S02_CONNECTIVITY</spirit:name>
@@ -3641,7 +3641,7 @@
     <spirit:parameter>
       <spirit:name>M06_S00_CONNECTIVITY</spirit:name>
       <spirit:displayName>My M06_S00_CONNECTIVITY</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.M06_S00_CONNECTIVITY" spirit:choiceRef="choice_pairs_4873554b">0</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.M06_S00_CONNECTIVITY" spirit:choiceRef="choice_pairs_4873554b">1</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>M06_S01_CONNECTIVITY</spirit:name>

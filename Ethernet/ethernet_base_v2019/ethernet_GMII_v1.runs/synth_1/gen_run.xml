@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7k325tffg900-2" LaunchTime="1614032098">
+<GenRun Id="synth_1" LaunchPart="xc7k325tffg900-2" LaunchTime="1616192864">
   <File Type="PA-TCL" Name="eth1_wrapper.tcl"/>
   <File Type="RDS-PROPCONSTRS" Name="eth1_wrapper_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="eth1_wrapper_reports.tcl"/>
@@ -65,16 +65,15 @@
     <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2019"/>
     <Step Id="synth_design"/>
   </Strategy>
-  <BlockFileSet Type="BlockSrcs" Name="eth1_microblaze_0_2"/>
   <BlockFileSet Type="BlockSrcs" Name="eth1_xbar_1"/>
   <BlockFileSet Type="BlockSrcs" Name="eth1_ilmb_bram_if_cntlr_3"/>
+  <BlockFileSet Type="BlockSrcs" Name="eth1_axis_data_fifo_0_1"/>
   <BlockFileSet Type="BlockSrcs" Name="eth1_axi_ethernet_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="eth1_lmb_bram_3"/>
   <BlockFileSet Type="BlockSrcs" Name="eth1_microblaze_0_axi_intc_3"/>
-  <BlockFileSet Type="BlockSrcs" Name="eth1_axi_cdma_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="eth1_axi_ethernet_0_gtxclk_0"/>
   <BlockFileSet Type="BlockSrcs" Name="bd_d93c_mac_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="eth1_axi_smc_1"/>
-  <BlockFileSet Type="BlockSrcs" Name="eth1_axi_bram_ctrl_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="eth1_blk_mem_gen_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="eth1_system_ila_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="eth1_axi_dma_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="eth1_axi_gpio_0_0"/>
 </GenRun>

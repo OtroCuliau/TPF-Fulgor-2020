@@ -1399,7 +1399,7 @@
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:7f7ae18f</spirit:value>
+            <spirit:value>9:7158dfb1</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -1410,7 +1410,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:7f7ae18f</spirit:value>
+            <spirit:value>9:7158dfb1</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -1426,11 +1426,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Mon Feb 22 21:40:12 UTC 2021</spirit:value>
+            <spirit:value>Fri Mar 19 20:59:32 UTC 2021</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:7f7ae18f</spirit:value>
+            <spirit:value>9:7158dfb1</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -1453,7 +1453,7 @@
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:0dbfed28</spirit:value>
+            <spirit:value>9:b2664a57</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -1469,11 +1469,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Mon Feb 22 21:40:12 UTC 2021</spirit:value>
+            <spirit:value>Fri Mar 19 20:59:32 UTC 2021</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:0dbfed28</spirit:value>
+            <spirit:value>9:b2664a57</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -3673,7 +3673,7 @@
       <spirit:modelParameter spirit:dataType="long">
         <spirit:name>C_SUPPORTS_READ_DEADLOCK</spirit:name>
         <spirit:displayName>C_SUPPORTS_READ_DEADLOCK</spirit:displayName>
-        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_SUPPORTS_READ_DEADLOCK" spirit:minimum="0" spirit:maximum="1" spirit:rangeType="long">1</spirit:value>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_SUPPORTS_READ_DEADLOCK" spirit:minimum="0" spirit:maximum="1" spirit:rangeType="long">0</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="long">
         <spirit:name>C_SUPPORTS_WRITE_DEADLOCK</spirit:name>
@@ -3831,7 +3831,7 @@
     <spirit:parameter>
       <spirit:name>NUM_READ_THREADS</spirit:name>
       <spirit:displayName>NUM_READ_THREADS</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.NUM_READ_THREADS" spirit:order="4" spirit:minimum="1" spirit:maximum="1" spirit:rangeType="long">1</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.NUM_READ_THREADS" spirit:order="4" spirit:minimum="1" spirit:maximum="16" spirit:rangeType="long">1</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>NUM_WRITE_THREADS</spirit:name>
@@ -3911,7 +3911,7 @@
     <spirit:parameter>
       <spirit:name>SUPPORTS_READ_DEADLOCK</spirit:name>
       <spirit:displayName>SUPPORTS_READ_DEADLOCK</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.SUPPORTS_READ_DEADLOCK" spirit:order="20" spirit:minimum="0" spirit:maximum="1" spirit:rangeType="long">1</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.SUPPORTS_READ_DEADLOCK" spirit:order="20" spirit:minimum="0" spirit:maximum="1" spirit:rangeType="long">0</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>SUPPORTS_WRITE_DEADLOCK</spirit:name>

@@ -1,7 +1,7 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
-| Date             : Mon Feb 22 19:52:35 2021
+| Date             : Fri Mar 19 20:04:59 2021
 | Host             : DESKTOP-9VJG89D running 64-bit major release  (build 9200)
 | Command          : report_power -file eth1_wrapper_power_routed.rpt -pb eth1_wrapper_power_summary_routed.pb -rpx eth1_wrapper_power_routed.rpx
 | Design           : eth1_wrapper
@@ -30,11 +30,11 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 3.055        |
+| Total On-Chip Power (W)  | 3.063        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
-| Dynamic (W)              | 2.874        |
-| Device Static (W)        | 0.181        |
+| Dynamic (W)              | 2.878        |
+| Device Static (W)        | 0.185        |
 | Effective TJA (C/W)      | 1.8          |
 | Max Ambient (C)          | 79.6         |
 | Junction Temperature (C) | 30.4         |
@@ -52,24 +52,24 @@ Table of Contents
 +--------------------------+-----------+----------+-----------+-----------------+
 | On-Chip                  | Power (W) | Used     | Available | Utilization (%) |
 +--------------------------+-----------+----------+-----------+-----------------+
-| Clocks                   |     0.324 |       59 |       --- |             --- |
-| Slice Logic              |     0.122 |   106253 |       --- |             --- |
-|   LUT as Logic           |     0.092 |    28881 |    203800 |           14.17 |
-|   LUT as Distributed RAM |     0.021 |     7728 |     64000 |           12.08 |
-|   Register               |     0.006 |    46047 |    407600 |           11.30 |
-|   CARRY4                 |     0.002 |      598 |     50950 |            1.17 |
-|   F7/F8 Muxes            |    <0.001 |     2420 |    203800 |            1.19 |
-|   LUT as Shift Register  |    <0.001 |     1141 |     64000 |            1.78 |
-|   Others                 |    <0.001 |     2668 |       --- |             --- |
-| Signals                  |     0.180 |    75629 |       --- |             --- |
-| Block RAM                |     0.054 |       34 |       445 |            7.64 |
+| Clocks                   |     0.347 |       60 |       --- |             --- |
+| Slice Logic              |     0.104 |   117614 |       --- |             --- |
+|   LUT as Logic           |     0.084 |    31277 |    203800 |           15.35 |
+|   LUT as Distributed RAM |     0.013 |     6884 |     64000 |           10.76 |
+|   Register               |     0.005 |    54949 |    407600 |           13.48 |
+|   CARRY4                 |     0.002 |      816 |     50950 |            1.60 |
+|   F7/F8 Muxes            |    <0.001 |     1603 |    203800 |            0.79 |
+|   LUT as Shift Register  |    <0.001 |     2417 |     64000 |            3.78 |
+|   Others                 |    <0.001 |     3219 |       --- |             --- |
+| Signals                  |     0.158 |    88040 |       --- |             --- |
+| Block RAM                |     0.074 |       92 |       445 |           20.67 |
 | MMCM                     |     0.322 |        3 |        10 |           30.00 |
 | PLL                      |     0.133 |        1 |        10 |           10.00 |
-| I/O                      |     1.073 |      146 |       500 |           29.20 |
+| I/O                      |     1.074 |      146 |       500 |           29.20 |
 | PHASER                   |     0.661 |       44 |       --- |             --- |
 | XADC                     |     0.004 |        1 |       --- |             --- |
-| Static Power             |     0.181 |          |           |                 |
-| Total                    |     3.055 |          |           |                 |
+| Static Power             |     0.185 |          |           |                 |
+| Total                    |     3.063 |          |           |                 |
 +--------------------------+-----------+----------+-----------+-----------------+
 
 
@@ -79,16 +79,16 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
 +-----------+-------------+-----------+-------------+------------+
-| Vccint    |       1.000 |     0.990 |       0.904 |      0.086 |
+| Vccint    |       1.000 |     0.993 |       0.906 |      0.088 |
 | Vccaux    |       1.800 |     0.763 |       0.734 |      0.029 |
 | Vcco33    |       3.300 |     0.000 |       0.000 |      0.000 |
 | Vcco25    |       2.500 |     0.006 |       0.005 |      0.001 |
 | Vcco18    |       1.800 |     0.000 |       0.000 |      0.000 |
-| Vcco15    |       1.500 |     0.420 |       0.419 |      0.001 |
+| Vcco15    |       1.500 |     0.421 |       0.420 |      0.001 |
 | Vcco135   |       1.350 |     0.000 |       0.000 |      0.000 |
 | Vcco12    |       1.200 |     0.000 |       0.000 |      0.000 |
 | Vccaux_io |       1.800 |     0.000 |       0.000 |      0.000 |
-| Vccbram   |       1.000 |     0.007 |       0.004 |      0.003 |
+| Vccbram   |       1.000 |     0.010 |       0.005 |      0.005 |
 | MGTAVcc   |       1.000 |     0.000 |       0.000 |      0.000 |
 | MGTAVtt   |       1.200 |     0.000 |       0.000 |      0.000 |
 | MGTVccaux |       1.800 |     0.000 |       0.000 |      0.000 |
@@ -141,6 +141,7 @@ Table of Contents
 | clk_pll_i                                                                                                                                                 | eth1_i/mig_7series_0/u_eth1_mig_7series_0_0_mig/u_ddr3_infrastructure/gen_ui_extra_clocks.mmcm_i_0                                                                                                                 |             5.0 |
 | clk_ref_mmcm_400                                                                                                                                          | eth1_i/mig_7series_0/u_eth1_mig_7series_0_0_mig/u_iodelay_ctrl/clk_ref_mmcm_400                                                                                                                                    |             2.5 |
 | clkfbout_eth1_axi_ethernet_0_gtxclk_0_1                                                                                                                   | eth1_i/axi_ethernet_0_gtxclk/inst/clkfbout_eth1_axi_ethernet_0_gtxclk_0                                                                                                                                            |             5.0 |
+| dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_inst/SERIES7_BSCAN.bscan_inst/TCK                                                                | dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_inst/tck_bs                                                                                                                                               |            33.0 |
 | eth1_i/mdm_1/U0/Use_E2.BSCAN_I/Use_E2.BSCANE2_I/DRCK                                                                                                      | eth1_i/mdm_1/U0/Use_E2.BSCAN_I/DRCK                                                                                                                                                                                |            33.3 |
 | eth1_i/mdm_1/U0/Use_E2.BSCAN_I/Use_E2.BSCANE2_I/UPDATE                                                                                                    | eth1_i/mdm_1/U0/Use_E2.BSCAN_I/Ext_JTAG_UPDATE                                                                                                                                                                     |            33.3 |
 | freq_refclk                                                                                                                                               | eth1_i/mig_7series_0/u_eth1_mig_7series_0_0_mig/u_ddr3_infrastructure/freq_refclk                                                                                                                                  |             1.3 |
@@ -204,34 +205,39 @@ Table of Contents
 +----------------------------------+-----------+
 | Name                             | Power (W) |
 +----------------------------------+-----------+
-| eth1_wrapper                     |     2.874 |
-|   eth1_i                         |     2.871 |
-|     axi_bram_ctrl_0              |     0.002 |
-|       U0                         |     0.002 |
-|     axi_cdma_0                   |     0.005 |
-|       U0                         |     0.005 |
-|     axi_ethernet_0               |     0.086 |
-|       inst                       |     0.086 |
-|     axi_ethernet_0_dma           |     0.014 |
-|       U0                         |     0.014 |
+| eth1_wrapper                     |     2.878 |
+|   dbg_hub                        |     0.003 |
+|     inst                         |     0.003 |
+|       BSCANID.u_xsdbm_id         |     0.003 |
+|   eth1_i                         |     2.872 |
+|     axi_dma_0                    |     0.026 |
+|       U0                         |     0.026 |
+|     axi_ethernet_0               |     0.082 |
+|       inst                       |     0.082 |
+|     axi_ethernet_0_dma           |     0.013 |
+|       U0                         |     0.013 |
 |     axi_ethernet_0_gtxclk        |     0.110 |
 |       inst                       |     0.110 |
-|     axi_smc                      |     0.307 |
-|       inst                       |     0.307 |
+|     axi_gpio_0                   |     0.001 |
+|       U0                         |     0.001 |
+|     axi_smc                      |     0.242 |
+|       inst                       |     0.242 |
 |     axi_timer_0                  |     0.003 |
 |       U0                         |     0.003 |
-|     blk_mem_gen_0                |     0.003 |
-|       U0                         |     0.003 |
-|     microblaze_0                 |     0.052 |
-|       U0                         |     0.052 |
+|     axis_data_fifo_0             |     0.004 |
+|       inst                       |     0.004 |
+|     microblaze_0                 |     0.047 |
+|       U0                         |     0.047 |
 |     microblaze_0_axi_intc        |     0.001 |
 |       U0                         |     0.001 |
 |     microblaze_0_axi_periph      |     0.001 |
 |       xbar                       |     0.001 |
-|     microblaze_0_local_memory    |     0.010 |
-|       lmb_bram                   |     0.010 |
-|     mig_7series_0                |     2.276 |
-|       u_eth1_mig_7series_0_0_mig |     2.276 |
+|     microblaze_0_local_memory    |     0.008 |
+|       lmb_bram                   |     0.008 |
+|     mig_7series_0                |     2.281 |
+|       u_eth1_mig_7series_0_0_mig |     2.281 |
+|     system_ila_0                 |     0.050 |
+|       inst                       |     0.050 |
 +----------------------------------+-----------+
 
 

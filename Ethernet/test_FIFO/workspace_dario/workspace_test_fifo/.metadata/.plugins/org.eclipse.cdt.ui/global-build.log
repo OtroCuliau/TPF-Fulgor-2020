@@ -1,6 +1,6 @@
 Nothing to build in platform 'DMA_FIFO_wrapper'
 
-20:59:10 **** Incremental Build of configuration Debug for project test_bram ****
+20:30:42 **** Incremental Build of configuration Debug for project test_bram ****
 make all 
 'Building file: ../src/xaxidma_example_sg_poll.c'
 'Invoking: MicroBlaze gcc compiler'
@@ -15,6 +15,6 @@ mb-gcc -Wl,-T -Wl,../src/lscript.ld -LD:/dario/fulgor/trabajo_final/TPF-Fulgor-2
 'Invoking: MicroBlaze Print Size'
 mb-size test_bram.elf  |tee "test_bram.elf.size"
    text	   data	    bss	    dec	    hex	filename
-  31884	   2004	   5128	  39016	   9868	test_bram.elf
+  36156	   2004	   5288	  43448	   a9b8	test_bram.elf
 'Finished building: test_bram.elf.size'
 ' '

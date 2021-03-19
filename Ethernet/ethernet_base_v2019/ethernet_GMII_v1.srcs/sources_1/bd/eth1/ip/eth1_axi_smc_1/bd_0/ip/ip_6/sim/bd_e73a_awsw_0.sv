@@ -107,11 +107,11 @@ output wire [285 : 0] m_sc_payld;
     .C_NUM_SI(7),
     .C_NUM_MI(2),
     .C_TESTING_MODE(0),
-    .C_CONNECTIVITY(14'B00111111111111)
+    .C_CONNECTIVITY(14'B01010101010101)
   ) inst (
     .aclk(aclk),
     .aclken(aclken),
-    .connectivity(14'B00111111111111),
+    .connectivity(14'B01010101010101),
     .s_sc_send(s_sc_send),
     .s_sc_req(s_sc_req),
     .s_sc_info(s_sc_info),

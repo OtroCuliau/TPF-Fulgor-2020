@@ -203,6 +203,9 @@
 -makelib ies_lib/xil_defaultlib \
   "../../../bd/eth1/ip/eth1_rst_mig_7series_0_100M_1/sim/eth1_rst_mig_7series_0_100M_1.vhd" \
 -endlib
+-makelib ies_lib/xil_defaultlib \
+  "../../../bd/eth1/ip/eth1_axi_smc_1/bd_0/sim/bd_e73a.v" \
+-endlib
 -makelib ies_lib/xlconstant_v1_1_6 \
   "../../../../ethernet_GMII_v1.srcs/sources_1/bd/eth1/ipshared/34f7/hdl/xlconstant_v1_1_vl_rfs.v" \
 -endlib
@@ -292,36 +295,30 @@
   "../../../bd/eth1/ip/eth1_axi_smc_1/bd_0/ip/ip_49/sim/bd_e73a_s05a2s_0.sv" \
   "../../../bd/eth1/ip/eth1_axi_smc_1/bd_0/ip/ip_50/sim/bd_e73a_sarn_4.sv" \
   "../../../bd/eth1/ip/eth1_axi_smc_1/bd_0/ip/ip_51/sim/bd_e73a_srn_4.sv" \
-  "../../../bd/eth1/ip/eth1_axi_smc_1/bd_0/ip/ip_52/sim/bd_e73a_sawn_3.sv" \
-  "../../../bd/eth1/ip/eth1_axi_smc_1/bd_0/ip/ip_53/sim/bd_e73a_swn_3.sv" \
-  "../../../bd/eth1/ip/eth1_axi_smc_1/bd_0/ip/ip_54/sim/bd_e73a_sbn_3.sv" \
+  "../../../bd/eth1/ip/eth1_axi_smc_1/bd_0/ip/ip_52/sim/bd_e73a_s06mmu_0.sv" \
+  "../../../bd/eth1/ip/eth1_axi_smc_1/bd_0/ip/ip_53/sim/bd_e73a_s06tr_0.sv" \
+  "../../../bd/eth1/ip/eth1_axi_smc_1/bd_0/ip/ip_54/sim/bd_e73a_s06sic_0.sv" \
+  "../../../bd/eth1/ip/eth1_axi_smc_1/bd_0/ip/ip_55/sim/bd_e73a_s06a2s_0.sv" \
+  "../../../bd/eth1/ip/eth1_axi_smc_1/bd_0/ip/ip_56/sim/bd_e73a_sawn_3.sv" \
+  "../../../bd/eth1/ip/eth1_axi_smc_1/bd_0/ip/ip_57/sim/bd_e73a_swn_3.sv" \
+  "../../../bd/eth1/ip/eth1_axi_smc_1/bd_0/ip/ip_58/sim/bd_e73a_sbn_3.sv" \
 -endlib
 -makelib ies_lib/smartconnect_v1_0 -sv \
   "../../../../ethernet_GMII_v1.srcs/sources_1/bd/eth1/ipshared/7005/hdl/sc_sc2axi_v1_0_vl_rfs.sv" \
 -endlib
 -makelib ies_lib/xil_defaultlib -sv \
-  "../../../bd/eth1/ip/eth1_axi_smc_1/bd_0/ip/ip_55/sim/bd_e73a_m00s2a_0.sv" \
-  "../../../bd/eth1/ip/eth1_axi_smc_1/bd_0/ip/ip_56/sim/bd_e73a_m00arn_0.sv" \
-  "../../../bd/eth1/ip/eth1_axi_smc_1/bd_0/ip/ip_57/sim/bd_e73a_m00rn_0.sv" \
-  "../../../bd/eth1/ip/eth1_axi_smc_1/bd_0/ip/ip_58/sim/bd_e73a_m00awn_0.sv" \
-  "../../../bd/eth1/ip/eth1_axi_smc_1/bd_0/ip/ip_59/sim/bd_e73a_m00wn_0.sv" \
-  "../../../bd/eth1/ip/eth1_axi_smc_1/bd_0/ip/ip_60/sim/bd_e73a_m00bn_0.sv" \
+  "../../../bd/eth1/ip/eth1_axi_smc_1/bd_0/ip/ip_59/sim/bd_e73a_m00s2a_0.sv" \
+  "../../../bd/eth1/ip/eth1_axi_smc_1/bd_0/ip/ip_60/sim/bd_e73a_m00arn_0.sv" \
+  "../../../bd/eth1/ip/eth1_axi_smc_1/bd_0/ip/ip_61/sim/bd_e73a_m00rn_0.sv" \
+  "../../../bd/eth1/ip/eth1_axi_smc_1/bd_0/ip/ip_62/sim/bd_e73a_m00awn_0.sv" \
+  "../../../bd/eth1/ip/eth1_axi_smc_1/bd_0/ip/ip_63/sim/bd_e73a_m00wn_0.sv" \
+  "../../../bd/eth1/ip/eth1_axi_smc_1/bd_0/ip/ip_64/sim/bd_e73a_m00bn_0.sv" \
 -endlib
 -makelib ies_lib/smartconnect_v1_0 -sv \
   "../../../../ethernet_GMII_v1.srcs/sources_1/bd/eth1/ipshared/901a/hdl/sc_exit_v1_0_vl_rfs.sv" \
 -endlib
 -makelib ies_lib/xil_defaultlib -sv \
-  "../../../bd/eth1/ip/eth1_axi_smc_1/bd_0/ip/ip_61/sim/bd_e73a_m00e_0.sv" \
-  "../../../bd/eth1/ip/eth1_axi_smc_1/bd_0/ip/ip_62/sim/bd_e73a_m01s2a_0.sv" \
-  "../../../bd/eth1/ip/eth1_axi_smc_1/bd_0/ip/ip_63/sim/bd_e73a_m01arn_0.sv" \
-  "../../../bd/eth1/ip/eth1_axi_smc_1/bd_0/ip/ip_64/sim/bd_e73a_m01rn_0.sv" \
-  "../../../bd/eth1/ip/eth1_axi_smc_1/bd_0/ip/ip_65/sim/bd_e73a_m01awn_0.sv" \
-  "../../../bd/eth1/ip/eth1_axi_smc_1/bd_0/ip/ip_66/sim/bd_e73a_m01wn_0.sv" \
-  "../../../bd/eth1/ip/eth1_axi_smc_1/bd_0/ip/ip_67/sim/bd_e73a_m01bn_0.sv" \
-  "../../../bd/eth1/ip/eth1_axi_smc_1/bd_0/ip/ip_68/sim/bd_e73a_m01e_0.sv" \
--endlib
--makelib ies_lib/xil_defaultlib \
-  "../../../bd/eth1/ip/eth1_axi_smc_1/bd_0/sim/bd_e73a.v" \
+  "../../../bd/eth1/ip/eth1_axi_smc_1/bd_0/ip/ip_65/sim/bd_e73a_m00e_0.sv" \
 -endlib
 -makelib ies_lib/axi_vip_v1_1_6 -sv \
   "../../../../ethernet_GMII_v1.srcs/sources_1/bd/eth1/ipshared/dc12/hdl/axi_vip_v1_1_vl_rfs.sv" \
@@ -458,20 +455,36 @@
   "../../../bd/eth1/ip/eth1_axi_ethernet_0_gtxclk_0/eth1_axi_ethernet_0_gtxclk_0.v" \
   "../../../bd/eth1/sim/eth1.v" \
 -endlib
--makelib ies_lib/axi_bram_ctrl_v4_1_2 \
-  "../../../../ethernet_GMII_v1.srcs/sources_1/bd/eth1/ipshared/a002/hdl/axi_bram_ctrl_v4_1_rfs.vhd" \
+-makelib ies_lib/xil_defaultlib \
+  "../../../bd/eth1/ip/eth1_axi_dma_0_0/sim/eth1_axi_dma_0_0.vhd" \
+-endlib
+-makelib ies_lib/axis_infrastructure_v1_1_0 \
+  "../../../../ethernet_GMII_v1.srcs/sources_1/bd/eth1/ipshared/8713/hdl/axis_infrastructure_v1_1_vl_rfs.v" \
+-endlib
+-makelib ies_lib/axis_data_fifo_v2_0_2 \
+  "../../../../ethernet_GMII_v1.srcs/sources_1/bd/eth1/ipshared/3341/hdl/axis_data_fifo_v2_0_vl_rfs.v" \
 -endlib
 -makelib ies_lib/xil_defaultlib \
-  "../../../bd/eth1/ip/eth1_axi_bram_ctrl_0_0/sim/eth1_axi_bram_ctrl_0_0.vhd" \
+  "../../../bd/eth1/ip/eth1_axis_data_fifo_0_1/sim/eth1_axis_data_fifo_0_1.v" \
+  "../../../bd/eth1/ip/eth1_system_ila_0_0/bd_0/ip/ip_0/sim/bd_9386_ila_lib_0.v" \
+-endlib
+-makelib ies_lib/gigantic_mux \
+  "../../../../ethernet_GMII_v1.srcs/sources_1/bd/eth1/ipshared/d322/hdl/gigantic_mux_v1_0_cntr.v" \
 -endlib
 -makelib ies_lib/xil_defaultlib \
-  "../../../bd/eth1/ip/eth1_blk_mem_gen_0_0/sim/eth1_blk_mem_gen_0_0.v" \
+  "../../../bd/eth1/ip/eth1_system_ila_0_0/bd_0/ip/ip_1/bd_9386_g_inst_0_gigantic_mux.v" \
+  "../../../bd/eth1/ip/eth1_system_ila_0_0/bd_0/ip/ip_1/sim/bd_9386_g_inst_0.v" \
+  "../../../bd/eth1/ip/eth1_system_ila_0_0/bd_0/sim/bd_9386.v" \
+  "../../../bd/eth1/ip/eth1_system_ila_0_0/sim/eth1_system_ila_0_0.v" \
 -endlib
--makelib ies_lib/axi_cdma_v4_1_20 \
-  "../../../../ethernet_GMII_v1.srcs/sources_1/bd/eth1/ipshared/02b1/hdl/axi_cdma_v4_1_vh_rfs.vhd" \
+-makelib ies_lib/interrupt_control_v3_1_4 \
+  "../../../../ethernet_GMII_v1.srcs/sources_1/bd/eth1/ipshared/a040/hdl/interrupt_control_v3_1_vh_rfs.vhd" \
+-endlib
+-makelib ies_lib/axi_gpio_v2_0_22 \
+  "../../../../ethernet_GMII_v1.srcs/sources_1/bd/eth1/ipshared/f71e/hdl/axi_gpio_v2_0_vh_rfs.vhd" \
 -endlib
 -makelib ies_lib/xil_defaultlib \
-  "../../../bd/eth1/ip/eth1_axi_cdma_0_0/sim/eth1_axi_cdma_0_0.vhd" \
+  "../../../bd/eth1/ip/eth1_axi_gpio_0_0/sim/eth1_axi_gpio_0_0.vhd" \
 -endlib
 -makelib ies_lib/xil_defaultlib \
   glbl.v

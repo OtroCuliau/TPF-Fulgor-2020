@@ -2,10 +2,10 @@
 <Root MajorVersion="0" MinorVersion="39">
   <CompositeFile CompositeFileTopName="eth1" CanBeSetAsTop="false" CanDisplayChildGraph="true">
     <Description>Composite Fileset</Description>
-    <Generation Name="SYNTHESIS" State="GENERATED" Timestamp="1614030028"/>
-    <Generation Name="IMPLEMENTATION" State="GENERATED" Timestamp="1614030028"/>
-    <Generation Name="SIMULATION" State="GENERATED" Timestamp="1614030028"/>
-    <Generation Name="HW_HANDOFF" State="GENERATED" Timestamp="1614030028"/>
+    <Generation Name="SYNTHESIS" State="GENERATED" Timestamp="1616187590"/>
+    <Generation Name="IMPLEMENTATION" State="GENERATED" Timestamp="1616187590"/>
+    <Generation Name="SIMULATION" State="GENERATED" Timestamp="1616187590"/>
+    <Generation Name="HW_HANDOFF" State="GENERATED" Timestamp="1616187590"/>
     <FileCollection Name="SOURCES" Type="SOURCES">
       <File Name="ip\eth1_mig_7series_0_0\eth1_mig_7series_0_0.xci" Type="IP">
         <Instance HierarchyPath="mig_7series_0"/>
@@ -178,24 +178,32 @@
         <Library Name="xil_defaultlib"/>
         <UsedIn Val="SIMULATION"/>
       </File>
-      <File Name="ip\eth1_axi_bram_ctrl_0_0\eth1_axi_bram_ctrl_0_0.xci" Type="IP">
-        <Instance HierarchyPath="axi_bram_ctrl_0"/>
+      <File Name="ip\eth1_axi_dma_0_0\eth1_axi_dma_0_0.xci" Type="IP">
+        <Instance HierarchyPath="axi_dma_0"/>
         <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
         <Library Name="xil_defaultlib"/>
         <UsedIn Val="SYNTHESIS"/>
         <UsedIn Val="IMPLEMENTATION"/>
         <UsedIn Val="SIMULATION"/>
       </File>
-      <File Name="ip\eth1_blk_mem_gen_0_0\eth1_blk_mem_gen_0_0.xci" Type="IP">
-        <Instance HierarchyPath="blk_mem_gen_0"/>
+      <File Name="ip\eth1_axis_data_fifo_0_1\eth1_axis_data_fifo_0_1.xci" Type="IP">
+        <Instance HierarchyPath="axis_data_fifo_0"/>
         <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
         <Library Name="xil_defaultlib"/>
         <UsedIn Val="SYNTHESIS"/>
         <UsedIn Val="IMPLEMENTATION"/>
         <UsedIn Val="SIMULATION"/>
       </File>
-      <File Name="ip\eth1_axi_cdma_0_0\eth1_axi_cdma_0_0.xci" Type="IP">
-        <Instance HierarchyPath="axi_cdma_0"/>
+      <File Name="ip\eth1_system_ila_0_0\eth1_system_ila_0_0.xci" Type="IP">
+        <Instance HierarchyPath="system_ila_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\eth1_axi_gpio_0_0\eth1_axi_gpio_0_0.xci" Type="IP">
+        <Instance HierarchyPath="axi_gpio_0"/>
         <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
         <Library Name="xil_defaultlib"/>
         <UsedIn Val="SYNTHESIS"/>

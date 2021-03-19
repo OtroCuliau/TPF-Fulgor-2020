@@ -66,13 +66,16 @@ set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==eth1_axi_ethern
 # IP: bd/eth1/ip/eth1_axi_ethernet_0_gtxclk_0/eth1_axi_ethernet_0_gtxclk_0.xci
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==eth1_axi_ethernet_0_gtxclk_0 || ORIG_REF_NAME==eth1_axi_ethernet_0_gtxclk_0} -quiet] -quiet
 
-# IP: bd/eth1/ip/eth1_axi_bram_ctrl_0_0/eth1_axi_bram_ctrl_0_0.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==eth1_axi_bram_ctrl_0_0 || ORIG_REF_NAME==eth1_axi_bram_ctrl_0_0} -quiet] -quiet
+# IP: bd/eth1/ip/eth1_axi_dma_0_0/eth1_axi_dma_0_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==eth1_axi_dma_0_0 || ORIG_REF_NAME==eth1_axi_dma_0_0} -quiet] -quiet
 
-# IP: bd/eth1/ip/eth1_blk_mem_gen_0_0/eth1_blk_mem_gen_0_0.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==eth1_blk_mem_gen_0_0 || ORIG_REF_NAME==eth1_blk_mem_gen_0_0} -quiet] -quiet
+# IP: bd/eth1/ip/eth1_axis_data_fifo_0_1/eth1_axis_data_fifo_0_1.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==eth1_axis_data_fifo_0_1 || ORIG_REF_NAME==eth1_axis_data_fifo_0_1} -quiet] -quiet
 
-# IP: bd/eth1/ip/eth1_axi_cdma_0_0/eth1_axi_cdma_0_0.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==eth1_axi_cdma_0_0 || ORIG_REF_NAME==eth1_axi_cdma_0_0} -quiet] -quiet
+# IP: bd/eth1/ip/eth1_system_ila_0_0/eth1_system_ila_0_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==eth1_system_ila_0_0 || ORIG_REF_NAME==eth1_system_ila_0_0} -quiet] -quiet
+
+# IP: bd/eth1/ip/eth1_axi_gpio_0_0/eth1_axi_gpio_0_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==eth1_axi_gpio_0_0 || ORIG_REF_NAME==eth1_axi_gpio_0_0} -quiet] -quiet
 
 # XDC: bd/eth1/eth1_ooc.xdc

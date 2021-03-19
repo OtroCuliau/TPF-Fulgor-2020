@@ -1627,3 +1627,444 @@ TRACE::2021-02-11.17:48:30::SCWMssOS::Checking the sw design at  D:/dario/fulgor
 TRACE::2021-02-11.17:48:30::SCWMssOS::DEBUG:  swdes dump  D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
 
 TRACE::2021-02-11.17:48:30::SCWMssOS::Sw design exists and opened at  D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-02-12.22:27:00::SCWPlatform::Trying to open the hw design at D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw/DMA_FIFO_wrapper.xsa
+TRACE::2021-02-12.22:27:00::SCWPlatform::DSA given D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw/DMA_FIFO_wrapper.xsa
+TRACE::2021-02-12.22:27:00::SCWPlatform::DSA absoulate path D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw/DMA_FIFO_wrapper.xsa
+TRACE::2021-02-12.22:27:06::SCWPlatform::DSA directory D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw
+TRACE::2021-02-12.22:27:06::SCWPlatform:: Platform Path D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw/DMA_FIFO_wrapper.xsa
+TRACE::2021-02-12.22:27:06::SCWPlatform:: Unique name xilinx:kc705::0.0
+TRACE::2021-02-12.22:27:06::SCWPlatform::Do not have an existing db opened. 
+TRACE::2021-02-12.22:27:06::SCWPlatform::Opened new HwDB with name DMA_FIFO_wrapper_0
+TRACE::2021-02-12.22:27:06::SCWReader::Active system found as  DMA_FIFO_wrapper
+TRACE::2021-02-12.22:27:06::SCWReader::Handling sysconfig DMA_FIFO_wrapper
+TRACE::2021-02-12.22:27:06::SCWDomain::checking for install qemu data   : 
+TRACE::2021-02-12.22:27:06::SCWPlatform::Trying to open the hw design at D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw/DMA_FIFO_wrapper.xsa
+TRACE::2021-02-12.22:27:06::SCWPlatform::DSA given D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw/DMA_FIFO_wrapper.xsa
+TRACE::2021-02-12.22:27:06::SCWPlatform::DSA absoulate path D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw/DMA_FIFO_wrapper.xsa
+TRACE::2021-02-12.22:27:06::SCWPlatform::DSA directory D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw
+TRACE::2021-02-12.22:27:06::SCWPlatform:: Platform Path D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw/DMA_FIFO_wrapper.xsa
+TRACE::2021-02-12.22:27:06::SCWPlatform:: Unique name xilinx:kc705::0.0
+TRACE::2021-02-12.22:27:06::SCWPlatform::Trying to set the existing hwdb with name DMA_FIFO_wrapper_0
+TRACE::2021-02-12.22:27:06::SCWPlatform::Opened existing hwdb DMA_FIFO_wrapper_0
+TRACE::2021-02-12.22:27:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-02-12.22:27:06::SCWPlatform::Trying to open the hw design at D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw/DMA_FIFO_wrapper.xsa
+TRACE::2021-02-12.22:27:06::SCWPlatform::DSA given D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw/DMA_FIFO_wrapper.xsa
+TRACE::2021-02-12.22:27:06::SCWPlatform::DSA absoulate path D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw/DMA_FIFO_wrapper.xsa
+TRACE::2021-02-12.22:27:06::SCWPlatform::DSA directory D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw
+TRACE::2021-02-12.22:27:06::SCWPlatform:: Platform Path D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw/DMA_FIFO_wrapper.xsa
+TRACE::2021-02-12.22:27:06::SCWPlatform:: Unique name xilinx:kc705::0.0
+TRACE::2021-02-12.22:27:06::SCWPlatform::Trying to set the existing hwdb with name DMA_FIFO_wrapper_0
+TRACE::2021-02-12.22:27:06::SCWPlatform::Opened existing hwdb DMA_FIFO_wrapper_0
+TRACE::2021-02-12.22:27:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-02-12.22:27:06::SCWPlatform::Trying to open the hw design at D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw/DMA_FIFO_wrapper.xsa
+TRACE::2021-02-12.22:27:06::SCWPlatform::DSA given D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw/DMA_FIFO_wrapper.xsa
+TRACE::2021-02-12.22:27:06::SCWPlatform::DSA absoulate path D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw/DMA_FIFO_wrapper.xsa
+TRACE::2021-02-12.22:27:06::SCWPlatform::DSA directory D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw
+TRACE::2021-02-12.22:27:06::SCWPlatform:: Platform Path D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw/DMA_FIFO_wrapper.xsa
+TRACE::2021-02-12.22:27:06::SCWPlatform:: Unique name xilinx:kc705::0.0
+TRACE::2021-02-12.22:27:06::SCWPlatform::Trying to set the existing hwdb with name DMA_FIFO_wrapper_0
+TRACE::2021-02-12.22:27:06::SCWPlatform::Opened existing hwdb DMA_FIFO_wrapper_0
+TRACE::2021-02-12.22:27:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-02-12.22:27:06::SCWMssOS::Checking the sw design at  D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-02-12.22:27:06::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2021-02-12.22:27:06::SCWMssOS::No sw design opened at  D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-02-12.22:27:06::SCWMssOS::mss exists loading the mss file  D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-02-12.22:27:06::SCWMssOS::Opened the sw design from mss  D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-02-12.22:27:06::SCWMssOS::Adding the swdes entry D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/microblaze_0/standalone_domain/bsp/system.mss with des name system
+TRACE::2021-02-12.22:27:06::SCWMssOS::updating the scw layer about changes
+TRACE::2021-02-12.22:27:06::SCWMssOS::Opened the sw design.  D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-02-12.22:27:06::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2021-02-12.22:27:06::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2021-02-12.22:27:06::SCWPlatform::Trying to open the hw design at D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw/DMA_FIFO_wrapper.xsa
+TRACE::2021-02-12.22:27:06::SCWPlatform::DSA given D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw/DMA_FIFO_wrapper.xsa
+TRACE::2021-02-12.22:27:06::SCWPlatform::DSA absoulate path D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw/DMA_FIFO_wrapper.xsa
+TRACE::2021-02-12.22:27:06::SCWPlatform::DSA directory D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw
+TRACE::2021-02-12.22:27:06::SCWPlatform:: Platform Path D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw/DMA_FIFO_wrapper.xsa
+TRACE::2021-02-12.22:27:06::SCWPlatform:: Unique name xilinx:kc705::0.0
+TRACE::2021-02-12.22:27:06::SCWPlatform::Trying to set the existing hwdb with name DMA_FIFO_wrapper_0
+TRACE::2021-02-12.22:27:06::SCWPlatform::Opened existing hwdb DMA_FIFO_wrapper_0
+TRACE::2021-02-12.22:27:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-02-12.22:27:06::SCWMssOS::Checking the sw design at  D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-02-12.22:27:06::SCWMssOS::DEBUG:  swdes dump  D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-02-12.22:27:06::SCWMssOS::Sw design exists and opened at  D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-02-12.22:27:06::SCWReader::No isolation master present  
+TRACE::2021-02-12.22:27:06::SCWPlatform::Trying to open the hw design at D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw/DMA_FIFO_wrapper.xsa
+TRACE::2021-02-12.22:27:06::SCWPlatform::DSA given D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw/DMA_FIFO_wrapper.xsa
+TRACE::2021-02-12.22:27:06::SCWPlatform::DSA absoulate path D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw/DMA_FIFO_wrapper.xsa
+TRACE::2021-02-12.22:27:06::SCWPlatform::DSA directory D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw
+TRACE::2021-02-12.22:27:06::SCWPlatform:: Platform Path D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw/DMA_FIFO_wrapper.xsa
+TRACE::2021-02-12.22:27:06::SCWPlatform:: Unique name xilinx:kc705::0.0
+TRACE::2021-02-12.22:27:06::SCWPlatform::Trying to set the existing hwdb with name DMA_FIFO_wrapper_0
+TRACE::2021-02-12.22:27:06::SCWPlatform::Opened existing hwdb DMA_FIFO_wrapper_0
+TRACE::2021-02-12.22:27:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-02-12.22:27:06::SCWMssOS::Checking the sw design at  D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-02-12.22:27:06::SCWMssOS::DEBUG:  swdes dump  D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-02-12.22:27:06::SCWMssOS::Sw design exists and opened at  D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-02-12.22:27:07::SCWMssOS::In reload Mss file.
+TRACE::2021-02-12.22:27:07::SCWPlatform::Trying to open the hw design at D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw/DMA_FIFO_wrapper.xsa
+TRACE::2021-02-12.22:27:07::SCWPlatform::DSA given D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw/DMA_FIFO_wrapper.xsa
+TRACE::2021-02-12.22:27:07::SCWPlatform::DSA absoulate path D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw/DMA_FIFO_wrapper.xsa
+TRACE::2021-02-12.22:27:07::SCWPlatform::DSA directory D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw
+TRACE::2021-02-12.22:27:07::SCWPlatform:: Platform Path D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw/DMA_FIFO_wrapper.xsa
+TRACE::2021-02-12.22:27:07::SCWPlatform:: Unique name xilinx:kc705::0.0
+TRACE::2021-02-12.22:27:07::SCWPlatform::Trying to set the existing hwdb with name DMA_FIFO_wrapper_0
+TRACE::2021-02-12.22:27:07::SCWPlatform::Opened existing hwdb DMA_FIFO_wrapper_0
+TRACE::2021-02-12.22:27:07::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-02-12.22:27:07::SCWMssOS::Checking the sw design at  D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-02-12.22:27:07::SCWMssOS::DEBUG:  swdes dump  D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+KEYINFO::2021-02-12.22:27:07::SCWMssOS::Could not open the swdb for system
+KEYINFO::2021-02-12.22:27:07::SCWMssOS::Could not open the sw design at  system
+ERROR: [Hsi 55-1558] Software Design system is not found
+
+TRACE::2021-02-12.22:27:07::SCWMssOS::Cleared the swdb table entry
+TRACE::2021-02-12.22:27:07::SCWMssOS::No sw design opened at  D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-02-12.22:27:07::SCWMssOS::mss exists loading the mss file  D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-02-12.22:27:07::SCWMssOS::Opened the sw design from mss  D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-02-12.22:27:07::SCWMssOS::Adding the swdes entry D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/microblaze_0/standalone_domain/bsp/system.mss with des name system
+TRACE::2021-02-12.22:27:07::SCWMssOS::updating the scw layer about changes
+TRACE::2021-02-12.22:27:07::SCWMssOS::Opened the sw design.  D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-02-12.22:27:07::SCWPlatform::Trying to open the hw design at D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw/DMA_FIFO_wrapper.xsa
+TRACE::2021-02-12.22:27:07::SCWPlatform::DSA given D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw/DMA_FIFO_wrapper.xsa
+TRACE::2021-02-12.22:27:07::SCWPlatform::DSA absoulate path D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw/DMA_FIFO_wrapper.xsa
+TRACE::2021-02-12.22:27:07::SCWPlatform::DSA directory D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw
+TRACE::2021-02-12.22:27:07::SCWPlatform:: Platform Path D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw/DMA_FIFO_wrapper.xsa
+TRACE::2021-02-12.22:27:07::SCWPlatform:: Unique name xilinx:kc705::0.0
+TRACE::2021-02-12.22:27:07::SCWPlatform::Trying to set the existing hwdb with name DMA_FIFO_wrapper_0
+TRACE::2021-02-12.22:27:07::SCWPlatform::Opened existing hwdb DMA_FIFO_wrapper_0
+TRACE::2021-02-12.22:27:07::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-02-12.22:27:07::SCWMssOS::Checking the sw design at  D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-02-12.22:27:07::SCWMssOS::DEBUG:  swdes dump  D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-02-12.22:27:07::SCWMssOS::Sw design exists and opened at  D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-02-12.22:27:07::SCWMssOS::Removing the swdes entry for  D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-02-15.01:00:27::SCWPlatform::Trying to open the hw design at D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw/DMA_FIFO_wrapper.xsa
+TRACE::2021-02-15.01:00:27::SCWPlatform::DSA given D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw/DMA_FIFO_wrapper.xsa
+TRACE::2021-02-15.01:00:27::SCWPlatform::DSA absoulate path D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw/DMA_FIFO_wrapper.xsa
+TRACE::2021-02-15.01:00:37::SCWPlatform::DSA directory D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw
+TRACE::2021-02-15.01:00:37::SCWPlatform:: Platform Path D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw/DMA_FIFO_wrapper.xsa
+TRACE::2021-02-15.01:00:37::SCWPlatform:: Unique name xilinx:kc705::0.0
+TRACE::2021-02-15.01:00:37::SCWPlatform::Do not have an existing db opened. 
+TRACE::2021-02-15.01:00:43::SCWPlatform::Opened new HwDB with name DMA_FIFO_wrapper
+TRACE::2021-02-15.01:00:43::SCWReader::Active system found as  DMA_FIFO_wrapper
+TRACE::2021-02-15.01:00:43::SCWReader::Handling sysconfig DMA_FIFO_wrapper
+TRACE::2021-02-15.01:00:43::SCWDomain::checking for install qemu data   : 
+TRACE::2021-02-15.01:00:43::SCWPlatform::Trying to open the hw design at D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw/DMA_FIFO_wrapper.xsa
+TRACE::2021-02-15.01:00:43::SCWPlatform::DSA given D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw/DMA_FIFO_wrapper.xsa
+TRACE::2021-02-15.01:00:43::SCWPlatform::DSA absoulate path D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw/DMA_FIFO_wrapper.xsa
+TRACE::2021-02-15.01:00:43::SCWPlatform::DSA directory D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw
+TRACE::2021-02-15.01:00:43::SCWPlatform:: Platform Path D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw/DMA_FIFO_wrapper.xsa
+TRACE::2021-02-15.01:00:43::SCWPlatform:: Unique name xilinx:kc705::0.0
+TRACE::2021-02-15.01:00:43::SCWPlatform::Trying to set the existing hwdb with name DMA_FIFO_wrapper
+TRACE::2021-02-15.01:00:43::SCWPlatform::Opened existing hwdb DMA_FIFO_wrapper
+TRACE::2021-02-15.01:00:43::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-02-15.01:00:43::SCWPlatform::Trying to open the hw design at D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw/DMA_FIFO_wrapper.xsa
+TRACE::2021-02-15.01:00:43::SCWPlatform::DSA given D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw/DMA_FIFO_wrapper.xsa
+TRACE::2021-02-15.01:00:43::SCWPlatform::DSA absoulate path D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw/DMA_FIFO_wrapper.xsa
+TRACE::2021-02-15.01:00:43::SCWPlatform::DSA directory D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw
+TRACE::2021-02-15.01:00:43::SCWPlatform:: Platform Path D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw/DMA_FIFO_wrapper.xsa
+TRACE::2021-02-15.01:00:43::SCWPlatform:: Unique name xilinx:kc705::0.0
+TRACE::2021-02-15.01:00:43::SCWPlatform::Trying to set the existing hwdb with name DMA_FIFO_wrapper
+TRACE::2021-02-15.01:00:43::SCWPlatform::Opened existing hwdb DMA_FIFO_wrapper
+TRACE::2021-02-15.01:00:43::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-02-15.01:00:43::SCWPlatform::Trying to open the hw design at D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw/DMA_FIFO_wrapper.xsa
+TRACE::2021-02-15.01:00:43::SCWPlatform::DSA given D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw/DMA_FIFO_wrapper.xsa
+TRACE::2021-02-15.01:00:43::SCWPlatform::DSA absoulate path D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw/DMA_FIFO_wrapper.xsa
+TRACE::2021-02-15.01:00:43::SCWPlatform::DSA directory D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw
+TRACE::2021-02-15.01:00:43::SCWPlatform:: Platform Path D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw/DMA_FIFO_wrapper.xsa
+TRACE::2021-02-15.01:00:43::SCWPlatform:: Unique name xilinx:kc705::0.0
+TRACE::2021-02-15.01:00:43::SCWPlatform::Trying to set the existing hwdb with name DMA_FIFO_wrapper
+TRACE::2021-02-15.01:00:43::SCWPlatform::Opened existing hwdb DMA_FIFO_wrapper
+TRACE::2021-02-15.01:00:43::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-02-15.01:00:43::SCWMssOS::Checking the sw design at  D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-02-15.01:00:43::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2021-02-15.01:00:43::SCWMssOS::No sw design opened at  D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-02-15.01:00:43::SCWMssOS::mss exists loading the mss file  D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-02-15.01:00:43::SCWMssOS::Opened the sw design from mss  D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-02-15.01:00:43::SCWMssOS::Adding the swdes entry D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/microblaze_0/standalone_domain/bsp/system.mss with des name system
+TRACE::2021-02-15.01:00:43::SCWMssOS::updating the scw layer about changes
+TRACE::2021-02-15.01:00:43::SCWMssOS::Opened the sw design.  D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-02-15.01:00:43::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2021-02-15.01:00:43::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2021-02-15.01:00:43::SCWPlatform::Trying to open the hw design at D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw/DMA_FIFO_wrapper.xsa
+TRACE::2021-02-15.01:00:43::SCWPlatform::DSA given D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw/DMA_FIFO_wrapper.xsa
+TRACE::2021-02-15.01:00:43::SCWPlatform::DSA absoulate path D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw/DMA_FIFO_wrapper.xsa
+TRACE::2021-02-15.01:00:43::SCWPlatform::DSA directory D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw
+TRACE::2021-02-15.01:00:43::SCWPlatform:: Platform Path D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw/DMA_FIFO_wrapper.xsa
+TRACE::2021-02-15.01:00:43::SCWPlatform:: Unique name xilinx:kc705::0.0
+TRACE::2021-02-15.01:00:43::SCWPlatform::Trying to set the existing hwdb with name DMA_FIFO_wrapper
+TRACE::2021-02-15.01:00:43::SCWPlatform::Opened existing hwdb DMA_FIFO_wrapper
+TRACE::2021-02-15.01:00:43::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-02-15.01:00:43::SCWMssOS::Checking the sw design at  D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-02-15.01:00:43::SCWMssOS::DEBUG:  swdes dump  D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-02-15.01:00:43::SCWMssOS::Sw design exists and opened at  D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-02-15.01:00:43::SCWReader::No isolation master present  
+TRACE::2021-02-15.01:00:43::SCWPlatform::Trying to open the hw design at D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw/DMA_FIFO_wrapper.xsa
+TRACE::2021-02-15.01:00:43::SCWPlatform::DSA given D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw/DMA_FIFO_wrapper.xsa
+TRACE::2021-02-15.01:00:43::SCWPlatform::DSA absoulate path D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw/DMA_FIFO_wrapper.xsa
+TRACE::2021-02-15.01:00:43::SCWPlatform::DSA directory D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw
+TRACE::2021-02-15.01:00:43::SCWPlatform:: Platform Path D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw/DMA_FIFO_wrapper.xsa
+TRACE::2021-02-15.01:00:43::SCWPlatform:: Unique name xilinx:kc705::0.0
+TRACE::2021-02-15.01:00:43::SCWPlatform::Trying to set the existing hwdb with name DMA_FIFO_wrapper
+TRACE::2021-02-15.01:00:43::SCWPlatform::Opened existing hwdb DMA_FIFO_wrapper
+TRACE::2021-02-15.01:00:43::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-02-15.01:00:43::SCWMssOS::Checking the sw design at  D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-02-15.01:00:43::SCWMssOS::DEBUG:  swdes dump  D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-02-15.01:00:43::SCWMssOS::Sw design exists and opened at  D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-02-15.01:00:43::SCWWriter::formatted JSON is {
+	"platformName":	"DMA_FIFO_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"DMA_FIFO_wrapper",
+	"platHandOff":	"D:/dario/fulgor/trabajo_final/vivado_projects/test_FIFO/DMA_FIFO_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/DMA_FIFO_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"DMA_FIFO_wrapper",
+	"systems":	[{
+			"systemName":	"DMA_FIFO_wrapper",
+			"systemDesc":	"DMA_FIFO_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"DMA_FIFO_wrapper",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"a85694a000691b81081f50758367090c",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2021-02-15.01:00:43::SCWPlatform::Trying to open the hw design at D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw/DMA_FIFO_wrapper.xsa
+TRACE::2021-02-15.01:00:43::SCWPlatform::DSA given D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw/DMA_FIFO_wrapper.xsa
+TRACE::2021-02-15.01:00:43::SCWPlatform::DSA absoulate path D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw/DMA_FIFO_wrapper.xsa
+TRACE::2021-02-15.01:00:43::SCWPlatform::DSA directory D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw
+TRACE::2021-02-15.01:00:43::SCWPlatform:: Platform Path D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw/DMA_FIFO_wrapper.xsa
+TRACE::2021-02-15.01:00:43::SCWPlatform:: Unique name xilinx:kc705::0.0
+TRACE::2021-02-15.01:00:43::SCWPlatform::Trying to set the existing hwdb with name DMA_FIFO_wrapper
+TRACE::2021-02-15.01:00:43::SCWPlatform::Opened existing hwdb DMA_FIFO_wrapper
+TRACE::2021-02-15.01:00:43::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-02-15.01:00:43::SCWMssOS::Checking the sw design at  D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-02-15.01:00:43::SCWMssOS::DEBUG:  swdes dump  D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-02-15.01:00:43::SCWMssOS::Sw design exists and opened at  D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-02-15.01:00:43::SCWMssOS::Removing the swdes entry for  D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-02-15.01:00:44::SCWPlatform::Trying to open the hw design at D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw/DMA_FIFO_wrapper.xsa
+TRACE::2021-02-15.01:00:44::SCWPlatform::DSA given D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw/DMA_FIFO_wrapper.xsa
+TRACE::2021-02-15.01:00:44::SCWPlatform::DSA absoulate path D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw/DMA_FIFO_wrapper.xsa
+TRACE::2021-02-15.01:00:44::SCWPlatform::DSA directory D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw
+TRACE::2021-02-15.01:00:44::SCWPlatform:: Platform Path D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw/DMA_FIFO_wrapper.xsa
+TRACE::2021-02-15.01:00:44::SCWPlatform:: Unique name xilinx:kc705::0.0
+TRACE::2021-02-15.01:00:44::SCWPlatform::Trying to set the existing hwdb with name DMA_FIFO_wrapper
+TRACE::2021-02-15.01:00:44::SCWPlatform::Opened existing hwdb DMA_FIFO_wrapper
+TRACE::2021-02-15.01:00:44::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-02-15.01:00:44::SCWMssOS::Checking the sw design at  D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-02-15.01:00:44::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2021-02-15.01:00:44::SCWMssOS::No sw design opened at  D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-02-15.01:00:44::SCWMssOS::mss exists loading the mss file  D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-02-15.01:00:44::SCWMssOS::Opened the sw design from mss  D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-02-15.01:00:44::SCWMssOS::Adding the swdes entry D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/microblaze_0/standalone_domain/bsp/system.mss with des name system
+TRACE::2021-02-15.01:00:44::SCWMssOS::updating the scw layer about changes
+TRACE::2021-02-15.01:00:44::SCWMssOS::Opened the sw design.  D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-02-15.01:00:44::SCWMssOS::In reload Mss file.
+TRACE::2021-02-15.01:00:44::SCWPlatform::Trying to open the hw design at D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw/DMA_FIFO_wrapper.xsa
+TRACE::2021-02-15.01:00:44::SCWPlatform::DSA given D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw/DMA_FIFO_wrapper.xsa
+TRACE::2021-02-15.01:00:44::SCWPlatform::DSA absoulate path D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw/DMA_FIFO_wrapper.xsa
+TRACE::2021-02-15.01:00:44::SCWPlatform::DSA directory D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw
+TRACE::2021-02-15.01:00:44::SCWPlatform:: Platform Path D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw/DMA_FIFO_wrapper.xsa
+TRACE::2021-02-15.01:00:44::SCWPlatform:: Unique name xilinx:kc705::0.0
+TRACE::2021-02-15.01:00:44::SCWPlatform::Trying to set the existing hwdb with name DMA_FIFO_wrapper
+TRACE::2021-02-15.01:00:44::SCWPlatform::Opened existing hwdb DMA_FIFO_wrapper
+TRACE::2021-02-15.01:00:44::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-02-15.01:00:44::SCWMssOS::Checking the sw design at  D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-02-15.01:00:44::SCWMssOS::DEBUG:  swdes dump  D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+KEYINFO::2021-02-15.01:00:45::SCWMssOS::Could not open the swdb for system
+KEYINFO::2021-02-15.01:00:45::SCWMssOS::Could not open the sw design at  system
+ERROR: [Hsi 55-1558] Software Design system is not found
+
+TRACE::2021-02-15.01:00:45::SCWMssOS::Cleared the swdb table entry
+TRACE::2021-02-15.01:00:45::SCWMssOS::No sw design opened at  D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-02-15.01:00:45::SCWMssOS::mss exists loading the mss file  D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-02-15.01:00:45::SCWMssOS::Opened the sw design from mss  D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-02-15.01:00:45::SCWMssOS::Adding the swdes entry D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/microblaze_0/standalone_domain/bsp/system.mss with des name system
+TRACE::2021-02-15.01:00:45::SCWMssOS::updating the scw layer about changes
+TRACE::2021-02-15.01:00:45::SCWMssOS::Opened the sw design.  D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-02-15.01:00:45::SCWPlatform::Trying to open the hw design at D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw/DMA_FIFO_wrapper.xsa
+TRACE::2021-02-15.01:00:45::SCWPlatform::DSA given D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw/DMA_FIFO_wrapper.xsa
+TRACE::2021-02-15.01:00:45::SCWPlatform::DSA absoulate path D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw/DMA_FIFO_wrapper.xsa
+TRACE::2021-02-15.01:00:45::SCWPlatform::DSA directory D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw
+TRACE::2021-02-15.01:00:45::SCWPlatform:: Platform Path D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw/DMA_FIFO_wrapper.xsa
+TRACE::2021-02-15.01:00:45::SCWPlatform:: Unique name xilinx:kc705::0.0
+TRACE::2021-02-15.01:00:45::SCWPlatform::Trying to set the existing hwdb with name DMA_FIFO_wrapper
+TRACE::2021-02-15.01:00:45::SCWPlatform::Opened existing hwdb DMA_FIFO_wrapper
+TRACE::2021-02-15.01:00:45::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-02-15.01:00:45::SCWMssOS::Checking the sw design at  D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-02-15.01:00:45::SCWMssOS::DEBUG:  swdes dump  D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-02-15.01:00:45::SCWMssOS::Sw design exists and opened at  D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-02-15.01:00:45::SCWMssOS::Removing the swdes entry for  D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+LOG::2021-02-15.02:07:08::SCWPlatform::Started generating the artifacts platform DMA_FIFO_wrapper
+TRACE::2021-02-15.02:07:08::SCWPlatform::Sanity checking of platform is completed
+LOG::2021-02-15.02:07:08::SCWPlatform::Started generating the artifacts for system configuration DMA_FIFO_wrapper
+LOG::2021-02-15.02:07:08::SCWSystem::Checking the domain standalone_domain
+LOG::2021-02-15.02:07:08::SCWSystem::Not a boot domain 
+LOG::2021-02-15.02:07:08::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2021-02-15.02:07:08::SCWDomain::Generating domain artifcats
+TRACE::2021-02-15.02:07:08::SCWMssOS::Generating standalone artifcats
+TRACE::2021-02-15.02:07:08::SCWMssOS:: Copying the user libraries. 
+TRACE::2021-02-15.02:07:08::SCWPlatform::Trying to open the hw design at D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw/DMA_FIFO_wrapper.xsa
+TRACE::2021-02-15.02:07:08::SCWPlatform::DSA given D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw/DMA_FIFO_wrapper.xsa
+TRACE::2021-02-15.02:07:08::SCWPlatform::DSA absoulate path D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw/DMA_FIFO_wrapper.xsa
+TRACE::2021-02-15.02:07:08::SCWPlatform::DSA directory D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw
+TRACE::2021-02-15.02:07:08::SCWPlatform:: Platform Path D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw/DMA_FIFO_wrapper.xsa
+TRACE::2021-02-15.02:07:08::SCWPlatform:: Unique name xilinx:kc705::0.0
+TRACE::2021-02-15.02:07:08::SCWPlatform::Trying to set the existing hwdb with name DMA_FIFO_wrapper
+TRACE::2021-02-15.02:07:08::SCWPlatform::Opened existing hwdb DMA_FIFO_wrapper
+TRACE::2021-02-15.02:07:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-02-15.02:07:08::SCWMssOS::Checking the sw design at  D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-02-15.02:07:08::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2021-02-15.02:07:08::SCWMssOS::No sw design opened at  D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-02-15.02:07:08::SCWMssOS::mss exists loading the mss file  D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-02-15.02:07:08::SCWMssOS::Opened the sw design from mss  D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-02-15.02:07:08::SCWMssOS::Adding the swdes entry D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/microblaze_0/standalone_domain/bsp/system.mss with des name system
+TRACE::2021-02-15.02:07:08::SCWMssOS::updating the scw layer about changes
+TRACE::2021-02-15.02:07:08::SCWMssOS::Opened the sw design.  D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-02-15.02:07:08::SCWMssOS::Completed writing the mss file at D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/microblaze_0/standalone_domain/bsp
+TRACE::2021-02-15.02:07:08::SCWMssOS::Mss edits present, copying mssfile into export location D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-02-15.02:07:08::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2021-02-15.02:07:08::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2021-02-15.02:07:08::SCWDomain::Skipping the build for domain :  standalone_domain
+TRACE::2021-02-15.02:07:08::SCWMssOS::skipping the bsp build ... 
+TRACE::2021-02-15.02:07:08::SCWMssOS::Copying to export directory.
+TRACE::2021-02-15.02:07:09::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2021-02-15.02:07:09::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2021-02-15.02:07:09::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2021-02-15.02:07:09::SCWSystem::Completed Processing the sysconfig DMA_FIFO_wrapper
+LOG::2021-02-15.02:07:09::SCWPlatform::Completed generating the artifacts for system configuration DMA_FIFO_wrapper
+TRACE::2021-02-15.02:07:09::SCWPlatform::Started preparing the platform 
+TRACE::2021-02-15.02:07:09::SCWSystem::Writing the bif file for system config DMA_FIFO_wrapper
+TRACE::2021-02-15.02:07:09::SCWSystem::dir created 
+TRACE::2021-02-15.02:07:09::SCWSystem::Writing the bif 
+TRACE::2021-02-15.02:07:09::SCWPlatform::Started writing the spfm file 
+TRACE::2021-02-15.02:07:09::SCWPlatform::Started writing the xpfm file 
+TRACE::2021-02-15.02:07:09::SCWPlatform::Completed generating the platform
+TRACE::2021-02-15.02:07:09::SCWPlatform::Trying to open the hw design at D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw/DMA_FIFO_wrapper.xsa
+TRACE::2021-02-15.02:07:09::SCWPlatform::DSA given D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw/DMA_FIFO_wrapper.xsa
+TRACE::2021-02-15.02:07:09::SCWPlatform::DSA absoulate path D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw/DMA_FIFO_wrapper.xsa
+TRACE::2021-02-15.02:07:09::SCWPlatform::DSA directory D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw
+TRACE::2021-02-15.02:07:09::SCWPlatform:: Platform Path D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw/DMA_FIFO_wrapper.xsa
+TRACE::2021-02-15.02:07:09::SCWPlatform:: Unique name xilinx:kc705::0.0
+TRACE::2021-02-15.02:07:09::SCWPlatform::Trying to set the existing hwdb with name DMA_FIFO_wrapper
+TRACE::2021-02-15.02:07:09::SCWPlatform::Opened existing hwdb DMA_FIFO_wrapper
+TRACE::2021-02-15.02:07:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-02-15.02:07:09::SCWMssOS::Checking the sw design at  D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-02-15.02:07:09::SCWMssOS::DEBUG:  swdes dump  D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-02-15.02:07:09::SCWMssOS::Sw design exists and opened at  D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-02-15.02:07:09::SCWWriter::formatted JSON is {
+	"platformName":	"DMA_FIFO_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"DMA_FIFO_wrapper",
+	"platHandOff":	"D:/dario/fulgor/trabajo_final/vivado_projects/test_FIFO/DMA_FIFO_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/DMA_FIFO_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"DMA_FIFO_wrapper",
+	"systems":	[{
+			"systemName":	"DMA_FIFO_wrapper",
+			"systemDesc":	"DMA_FIFO_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"DMA_FIFO_wrapper",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"a85694a000691b81081f50758367090c",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2021-02-15.02:07:09::SCWPlatform::updated the xpfm file.
+TRACE::2021-02-15.02:07:09::SCWPlatform::Trying to open the hw design at D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw/DMA_FIFO_wrapper.xsa
+TRACE::2021-02-15.02:07:09::SCWPlatform::DSA given D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw/DMA_FIFO_wrapper.xsa
+TRACE::2021-02-15.02:07:09::SCWPlatform::DSA absoulate path D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw/DMA_FIFO_wrapper.xsa
+TRACE::2021-02-15.02:07:09::SCWPlatform::DSA directory D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw
+TRACE::2021-02-15.02:07:09::SCWPlatform:: Platform Path D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/hw/DMA_FIFO_wrapper.xsa
+TRACE::2021-02-15.02:07:09::SCWPlatform:: Unique name xilinx:kc705::0.0
+TRACE::2021-02-15.02:07:09::SCWPlatform::Trying to set the existing hwdb with name DMA_FIFO_wrapper
+TRACE::2021-02-15.02:07:09::SCWPlatform::Opened existing hwdb DMA_FIFO_wrapper
+TRACE::2021-02-15.02:07:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-02-15.02:07:09::SCWMssOS::Checking the sw design at  D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-02-15.02:07:09::SCWMssOS::DEBUG:  swdes dump  D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-02-15.02:07:09::SCWMssOS::Sw design exists and opened at  D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/test_FIFO/workspace_dario/workspace_test_fifo/DMA_FIFO_wrapper/microblaze_0/standalone_domain/bsp/system.mss
