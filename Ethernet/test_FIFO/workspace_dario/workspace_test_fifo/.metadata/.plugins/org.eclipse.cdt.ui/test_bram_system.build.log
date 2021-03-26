@@ -1,6 +1,0 @@
-02:07:14 **** Build of configuration Debug for project test_bram_system ****
-make all 
-Skipping SD card image generation. Reason: "The system project only has applications for microblaze processors."
-
-02:07:15 Build Finished (took 281ms)
-

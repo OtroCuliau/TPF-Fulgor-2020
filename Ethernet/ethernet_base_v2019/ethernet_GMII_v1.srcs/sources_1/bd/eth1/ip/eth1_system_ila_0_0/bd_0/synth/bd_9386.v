@@ -18,6 +18,9 @@ module bd_9386
     SLOT_1_AXIS_tlast,
     SLOT_1_AXIS_tready,
     SLOT_1_AXIS_tvalid,
+    SLOT_2_GPIO_tri_i,
+    SLOT_2_GPIO_tri_o,
+    SLOT_2_GPIO_tri_t,
     clk,
     resetn);
   (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 SLOT_0_AXIS TDATA" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME SLOT_0_AXIS, CLK_DOMAIN eth1_mig_7series_0_0_ui_clk, FREQ_HZ 100000000, HAS_TKEEP 1, HAS_TLAST 1, HAS_TREADY 1, HAS_TSTRB 0, INSERT_VIP 0, LAYERED_METADATA undef, PHASE 0, TDATA_NUM_BYTES 64, TDEST_WIDTH 0, TID_WIDTH 0, TUSER_WIDTH 0" *) input [511:0]SLOT_0_AXIS_tdata;
@@ -30,6 +33,9 @@ module bd_9386
   (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 SLOT_1_AXIS TLAST" *) input SLOT_1_AXIS_tlast;
   (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 SLOT_1_AXIS TREADY" *) input SLOT_1_AXIS_tready;
   (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 SLOT_1_AXIS TVALID" *) input SLOT_1_AXIS_tvalid;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:gpio:1.0 SLOT_2_GPIO TRI_I" *) input [31:0]SLOT_2_GPIO_tri_i;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:gpio:1.0 SLOT_2_GPIO TRI_O" *) input [31:0]SLOT_2_GPIO_tri_o;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:gpio:1.0 SLOT_2_GPIO TRI_T" *) input [31:0]SLOT_2_GPIO_tri_t;
   (* X_INTERFACE_INFO = "xilinx.com:signal:clock:1.0 CLK.CLK CLK" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME CLK.CLK, ASSOCIATED_BUSIF SLOT_0_AXIS:SLOT_1_AXIS, ASSOCIATED_RESET resetn, CLK_DOMAIN eth1_mig_7series_0_0_ui_clk, FREQ_HZ 100000000, INSERT_VIP 0, PHASE 0" *) input clk;
   (* X_INTERFACE_INFO = "xilinx.com:signal:reset:1.0 RST.RESETN RST" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME RST.RESETN, INSERT_VIP 0, POLARITY ACTIVE_LOW" *) input resetn;
 
@@ -43,6 +49,9 @@ module bd_9386
   wire Conn_TLAST;
   wire Conn_TREADY;
   wire Conn_TVALID;
+  wire [31:0]SLOT_2_GPIO_tri_i_1;
+  wire [31:0]SLOT_2_GPIO_tri_o_1;
+  wire [31:0]SLOT_2_GPIO_tri_t_1;
   wire clk_1;
   wire [511:0]net_slot_0_axis_tdata;
   wire [63:0]net_slot_0_axis_tkeep;
@@ -66,6 +75,9 @@ module bd_9386
   assign Conn_TLAST = SLOT_0_AXIS_tlast;
   assign Conn_TREADY = SLOT_0_AXIS_tready;
   assign Conn_TVALID = SLOT_0_AXIS_tvalid;
+  assign SLOT_2_GPIO_tri_i_1 = SLOT_2_GPIO_tri_i[31:0];
+  assign SLOT_2_GPIO_tri_o_1 = SLOT_2_GPIO_tri_o[31:0];
+  assign SLOT_2_GPIO_tri_t_1 = SLOT_2_GPIO_tri_t[31:0];
   assign clk_1 = clk;
   assign resetn_1 = resetn;
   bd_9386_g_inst_0 g_inst
@@ -95,6 +107,9 @@ module bd_9386
        (.clk(clk_1),
         .probe0(net_slot_0_axis_tdata),
         .probe1(net_slot_0_axis_tkeep),
+        .probe10(SLOT_2_GPIO_tri_i_1),
+        .probe11(SLOT_2_GPIO_tri_o_1),
+        .probe12(SLOT_2_GPIO_tri_t_1),
         .probe2(net_slot_0_axis_tvalid),
         .probe3(net_slot_0_axis_tready),
         .probe4(net_slot_0_axis_tlast),

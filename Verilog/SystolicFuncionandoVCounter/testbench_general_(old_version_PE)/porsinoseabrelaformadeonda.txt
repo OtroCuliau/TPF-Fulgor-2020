@@ -1,3 +1,0 @@
-Open the Vivado IDE.
-Open an existing Vivado project. This step is necessary to gain access to the Open Static Simulation feature.
-Click Flow > Open Static Simulation and select the WDB file containing the waveform from the previously run simulation.

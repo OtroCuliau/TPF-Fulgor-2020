@@ -1,8 +1,8 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
-| Tool Version     : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
-| Date             : Fri Mar 19 20:04:59 2021
-| Host             : DESKTOP-9VJG89D running 64-bit major release  (build 9200)
+| Tool Version     : Vivado v.2019.2 (lin64) Build 2708876 Wed Nov  6 21:39:14 MST 2019
+| Date             : Fri Mar 26 12:53:14 2021
+| Host             : huaira running 64-bit Linux Mint 20
 | Command          : report_power -file eth1_wrapper_power_routed.rpt -pb eth1_wrapper_power_summary_routed.pb -rpx eth1_wrapper_power_routed.rpx
 | Design           : eth1_wrapper
 | Device           : xc7k325tffg900-2
@@ -33,7 +33,7 @@ Table of Contents
 | Total On-Chip Power (W)  | 3.063        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
-| Dynamic (W)              | 2.878        |
+| Dynamic (W)              | 2.877        |
 | Device Static (W)        | 0.185        |
 | Effective TJA (C/W)      | 1.8          |
 | Max Ambient (C)          | 79.6         |
@@ -52,20 +52,20 @@ Table of Contents
 +--------------------------+-----------+----------+-----------+-----------------+
 | On-Chip                  | Power (W) | Used     | Available | Utilization (%) |
 +--------------------------+-----------+----------+-----------+-----------------+
-| Clocks                   |     0.347 |       60 |       --- |             --- |
-| Slice Logic              |     0.104 |   117614 |       --- |             --- |
-|   LUT as Logic           |     0.084 |    31277 |    203800 |           15.35 |
+| Clocks                   |     0.343 |       60 |       --- |             --- |
+| Slice Logic              |     0.105 |   118539 |       --- |             --- |
+|   LUT as Logic           |     0.084 |    31400 |    203800 |           15.41 |
 |   LUT as Distributed RAM |     0.013 |     6884 |     64000 |           10.76 |
-|   Register               |     0.005 |    54949 |    407600 |           13.48 |
-|   CARRY4                 |     0.002 |      816 |     50950 |            1.60 |
-|   F7/F8 Muxes            |    <0.001 |     1603 |    203800 |            0.79 |
-|   LUT as Shift Register  |    <0.001 |     2417 |     64000 |            3.78 |
-|   Others                 |    <0.001 |     3219 |       --- |             --- |
-| Signals                  |     0.158 |    88040 |       --- |             --- |
-| Block RAM                |     0.074 |       92 |       445 |           20.67 |
+|   Register               |     0.005 |    55450 |    407600 |           13.60 |
+|   CARRY4                 |     0.002 |      831 |     50950 |            1.63 |
+|   F7/F8 Muxes            |    <0.001 |     1638 |    203800 |            0.80 |
+|   LUT as Shift Register  |    <0.001 |     2516 |     64000 |            3.93 |
+|   Others                 |    <0.001 |     3276 |       --- |             --- |
+| Signals                  |     0.160 |    88255 |       --- |             --- |
+| Block RAM                |     0.076 |     94.5 |       445 |           21.24 |
 | MMCM                     |     0.322 |        3 |        10 |           30.00 |
 | PLL                      |     0.133 |        1 |        10 |           10.00 |
-| I/O                      |     1.074 |      146 |       500 |           29.20 |
+| I/O                      |     1.074 |      145 |       500 |           29.00 |
 | PHASER                   |     0.661 |       44 |       --- |             --- |
 | XADC                     |     0.004 |        1 |       --- |             --- |
 | Static Power             |     0.185 |          |           |                 |
@@ -155,21 +155,21 @@ Table of Contents
 | iserdes_clkdiv_5                                                                                                                                          | eth1_i/mig_7series_0/u_eth1_mig_7series_0_0_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_2.u_ddr_phy_4lanes/ddr_byte_lane_B.ddr_byte_lane_B/iserdes_clkdiv       |             2.5 |
 | iserdes_clkdiv_6                                                                                                                                          | eth1_i/mig_7series_0/u_eth1_mig_7series_0_0_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_2.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/iserdes_clkdiv       |             2.5 |
 | iserdes_clkdiv_7                                                                                                                                          | eth1_i/mig_7series_0/u_eth1_mig_7series_0_0_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_2.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/iserdes_clkdiv       |             2.5 |
-| mem_refclk                                                                                                                                                | eth1_i/mig_7series_0/u_eth1_mig_7series_0_0_mig/u_ddr3_infrastructure/mem_refclk                                                                                                                                   |             1.3 |
+| mem_refclk                                                                                                                                                | eth1_i/mig_7series_0/u_eth1_mig_7series_0_0_mig/u_ddr3_infrastructure/mem_refclk                                                                                                                                   |             1.2 |
 | mmcm_clkfbout                                                                                                                                             | eth1_i/mig_7series_0/u_eth1_mig_7series_0_0_mig/u_iodelay_ctrl/mmcm_clkfbout                                                                                                                                       |             5.0 |
 | mmcm_clkout0                                                                                                                                              | eth1_i/mig_7series_0/u_eth1_mig_7series_0_0_mig/u_ddr3_infrastructure/mmcm_clkout0                                                                                                                                 |            10.0 |
 | mmcm_ps_clk_bufg_in                                                                                                                                       | eth1_i/mig_7series_0/u_eth1_mig_7series_0_0_mig/u_ddr3_infrastructure/mmcm_ps_clk_bufg_in                                                                                                                          |            10.0 |
-| oserdes_clk                                                                                                                                               | eth1_i/mig_7series_0/u_eth1_mig_7series_0_0_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_A.ddr_byte_lane_A/oserdes_clk          |             1.3 |
-| oserdes_clk_1                                                                                                                                             | eth1_i/mig_7series_0/u_eth1_mig_7series_0_0_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_B.ddr_byte_lane_B/oserdes_clk          |             1.3 |
-| oserdes_clk_10                                                                                                                                            | eth1_i/mig_7series_0/u_eth1_mig_7series_0_0_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_2.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/oserdes_clk          |             1.3 |
-| oserdes_clk_2                                                                                                                                             | eth1_i/mig_7series_0/u_eth1_mig_7series_0_0_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/oserdes_clk          |             1.3 |
-| oserdes_clk_3                                                                                                                                             | eth1_i/mig_7series_0/u_eth1_mig_7series_0_0_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/oserdes_clk          |             1.3 |
-| oserdes_clk_4                                                                                                                                             | eth1_i/mig_7series_0/u_eth1_mig_7series_0_0_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_4lanes/ddr_byte_lane_A.ddr_byte_lane_A/oserdes_clk          |             1.3 |
-| oserdes_clk_5                                                                                                                                             | eth1_i/mig_7series_0/u_eth1_mig_7series_0_0_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_4lanes/ddr_byte_lane_B.ddr_byte_lane_B/oserdes_clk          |             1.3 |
-| oserdes_clk_6                                                                                                                                             | eth1_i/mig_7series_0/u_eth1_mig_7series_0_0_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/oserdes_clk          |             1.3 |
-| oserdes_clk_7                                                                                                                                             | eth1_i/mig_7series_0/u_eth1_mig_7series_0_0_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_2.u_ddr_phy_4lanes/ddr_byte_lane_A.ddr_byte_lane_A/oserdes_clk          |             1.3 |
-| oserdes_clk_8                                                                                                                                             | eth1_i/mig_7series_0/u_eth1_mig_7series_0_0_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_2.u_ddr_phy_4lanes/ddr_byte_lane_B.ddr_byte_lane_B/oserdes_clk          |             1.3 |
-| oserdes_clk_9                                                                                                                                             | eth1_i/mig_7series_0/u_eth1_mig_7series_0_0_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_2.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/oserdes_clk          |             1.3 |
+| oserdes_clk                                                                                                                                               | eth1_i/mig_7series_0/u_eth1_mig_7series_0_0_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_A.ddr_byte_lane_A/oserdes_clk          |             1.2 |
+| oserdes_clk_1                                                                                                                                             | eth1_i/mig_7series_0/u_eth1_mig_7series_0_0_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_B.ddr_byte_lane_B/oserdes_clk          |             1.2 |
+| oserdes_clk_10                                                                                                                                            | eth1_i/mig_7series_0/u_eth1_mig_7series_0_0_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_2.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/oserdes_clk          |             1.2 |
+| oserdes_clk_2                                                                                                                                             | eth1_i/mig_7series_0/u_eth1_mig_7series_0_0_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/oserdes_clk          |             1.2 |
+| oserdes_clk_3                                                                                                                                             | eth1_i/mig_7series_0/u_eth1_mig_7series_0_0_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/oserdes_clk          |             1.2 |
+| oserdes_clk_4                                                                                                                                             | eth1_i/mig_7series_0/u_eth1_mig_7series_0_0_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_4lanes/ddr_byte_lane_A.ddr_byte_lane_A/oserdes_clk          |             1.2 |
+| oserdes_clk_5                                                                                                                                             | eth1_i/mig_7series_0/u_eth1_mig_7series_0_0_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_4lanes/ddr_byte_lane_B.ddr_byte_lane_B/oserdes_clk          |             1.2 |
+| oserdes_clk_6                                                                                                                                             | eth1_i/mig_7series_0/u_eth1_mig_7series_0_0_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/oserdes_clk          |             1.2 |
+| oserdes_clk_7                                                                                                                                             | eth1_i/mig_7series_0/u_eth1_mig_7series_0_0_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_2.u_ddr_phy_4lanes/ddr_byte_lane_A.ddr_byte_lane_A/oserdes_clk          |             1.2 |
+| oserdes_clk_8                                                                                                                                             | eth1_i/mig_7series_0/u_eth1_mig_7series_0_0_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_2.u_ddr_phy_4lanes/ddr_byte_lane_B.ddr_byte_lane_B/oserdes_clk          |             1.2 |
+| oserdes_clk_9                                                                                                                                             | eth1_i/mig_7series_0/u_eth1_mig_7series_0_0_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_2.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/oserdes_clk          |             1.2 |
 | oserdes_clkdiv                                                                                                                                            | eth1_i/mig_7series_0/u_eth1_mig_7series_0_0_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_A.ddr_byte_lane_A/oserdes_clkdiv       |             2.5 |
 | oserdes_clkdiv_1                                                                                                                                          | eth1_i/mig_7series_0/u_eth1_mig_7series_0_0_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_B.ddr_byte_lane_B/oserdes_clkdiv       |             2.5 |
 | oserdes_clkdiv_10                                                                                                                                         | eth1_i/mig_7series_0/u_eth1_mig_7series_0_0_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_2.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/oserdes_clkdiv       |             2.5 |
@@ -205,11 +205,11 @@ Table of Contents
 +----------------------------------+-----------+
 | Name                             | Power (W) |
 +----------------------------------+-----------+
-| eth1_wrapper                     |     2.878 |
+| eth1_wrapper                     |     2.877 |
 |   dbg_hub                        |     0.003 |
 |     inst                         |     0.003 |
 |       BSCANID.u_xsdbm_id         |     0.003 |
-|   eth1_i                         |     2.872 |
+|   eth1_i                         |     2.871 |
 |     axi_dma_0                    |     0.026 |
 |       U0                         |     0.026 |
 |     axi_ethernet_0               |     0.082 |
@@ -220,24 +220,24 @@ Table of Contents
 |       inst                       |     0.110 |
 |     axi_gpio_0                   |     0.001 |
 |       U0                         |     0.001 |
-|     axi_smc                      |     0.242 |
-|       inst                       |     0.242 |
+|     axi_smc                      |     0.238 |
+|       inst                       |     0.238 |
 |     axi_timer_0                  |     0.003 |
 |       U0                         |     0.003 |
 |     axis_data_fifo_0             |     0.004 |
 |       inst                       |     0.004 |
-|     microblaze_0                 |     0.047 |
-|       U0                         |     0.047 |
+|     microblaze_0                 |     0.048 |
+|       U0                         |     0.048 |
 |     microblaze_0_axi_intc        |     0.001 |
 |       U0                         |     0.001 |
 |     microblaze_0_axi_periph      |     0.001 |
 |       xbar                       |     0.001 |
 |     microblaze_0_local_memory    |     0.008 |
 |       lmb_bram                   |     0.008 |
-|     mig_7series_0                |     2.281 |
-|       u_eth1_mig_7series_0_0_mig |     2.281 |
-|     system_ila_0                 |     0.050 |
-|       inst                       |     0.050 |
+|     mig_7series_0                |     2.280 |
+|       u_eth1_mig_7series_0_0_mig |     2.280 |
+|     system_ila_0                 |     0.054 |
+|       inst                       |     0.054 |
 +----------------------------------+-----------+
 
 

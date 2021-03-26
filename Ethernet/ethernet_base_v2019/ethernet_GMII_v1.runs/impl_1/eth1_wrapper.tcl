@@ -65,22 +65,22 @@ start_step init_design
 set ACTIVE_STEP init_design
 set rc [catch {
   create_msg_db init_design.pb
-  set_param chipscope.maxJobs 1
+  set_param chipscope.maxJobs 2
   create_project -in_memory -part xc7k325tffg900-2
   set_property board_part xilinx.com:kc705:part0:1.6 [current_project]
   set_property design_mode GateLvl [current_fileset]
   set_param project.singleFileAddWarning.threshold 0
-  set_property webtalk.parent_dir D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.cache/wt [current_project]
-  set_property parent.project_path D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.xpr [current_project]
-  set_property ip_output_repo D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.cache/ip [current_project]
+  set_property webtalk.parent_dir /home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.cache/wt [current_project]
+  set_property parent.project_path /home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.xpr [current_project]
+  set_property ip_output_repo /home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.cache/ip [current_project]
   set_property ip_cache_permissions {read write} [current_project]
   set_property XPM_LIBRARIES {XPM_CDC XPM_FIFO XPM_MEMORY} [current_project]
-  add_files -quiet D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/eth1_wrapper.dcp
+  add_files -quiet /home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/eth1_wrapper.dcp
   set_msg_config -source 4 -id {BD 41-1661} -limit 0
   set_param project.isImplRun true
-  add_files D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.srcs/sources_1/bd/eth1/eth1.bd
+  add_files /home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.srcs/sources_1/bd/eth1/eth1.bd
   set_param project.isImplRun false
-  read_xdc D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.srcs/constrs_1/new/clock100.xdc
+  read_xdc /home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.srcs/constrs_1/new/clock100.xdc
   set_param project.isImplRun true
   link_design -top eth1_wrapper -part xc7k325tffg900-2
   set_param project.isImplRun false

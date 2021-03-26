@@ -1,8 +1,8 @@
 //Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
-//Tool Version: Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
-//Date        : Fri Mar 19 17:59:11 2021
-//Host        : DESKTOP-9VJG89D running 64-bit major release  (build 9200)
+//Tool Version: Vivado v.2019.2 (lin64) Build 2708876 Wed Nov  6 21:39:14 MST 2019
+//Date        : Fri Mar 26 12:12:35 2021
+//Host        : huaira running 64-bit Linux Mint 20
 //Command     : generate_target eth1_wrapper.bd
 //Design      : eth1_wrapper
 //Purpose     : IP block netlist
@@ -283,169 +283,169 @@ module eth1_wrapper
         .rs232_uart_txd(rs232_uart_txd),
         .sys_diff_clock_clk_n(sys_diff_clock_clk_n),
         .sys_diff_clock_clk_p(sys_diff_clock_clk_p));
-//  IOBUF gpio_rtl_tri_iobuf_0
-//       (.I(gpio_rtl_tri_o_0),
-//        .IO(gpio_rtl_tri_io[0]),
-//        .O(gpio_rtl_tri_i_0),
-//        .T(gpio_rtl_tri_t_0));
-//  IOBUF gpio_rtl_tri_iobuf_1
-//       (.I(gpio_rtl_tri_o_1),
-//        .IO(gpio_rtl_tri_io[1]),
-//        .O(gpio_rtl_tri_i_1),
-//        .T(gpio_rtl_tri_t_1));
-//  IOBUF gpio_rtl_tri_iobuf_10
-//       (.I(gpio_rtl_tri_o_10),
-//        .IO(gpio_rtl_tri_io[10]),
-//        .O(gpio_rtl_tri_i_10),
-//        .T(gpio_rtl_tri_t_10));
-//  IOBUF gpio_rtl_tri_iobuf_11
-//       (.I(gpio_rtl_tri_o_11),
-//        .IO(gpio_rtl_tri_io[11]),
-//        .O(gpio_rtl_tri_i_11),
-//        .T(gpio_rtl_tri_t_11));
-//  IOBUF gpio_rtl_tri_iobuf_12
-//       (.I(gpio_rtl_tri_o_12),
-//        .IO(gpio_rtl_tri_io[12]),
-//        .O(gpio_rtl_tri_i_12),
-//        .T(gpio_rtl_tri_t_12));
-//  IOBUF gpio_rtl_tri_iobuf_13
-//       (.I(gpio_rtl_tri_o_13),
-//        .IO(gpio_rtl_tri_io[13]),
-//        .O(gpio_rtl_tri_i_13),
-//        .T(gpio_rtl_tri_t_13));
-//  IOBUF gpio_rtl_tri_iobuf_14
-//       (.I(gpio_rtl_tri_o_14),
-//        .IO(gpio_rtl_tri_io[14]),
-//        .O(gpio_rtl_tri_i_14),
-//        .T(gpio_rtl_tri_t_14));
-//  IOBUF gpio_rtl_tri_iobuf_15
-//       (.I(gpio_rtl_tri_o_15),
-//        .IO(gpio_rtl_tri_io[15]),
-//        .O(gpio_rtl_tri_i_15),
-//        .T(gpio_rtl_tri_t_15));
-//  IOBUF gpio_rtl_tri_iobuf_16
-//       (.I(gpio_rtl_tri_o_16),
-//        .IO(gpio_rtl_tri_io[16]),
-//        .O(gpio_rtl_tri_i_16),
-//        .T(gpio_rtl_tri_t_16));
-//  IOBUF gpio_rtl_tri_iobuf_17
-//       (.I(gpio_rtl_tri_o_17),
-//        .IO(gpio_rtl_tri_io[17]),
-//        .O(gpio_rtl_tri_i_17),
-//        .T(gpio_rtl_tri_t_17));
-//  IOBUF gpio_rtl_tri_iobuf_18
-//       (.I(gpio_rtl_tri_o_18),
-//        .IO(gpio_rtl_tri_io[18]),
-//        .O(gpio_rtl_tri_i_18),
-//        .T(gpio_rtl_tri_t_18));
-//  IOBUF gpio_rtl_tri_iobuf_19
-//       (.I(gpio_rtl_tri_o_19),
-//        .IO(gpio_rtl_tri_io[19]),
-//        .O(gpio_rtl_tri_i_19),
-//        .T(gpio_rtl_tri_t_19));
-//  IOBUF gpio_rtl_tri_iobuf_2
-//       (.I(gpio_rtl_tri_o_2),
-//        .IO(gpio_rtl_tri_io[2]),
-//        .O(gpio_rtl_tri_i_2),
-//        .T(gpio_rtl_tri_t_2));
-//  IOBUF gpio_rtl_tri_iobuf_20
-//       (.I(gpio_rtl_tri_o_20),
-//        .IO(gpio_rtl_tri_io[20]),
-//        .O(gpio_rtl_tri_i_20),
-//        .T(gpio_rtl_tri_t_20));
-//  IOBUF gpio_rtl_tri_iobuf_21
-//       (.I(gpio_rtl_tri_o_21),
-//        .IO(gpio_rtl_tri_io[21]),
-//        .O(gpio_rtl_tri_i_21),
-//        .T(gpio_rtl_tri_t_21));
-//  IOBUF gpio_rtl_tri_iobuf_22
-//       (.I(gpio_rtl_tri_o_22),
-//        .IO(gpio_rtl_tri_io[22]),
-//        .O(gpio_rtl_tri_i_22),
-//        .T(gpio_rtl_tri_t_22));
-//  IOBUF gpio_rtl_tri_iobuf_23
-//       (.I(gpio_rtl_tri_o_23),
-//        .IO(gpio_rtl_tri_io[23]),
-//        .O(gpio_rtl_tri_i_23),
-//        .T(gpio_rtl_tri_t_23));
-//  IOBUF gpio_rtl_tri_iobuf_24
-//       (.I(gpio_rtl_tri_o_24),
-//        .IO(gpio_rtl_tri_io[24]),
-//        .O(gpio_rtl_tri_i_24),
-//        .T(gpio_rtl_tri_t_24));
-//  IOBUF gpio_rtl_tri_iobuf_25
-//       (.I(gpio_rtl_tri_o_25),
-//        .IO(gpio_rtl_tri_io[25]),
-//        .O(gpio_rtl_tri_i_25),
-//        .T(gpio_rtl_tri_t_25));
-//  IOBUF gpio_rtl_tri_iobuf_26
-//       (.I(gpio_rtl_tri_o_26),
-//        .IO(gpio_rtl_tri_io[26]),
-//        .O(gpio_rtl_tri_i_26),
-//        .T(gpio_rtl_tri_t_26));
-//  IOBUF gpio_rtl_tri_iobuf_27
-//       (.I(gpio_rtl_tri_o_27),
-//        .IO(gpio_rtl_tri_io[27]),
-//        .O(gpio_rtl_tri_i_27),
-//        .T(gpio_rtl_tri_t_27));
-//  IOBUF gpio_rtl_tri_iobuf_28
-//       (.I(gpio_rtl_tri_o_28),
-//        .IO(gpio_rtl_tri_io[28]),
-//        .O(gpio_rtl_tri_i_28),
-//        .T(gpio_rtl_tri_t_28));
-//  IOBUF gpio_rtl_tri_iobuf_29
-//       (.I(gpio_rtl_tri_o_29),
-//        .IO(gpio_rtl_tri_io[29]),
-//        .O(gpio_rtl_tri_i_29),
-//        .T(gpio_rtl_tri_t_29));
-//  IOBUF gpio_rtl_tri_iobuf_3
-//       (.I(gpio_rtl_tri_o_3),
-//        .IO(gpio_rtl_tri_io[3]),
-//        .O(gpio_rtl_tri_i_3),
-//        .T(gpio_rtl_tri_t_3));
-//  IOBUF gpio_rtl_tri_iobuf_30
-//       (.I(gpio_rtl_tri_o_30),
-//        .IO(gpio_rtl_tri_io[30]),
-//        .O(gpio_rtl_tri_i_30),
-//        .T(gpio_rtl_tri_t_30));
-//  IOBUF gpio_rtl_tri_iobuf_31
-//       (.I(gpio_rtl_tri_o_31),
-//        .IO(gpio_rtl_tri_io[31]),
-//        .O(gpio_rtl_tri_i_31),
-//        .T(gpio_rtl_tri_t_31));
-//  IOBUF gpio_rtl_tri_iobuf_4
-//       (.I(gpio_rtl_tri_o_4),
-//        .IO(gpio_rtl_tri_io[4]),
-//        .O(gpio_rtl_tri_i_4),
-//        .T(gpio_rtl_tri_t_4));
-//  IOBUF gpio_rtl_tri_iobuf_5
-//       (.I(gpio_rtl_tri_o_5),
-//        .IO(gpio_rtl_tri_io[5]),
-//        .O(gpio_rtl_tri_i_5),
-//        .T(gpio_rtl_tri_t_5));
-//  IOBUF gpio_rtl_tri_iobuf_6
-//       (.I(gpio_rtl_tri_o_6),
-//        .IO(gpio_rtl_tri_io[6]),
-//        .O(gpio_rtl_tri_i_6),
-//        .T(gpio_rtl_tri_t_6));
-//  IOBUF gpio_rtl_tri_iobuf_7
-//       (.I(gpio_rtl_tri_o_7),
-//        .IO(gpio_rtl_tri_io[7]),
-//        .O(gpio_rtl_tri_i_7),
-//        .T(gpio_rtl_tri_t_7));
-//  IOBUF gpio_rtl_tri_iobuf_8
-//       (.I(gpio_rtl_tri_o_8),
-//        .IO(gpio_rtl_tri_io[8]),
-//        .O(gpio_rtl_tri_i_8),
-//        .T(gpio_rtl_tri_t_8));
-//  IOBUF gpio_rtl_tri_iobuf_9
-//       (.I(gpio_rtl_tri_o_9),
-//        .IO(gpio_rtl_tri_io[9]),
-//        .O(gpio_rtl_tri_i_9),
-//        .T(gpio_rtl_tri_t_9));
+  /*IOBUF gpio_rtl_tri_iobuf_0
+       (.I(gpio_rtl_tri_o_0),
+        .IO(gpio_rtl_tri_io[0]),
+        .O(gpio_rtl_tri_i_0),
+        .T(gpio_rtl_tri_t_0));
+  IOBUF gpio_rtl_tri_iobuf_1
+       (.I(gpio_rtl_tri_o_1),
+        .IO(gpio_rtl_tri_io[1]),
+        .O(gpio_rtl_tri_i_1),
+        .T(gpio_rtl_tri_t_1));
+  IOBUF gpio_rtl_tri_iobuf_10
+       (.I(gpio_rtl_tri_o_10),
+        .IO(gpio_rtl_tri_io[10]),
+        .O(gpio_rtl_tri_i_10),
+        .T(gpio_rtl_tri_t_10));
+  IOBUF gpio_rtl_tri_iobuf_11
+       (.I(gpio_rtl_tri_o_11),
+        .IO(gpio_rtl_tri_io[11]),
+        .O(gpio_rtl_tri_i_11),
+        .T(gpio_rtl_tri_t_11));
+  IOBUF gpio_rtl_tri_iobuf_12
+       (.I(gpio_rtl_tri_o_12),
+        .IO(gpio_rtl_tri_io[12]),
+        .O(gpio_rtl_tri_i_12),
+        .T(gpio_rtl_tri_t_12));
+  IOBUF gpio_rtl_tri_iobuf_13
+       (.I(gpio_rtl_tri_o_13),
+        .IO(gpio_rtl_tri_io[13]),
+        .O(gpio_rtl_tri_i_13),
+        .T(gpio_rtl_tri_t_13));
+  IOBUF gpio_rtl_tri_iobuf_14
+       (.I(gpio_rtl_tri_o_14),
+        .IO(gpio_rtl_tri_io[14]),
+        .O(gpio_rtl_tri_i_14),
+        .T(gpio_rtl_tri_t_14));
+  IOBUF gpio_rtl_tri_iobuf_15
+       (.I(gpio_rtl_tri_o_15),
+        .IO(gpio_rtl_tri_io[15]),
+        .O(gpio_rtl_tri_i_15),
+        .T(gpio_rtl_tri_t_15));
+  IOBUF gpio_rtl_tri_iobuf_16
+       (.I(gpio_rtl_tri_o_16),
+        .IO(gpio_rtl_tri_io[16]),
+        .O(gpio_rtl_tri_i_16),
+        .T(gpio_rtl_tri_t_16));
+  IOBUF gpio_rtl_tri_iobuf_17
+       (.I(gpio_rtl_tri_o_17),
+        .IO(gpio_rtl_tri_io[17]),
+        .O(gpio_rtl_tri_i_17),
+        .T(gpio_rtl_tri_t_17));
+  IOBUF gpio_rtl_tri_iobuf_18
+       (.I(gpio_rtl_tri_o_18),
+        .IO(gpio_rtl_tri_io[18]),
+        .O(gpio_rtl_tri_i_18),
+        .T(gpio_rtl_tri_t_18));
+  IOBUF gpio_rtl_tri_iobuf_19
+       (.I(gpio_rtl_tri_o_19),
+        .IO(gpio_rtl_tri_io[19]),
+        .O(gpio_rtl_tri_i_19),
+        .T(gpio_rtl_tri_t_19));
+  IOBUF gpio_rtl_tri_iobuf_2
+       (.I(gpio_rtl_tri_o_2),
+        .IO(gpio_rtl_tri_io[2]),
+        .O(gpio_rtl_tri_i_2),
+        .T(gpio_rtl_tri_t_2));
+  IOBUF gpio_rtl_tri_iobuf_20
+       (.I(gpio_rtl_tri_o_20),
+        .IO(gpio_rtl_tri_io[20]),
+        .O(gpio_rtl_tri_i_20),
+        .T(gpio_rtl_tri_t_20));
+  IOBUF gpio_rtl_tri_iobuf_21
+       (.I(gpio_rtl_tri_o_21),
+        .IO(gpio_rtl_tri_io[21]),
+        .O(gpio_rtl_tri_i_21),
+        .T(gpio_rtl_tri_t_21));
+  IOBUF gpio_rtl_tri_iobuf_22
+       (.I(gpio_rtl_tri_o_22),
+        .IO(gpio_rtl_tri_io[22]),
+        .O(gpio_rtl_tri_i_22),
+        .T(gpio_rtl_tri_t_22));
+  IOBUF gpio_rtl_tri_iobuf_23
+       (.I(gpio_rtl_tri_o_23),
+        .IO(gpio_rtl_tri_io[23]),
+        .O(gpio_rtl_tri_i_23),
+        .T(gpio_rtl_tri_t_23));
+  IOBUF gpio_rtl_tri_iobuf_24
+       (.I(gpio_rtl_tri_o_24),
+        .IO(gpio_rtl_tri_io[24]),
+        .O(gpio_rtl_tri_i_24),
+        .T(gpio_rtl_tri_t_24));
+  IOBUF gpio_rtl_tri_iobuf_25
+       (.I(gpio_rtl_tri_o_25),
+        .IO(gpio_rtl_tri_io[25]),
+        .O(gpio_rtl_tri_i_25),
+        .T(gpio_rtl_tri_t_25));
+  IOBUF gpio_rtl_tri_iobuf_26
+       (.I(gpio_rtl_tri_o_26),
+        .IO(gpio_rtl_tri_io[26]),
+        .O(gpio_rtl_tri_i_26),
+        .T(gpio_rtl_tri_t_26));
+  IOBUF gpio_rtl_tri_iobuf_27
+       (.I(gpio_rtl_tri_o_27),
+        .IO(gpio_rtl_tri_io[27]),
+        .O(gpio_rtl_tri_i_27),
+        .T(gpio_rtl_tri_t_27));
+  IOBUF gpio_rtl_tri_iobuf_28
+       (.I(gpio_rtl_tri_o_28),
+        .IO(gpio_rtl_tri_io[28]),
+        .O(gpio_rtl_tri_i_28),
+        .T(gpio_rtl_tri_t_28));
+  IOBUF gpio_rtl_tri_iobuf_29
+       (.I(gpio_rtl_tri_o_29),
+        .IO(gpio_rtl_tri_io[29]),
+        .O(gpio_rtl_tri_i_29),
+        .T(gpio_rtl_tri_t_29));
+  IOBUF gpio_rtl_tri_iobuf_3
+       (.I(gpio_rtl_tri_o_3),
+        .IO(gpio_rtl_tri_io[3]),
+        .O(gpio_rtl_tri_i_3),
+        .T(gpio_rtl_tri_t_3));
+  IOBUF gpio_rtl_tri_iobuf_30
+       (.I(gpio_rtl_tri_o_30),
+        .IO(gpio_rtl_tri_io[30]),
+        .O(gpio_rtl_tri_i_30),
+        .T(gpio_rtl_tri_t_30));
+  IOBUF gpio_rtl_tri_iobuf_31
+       (.I(gpio_rtl_tri_o_31),
+        .IO(gpio_rtl_tri_io[31]),
+        .O(gpio_rtl_tri_i_31),
+        .T(gpio_rtl_tri_t_31));
+  IOBUF gpio_rtl_tri_iobuf_4
+       (.I(gpio_rtl_tri_o_4),
+        .IO(gpio_rtl_tri_io[4]),
+        .O(gpio_rtl_tri_i_4),
+        .T(gpio_rtl_tri_t_4));
+  IOBUF gpio_rtl_tri_iobuf_5
+       (.I(gpio_rtl_tri_o_5),
+        .IO(gpio_rtl_tri_io[5]),
+        .O(gpio_rtl_tri_i_5),
+        .T(gpio_rtl_tri_t_5));
+  IOBUF gpio_rtl_tri_iobuf_6
+       (.I(gpio_rtl_tri_o_6),
+        .IO(gpio_rtl_tri_io[6]),
+        .O(gpio_rtl_tri_i_6),
+        .T(gpio_rtl_tri_t_6));
+  IOBUF gpio_rtl_tri_iobuf_7
+       (.I(gpio_rtl_tri_o_7),
+        .IO(gpio_rtl_tri_io[7]),
+        .O(gpio_rtl_tri_i_7),
+        .T(gpio_rtl_tri_t_7));
+  IOBUF gpio_rtl_tri_iobuf_8
+       (.I(gpio_rtl_tri_o_8),
+        .IO(gpio_rtl_tri_io[8]),
+        .O(gpio_rtl_tri_i_8),
+        .T(gpio_rtl_tri_t_8));
+  IOBUF gpio_rtl_tri_iobuf_9
+       (.I(gpio_rtl_tri_o_9),
+        .IO(gpio_rtl_tri_io[9]),
+        .O(gpio_rtl_tri_i_9),
+        .T(gpio_rtl_tri_t_9));
   IOBUF mdio_mdc_mdio_iobuf
        (.I(mdio_mdc_mdio_o),
         .IO(mdio_mdc_mdio_io),
         .O(mdio_mdc_mdio_i),
-        .T(mdio_mdc_mdio_t));
+        .T(mdio_mdc_mdio_t));*/
 endmodule

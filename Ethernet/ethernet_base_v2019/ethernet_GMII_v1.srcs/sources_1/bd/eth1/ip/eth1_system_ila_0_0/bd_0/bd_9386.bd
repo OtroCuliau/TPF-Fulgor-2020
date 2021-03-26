@@ -1,7 +1,7 @@
 {
   "design": {
     "design_info": {
-      "boundary_crc": "0xC3B1A32ED27F285",
+      "boundary_crc": "0x3C1796349D8E510C",
       "design_src": "SBD",
       "device": "xc7k325tffg900-2",
       "name": "bd_9386",
@@ -130,6 +130,30 @@
             "value_src": "default"
           }
         }
+      },
+      "SLOT_2_GPIO": {
+        "mode": "Monitor",
+        "vlnv": "xilinx.com:interface:gpio_rtl:1.0",
+        "port_maps": {
+          "TRI_I": {
+            "physical_name": "SLOT_2_GPIO_tri_i",
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "TRI_O": {
+            "physical_name": "SLOT_2_GPIO_tri_o",
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "TRI_T": {
+            "physical_name": "SLOT_2_GPIO_tri_t",
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          }
+        }
       }
     },
     "ports": {
@@ -174,6 +198,21 @@
             "value_src": "constant"
           }
         }
+      },
+      "SLOT_2_GPIO_tri_i": {
+        "direction": "I",
+        "left": "31",
+        "right": "0"
+      },
+      "SLOT_2_GPIO_tri_o": {
+        "direction": "I",
+        "left": "31",
+        "right": "0"
+      },
+      "SLOT_2_GPIO_tri_t": {
+        "direction": "I",
+        "left": "31",
+        "right": "0"
       }
     },
     "components": {
@@ -209,13 +248,31 @@
             "value": "Native"
           },
           "C_NUM_OF_PROBES": {
-            "value": "10"
+            "value": "13"
           },
           "C_PROBE0_TYPE": {
             "value": "0"
           },
           "C_PROBE0_WIDTH": {
             "value": "512"
+          },
+          "C_PROBE10_TYPE": {
+            "value": "0"
+          },
+          "C_PROBE10_WIDTH": {
+            "value": "32"
+          },
+          "C_PROBE11_TYPE": {
+            "value": "0"
+          },
+          "C_PROBE11_WIDTH": {
+            "value": "32"
+          },
+          "C_PROBE12_TYPE": {
+            "value": "0"
+          },
+          "C_PROBE12_WIDTH": {
+            "value": "32"
           },
           "C_PROBE1_TYPE": {
             "value": "0"
@@ -441,6 +498,24 @@
         "ports": [
           "g_inst/m_slot_1_axis_tlast",
           "ila_lib/probe9"
+        ]
+      },
+      "SLOT_2_GPIO_tri_i_1": {
+        "ports": [
+          "SLOT_2_GPIO_tri_i",
+          "ila_lib/probe10"
+        ]
+      },
+      "SLOT_2_GPIO_tri_o_1": {
+        "ports": [
+          "SLOT_2_GPIO_tri_o",
+          "ila_lib/probe11"
+        ]
+      },
+      "SLOT_2_GPIO_tri_t_1": {
+        "ports": [
+          "SLOT_2_GPIO_tri_t",
+          "ila_lib/probe12"
         ]
       }
     }

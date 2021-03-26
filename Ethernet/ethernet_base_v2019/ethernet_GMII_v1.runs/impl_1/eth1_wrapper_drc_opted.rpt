@@ -1,8 +1,8 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------
-| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
-| Date         : Fri Mar 19 19:40:09 2021
-| Host         : DESKTOP-9VJG89D running 64-bit major release  (build 9200)
+| Tool Version : Vivado v.2019.2 (lin64) Build 2708876 Wed Nov  6 21:39:14 MST 2019
+| Date         : Fri Mar 26 12:45:16 2021
+| Host         : huaira running 64-bit Linux Mint 20
 | Command      : report_drc -file eth1_wrapper_drc_opted.rpt -pb eth1_wrapper_drc_opted.pb -rpx eth1_wrapper_drc_opted.rpx
 | Design       : eth1_wrapper
 | Device       : xc7k325tffg900-2
@@ -57,7 +57,7 @@ Related violations: <none>
 
 REQP-1839#1 Warning
 RAMB36 async control check  
-The RAMB36E1 eth1_i/axi_ethernet_0/inst/eth_buf/U0/RCV_INTFCE_I/RX_DP_MEM_IF_I/I_RXS_MEM/xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg has an input control pin eth1_i/axi_ethernet_0/inst/eth_buf/U0/RCV_INTFCE_I/RX_DP_MEM_IF_I/I_RXS_MEM/xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg/ENARDEN (net: eth1_i/axi_ethernet_0/inst/eth_buf/U0/RCV_INTFCE_I/RX_DP_MEM_IF_I/I_RXS_MEM/xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_ENARDEN_cooolgate_en_sig_104) which is driven by a register (eth1_i/axi_ethernet_0/inst/eth_buf/U0/COMBINE_RESETS/AXI_RESET_TO_RXS_AXSTREAM/ClkB_reset_inst/async_rst4_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+The RAMB36E1 eth1_i/axi_ethernet_0/inst/eth_buf/U0/RCV_INTFCE_I/RX_DP_MEM_IF_I/I_RXS_MEM/xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg has an input control pin eth1_i/axi_ethernet_0/inst/eth_buf/U0/RCV_INTFCE_I/RX_DP_MEM_IF_I/I_RXS_MEM/xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg/ENARDEN (net: eth1_i/axi_ethernet_0/inst/eth_buf/U0/RCV_INTFCE_I/RX_DP_MEM_IF_I/I_RXS_MEM/xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_ENARDEN_cooolgate_en_sig_107) which is driven by a register (eth1_i/axi_ethernet_0/inst/eth_buf/U0/COMBINE_RESETS/AXI_RESET_TO_RXS_AXSTREAM/ClkB_reset_inst/async_rst4_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
 Related violations: <none>
 
 REQP-165#1 Advisory

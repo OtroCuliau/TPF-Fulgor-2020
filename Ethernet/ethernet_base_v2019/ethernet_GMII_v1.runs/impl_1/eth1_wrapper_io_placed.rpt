@@ -1,8 +1,8 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------
-| Tool Version              : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
-| Date                      : Fri Mar 19 19:50:53 2021
-| Host                      : DESKTOP-9VJG89D running 64-bit major release  (build 9200)
+| Tool Version              : Vivado v.2019.2 (lin64) Build 2708876 Wed Nov  6 21:39:14 MST 2019
+| Date                      : Fri Mar 26 12:48:56 2021
+| Host                      : huaira running 64-bit Linux Mint 20
 | Command                   : report_io -file eth1_wrapper_io_placed.rpt
 | Design                    : eth1_wrapper
 | Device                    : xc7k325t
@@ -595,7 +595,7 @@ Table of Contents
 | J18        |                      | High Range       | IO_L1N_T0_17                 | User IO       |                   |      17 |            |      |                     |                      |         |            |           |          |          |                  |              |                   |              |
 | J19        |                      | High Range       | IO_L4P_T0_17                 | User IO       |                   |      17 |            |      |                     |                      |         |            |           |          |          |                  |              |                   |              |
 | J20        |                      |                  | GND                          | GND           |                   |         |            |      |                     |                      |     0.0 |            |           |          |          |                  |              |                   |              |
-| J21        | mdio_mdc_mdio_io     | High Range       | IO_L5P_T0_AD2P_15            | BIDIR         | LVCMOS25          |      15 |         12 | SLOW |                     |            FP_VTT_50 |         | FIXED      |           |          |          | NONE             |              |                   |              |
+| J21        |                      | High Range       | IO_L5P_T0_AD2P_15            | User IO       |                   |      15 |            |      |                     |                      |         |            |           |          |          |                  |              |                   |              |
 | J22        |                      | High Range       | IO_L5N_T0_AD2N_15            | User IO       |                   |      15 |            |      |                     |                      |         |            |           |          |          |                  |              |                   |              |
 | J23        |                      | High Range       | IO_L1P_T0_AD0P_15            | User IO       |                   |      15 |            |      |                     |                      |         |            |           |          |          |                  |              |                   |              |
 | J24        |                      | High Range       | IO_L1N_T0_AD0N_15            | User IO       |                   |      15 |            |      |                     |                      |         |            |           |          |          |                  |              |                   |              |

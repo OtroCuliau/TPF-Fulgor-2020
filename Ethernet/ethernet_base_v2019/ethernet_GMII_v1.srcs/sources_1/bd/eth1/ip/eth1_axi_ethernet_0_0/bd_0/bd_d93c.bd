@@ -798,10 +798,10 @@
       }
     },
     "interface_nets": {
-      "eth_buf_AXI_STR_RXS": {
+      "mac_mdio_internal": {
         "interface_ports": [
-          "m_axis_rxs",
-          "eth_buf/AXI_STR_RXS"
+          "mdio",
+          "mac/mdio_internal"
         ]
       },
       "mac_m_axis_rx": {
@@ -810,10 +810,10 @@
           "mac/m_axis_rx"
         ]
       },
-      "mac_mdio_internal": {
+      "eth_buf_AXI_STR_RXS": {
         "interface_ports": [
-          "mdio",
-          "mac/mdio_internal"
+          "m_axis_rxs",
+          "eth_buf/AXI_STR_RXS"
         ]
       },
       "eth_buf_AXI_STR_RXD": {

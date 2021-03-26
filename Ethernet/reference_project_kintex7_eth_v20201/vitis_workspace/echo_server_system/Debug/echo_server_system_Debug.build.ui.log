@@ -1,8 +1,0 @@
-2021-01-13T21:18:04.176284700255-21:18:04 **** Clean-only build of configuration Debug for project echo_server_system ****
-000-make clean 
-000-rm -rf ./_sds
-000-rm -rf package
-000-rm -f system.bif
-00255-
-21:18:04 Build Finished (took 279ms)
-

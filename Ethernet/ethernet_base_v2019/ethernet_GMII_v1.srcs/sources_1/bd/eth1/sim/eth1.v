@@ -1,8 +1,8 @@
 //Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
-//Tool Version: Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
-//Date        : Fri Mar 19 17:59:11 2021
-//Host        : DESKTOP-9VJG89D running 64-bit major release  (build 9200)
+//Tool Version: Vivado v.2019.2 (lin64) Build 2708876 Wed Nov  6 21:39:14 MST 2019
+//Date        : Fri Mar 26 12:12:35 2021
+//Host        : huaira running 64-bit Linux Mint 20
 //Command     : generate_target eth1.bd
 //Design      : eth1
 //Purpose     : IP block netlist
@@ -225,9 +225,9 @@ module eth1
   wire axi_ethernet_0_mdio_MDIO_O;
   wire axi_ethernet_0_mdio_MDIO_T;
   wire [0:0]axi_ethernet_0_phy_rst_n;
-  wire [31:0]axi_gpio_0_GPIO_TRI_I;
-  wire [31:0]axi_gpio_0_GPIO_TRI_O;
-  wire [31:0]axi_gpio_0_GPIO_TRI_T;
+  (* CONN_BUS_INFO = "axi_gpio_0_GPIO xilinx.com:interface:gpio:1.0 None TRI_I" *) (* DEBUG = "true" *) (* MARK_DEBUG *) wire [31:0]axi_gpio_0_GPIO_TRI_I;
+  (* CONN_BUS_INFO = "axi_gpio_0_GPIO xilinx.com:interface:gpio:1.0 None TRI_O" *) (* DEBUG = "true" *) (* MARK_DEBUG *) wire [31:0]axi_gpio_0_GPIO_TRI_O;
+  (* CONN_BUS_INFO = "axi_gpio_0_GPIO xilinx.com:interface:gpio:1.0 None TRI_T" *) (* DEBUG = "true" *) (* MARK_DEBUG *) wire [31:0]axi_gpio_0_GPIO_TRI_T;
   wire [29:0]axi_smc_M00_AXI_ARADDR;
   wire [1:0]axi_smc_M00_AXI_ARBURST;
   wire [3:0]axi_smc_M00_AXI_ARCACHE;
@@ -1480,6 +1480,9 @@ module eth1
         .SLOT_1_AXIS_tlast(axis_data_fifo_0_M_AXIS_TLAST),
         .SLOT_1_AXIS_tready(axis_data_fifo_0_M_AXIS_TREADY),
         .SLOT_1_AXIS_tvalid(axis_data_fifo_0_M_AXIS_TVALID),
+        .SLOT_2_GPIO_tri_i(axi_gpio_0_GPIO_TRI_I),
+        .SLOT_2_GPIO_tri_o(axi_gpio_0_GPIO_TRI_O),
+        .SLOT_2_GPIO_tri_t(axi_gpio_0_GPIO_TRI_T),
         .clk(microblaze_0_Clk),
         .resetn(rst_mig_7series_0_100M_peripheral_aresetn));
 endmodule

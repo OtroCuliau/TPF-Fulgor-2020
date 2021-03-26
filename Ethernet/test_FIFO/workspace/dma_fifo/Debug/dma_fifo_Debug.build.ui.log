@@ -1,26 +1,0 @@
-2021-02-03T03:14:55.920175700255-03:14:55 **** Build of configuration Debug for project dma_fifo ****
-000-make all 
-000-'Building file: ../src/platform.c'
-000-'Invoking: MicroBlaze gcc compiler'
-000-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -ID:/dario/fulgor/trabajo_final/vivado_projects/test_FIFO/workspace/DMA_FIFO_wrapper/export/DMA_FIFO_wrapper/sw/DMA_FIFO_wrapper/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
-000-'Finished building: ../src/platform.c'
-000-' '
-000-'Building file: ../src/xaxidma_example_sg_poll.c'
-000-'Invoking: MicroBlaze gcc compiler'
-000-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xaxidma_example_sg_poll.o" -ID:/dario/fulgor/trabajo_final/vivado_projects/test_FIFO/workspace/DMA_FIFO_wrapper/export/DMA_FIFO_wrapper/sw/DMA_FIFO_wrapper/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xaxidma_example_sg_poll.d" -MT"src/xaxidma_example_sg_poll.o" -o "src/xaxidma_example_sg_poll.o" "../src/xaxidma_example_sg_poll.c"
-000-'Finished building: ../src/xaxidma_example_sg_poll.c'
-000-' '
-000-'Building target: dma_fifo.elf'
-000-'Invoking: MicroBlaze gcc linker'
-000-mb-gcc -Wl,-T -Wl,../src/lscript.ld -LD:/dario/fulgor/trabajo_final/vivado_projects/test_FIFO/workspace/DMA_FIFO_wrapper/export/DMA_FIFO_wrapper/sw/DMA_FIFO_wrapper/standalone_domain/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "dma_fifo.elf"  ./src/platform.o ./src/xaxidma_example_sg_poll.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-000-'Finished building target: dma_fifo.elf'
-000-' '
-000-'Invoking: MicroBlaze Print Size'
-000-mb-size dma_fifo.elf  |tee "dma_fifo.elf.size"
-000-   text	   data	    bss	    dec	    hex	filename
-000-  27200	   1796	   5044	  34040	   84f8	dma_fifo.elf
-000-'Finished building: dma_fifo.elf.size'
-000-' '
-00255-
-03:15:02 Build Finished (took 6s.861ms)
-

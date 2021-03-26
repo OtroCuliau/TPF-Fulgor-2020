@@ -3,7 +3,7 @@
 <!--                                                         -->
 <!-- Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="44" Path="D:/dario/fulgor/trabajo_final/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.xpr">
+<Project Version="7" Minor="44" Path="/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="505af6cdfeac4316a5bb8876a2cbe5df"/>
@@ -66,23 +66,23 @@
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
-        <CompFileExtendedInfo CompFileName="eth1.bd" FileRelPathName="ip/eth1_axis_data_fifo_0_1/eth1_axis_data_fifo_0_1.xci">
-          <Proxy FileSetName="eth1_axis_data_fifo_0_1"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="eth1.bd" FileRelPathName="ip/eth1_system_ila_0_0/eth1_system_ila_0_0.xci">
-          <Proxy FileSetName="eth1_system_ila_0_0"/>
-        </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="eth1.bd" FileRelPathName="ip/eth1_ilmb_bram_if_cntlr_3/eth1_ilmb_bram_if_cntlr_3.xci">
           <Proxy FileSetName="eth1_ilmb_bram_if_cntlr_3"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="eth1.bd" FileRelPathName="ip/eth1_lmb_bram_3/eth1_lmb_bram_3.xci">
           <Proxy FileSetName="eth1_lmb_bram_3"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="eth1.bd" FileRelPathName="ip/eth1_xbar_1/eth1_xbar_1.xci">
-          <Proxy FileSetName="eth1_xbar_1"/>
+        <CompFileExtendedInfo CompFileName="eth1.bd" FileRelPathName="ip/eth1_axi_dma_0_0/eth1_axi_dma_0_0.xci">
+          <Proxy FileSetName="eth1_axi_dma_0_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="eth1.bd" FileRelPathName="ip/eth1_axi_ethernet_0_gtxclk_0/eth1_axi_ethernet_0_gtxclk_0.xci">
-          <Proxy FileSetName="eth1_axi_ethernet_0_gtxclk_0"/>
+        <CompFileExtendedInfo CompFileName="eth1.bd" FileRelPathName="ip/eth1_axis_data_fifo_0_1/eth1_axis_data_fifo_0_1.xci">
+          <Proxy FileSetName="eth1_axis_data_fifo_0_1"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="eth1.bd" FileRelPathName="ip/eth1_system_ila_0_0/eth1_system_ila_0_0.xci">
+          <Proxy FileSetName="eth1_system_ila_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="eth1.bd" FileRelPathName="ip/eth1_axi_gpio_0_0/eth1_axi_gpio_0_0.xci">
+          <Proxy FileSetName="eth1_axi_gpio_0_0"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="eth1.bd" FileRelPathName="ip/eth1_axi_ethernet_0_0/eth1_axi_ethernet_0_0.xci">
           <Proxy FileSetName="eth1_axi_ethernet_0_0"/>
@@ -90,11 +90,11 @@
         <CompFileExtendedInfo CompFileName="eth1.bd" FileRelPathName="ip/eth1_microblaze_0_axi_intc_3/eth1_microblaze_0_axi_intc_3.xci">
           <Proxy FileSetName="eth1_microblaze_0_axi_intc_3"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="eth1.bd" FileRelPathName="ip/eth1_axi_dma_0_0/eth1_axi_dma_0_0.xci">
-          <Proxy FileSetName="eth1_axi_dma_0_0"/>
+        <CompFileExtendedInfo CompFileName="eth1.bd" FileRelPathName="ip/eth1_xbar_1/eth1_xbar_1.xci">
+          <Proxy FileSetName="eth1_xbar_1"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="eth1.bd" FileRelPathName="ip/eth1_axi_gpio_0_0/eth1_axi_gpio_0_0.xci">
-          <Proxy FileSetName="eth1_axi_gpio_0_0"/>
+        <CompFileExtendedInfo CompFileName="eth1.bd" FileRelPathName="ip/eth1_axi_ethernet_0_gtxclk_0/eth1_axi_ethernet_0_gtxclk_0.xci">
+          <Proxy FileSetName="eth1_axi_ethernet_0_gtxclk_0"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="eth1.bd" FileRelPathName="ip/ip_1/bd_d93c_mac_0.xci">
           <Proxy FileSetName="bd_d93c_mac_0"/>
@@ -234,11 +234,17 @@
     <Simulator Name="Questa">
       <Option Name="Description" Val="Questa Advanced Simulator"/>
     </Simulator>
+    <Simulator Name="IES">
+      <Option Name="Description" Val="Incisive Enterprise Simulator (IES)"/>
+    </Simulator>
+    <Simulator Name="Xcelium">
+      <Option Name="Description" Val="Xcelium Parallel Simulator"/>
+    </Simulator>
+    <Simulator Name="VCS">
+      <Option Name="Description" Val="Verilog Compiler Simulator (VCS)"/>
+    </Simulator>
     <Simulator Name="Riviera">
       <Option Name="Description" Val="Riviera-PRO Simulator"/>
-    </Simulator>
-    <Simulator Name="ActiveHDL">
-      <Option Name="Description" Val="Active-HDL Simulator"/>
     </Simulator>
   </Simulators>
   <Runs Version="1" Minor="11">
@@ -324,9 +330,7 @@
     </Run>
     <Run Id="eth1_axis_data_fifo_0_1_synth_1" Type="Ft3:Synth" SrcSet="eth1_axis_data_fifo_0_1" Part="xc7k325tffg900-2" ConstrsSet="eth1_axis_data_fifo_0_1" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/eth1_axis_data_fifo_0_1_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2019">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2019"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -336,9 +340,7 @@
     </Run>
     <Run Id="eth1_system_ila_0_0_synth_1" Type="Ft3:Synth" SrcSet="eth1_system_ila_0_0" Part="xc7k325tffg900-2" ConstrsSet="eth1_system_ila_0_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/eth1_system_ila_0_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2019">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2019"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -348,9 +350,7 @@
     </Run>
     <Run Id="eth1_axi_dma_0_0_synth_1" Type="Ft3:Synth" SrcSet="eth1_axi_dma_0_0" Part="xc7k325tffg900-2" ConstrsSet="eth1_axi_dma_0_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/eth1_axi_dma_0_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2019">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2019"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -360,9 +360,7 @@
     </Run>
     <Run Id="eth1_axi_gpio_0_0_synth_1" Type="Ft3:Synth" SrcSet="eth1_axi_gpio_0_0" Part="xc7k325tffg900-2" ConstrsSet="eth1_axi_gpio_0_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/eth1_axi_gpio_0_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2019">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2019"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -509,9 +507,7 @@
     </Run>
     <Run Id="eth1_axis_data_fifo_0_1_impl_1" Type="Ft2:EntireDesign" Part="xc7k325tffg900-2" ConstrsSet="eth1_axis_data_fifo_0_1" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="eth1_axis_data_fifo_0_1_synth_1" IncludeInArchive="false" GenFullBitstream="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2019">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2019"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -528,9 +524,7 @@
     </Run>
     <Run Id="eth1_system_ila_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7k325tffg900-2" ConstrsSet="eth1_system_ila_0_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="eth1_system_ila_0_0_synth_1" IncludeInArchive="false" GenFullBitstream="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2019">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2019"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -547,9 +541,7 @@
     </Run>
     <Run Id="eth1_axi_dma_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7k325tffg900-2" ConstrsSet="eth1_axi_dma_0_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="eth1_axi_dma_0_0_synth_1" IncludeInArchive="false" GenFullBitstream="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2019">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2019"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -566,9 +558,7 @@
     </Run>
     <Run Id="eth1_axi_gpio_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7k325tffg900-2" ConstrsSet="eth1_axi_gpio_0_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="eth1_axi_gpio_0_0_synth_1" IncludeInArchive="false" GenFullBitstream="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2019">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2019"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>

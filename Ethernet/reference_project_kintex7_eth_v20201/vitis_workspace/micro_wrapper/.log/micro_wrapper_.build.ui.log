@@ -1,29 +1,0 @@
-2021-01-13T21:18:04.851577900255-21:18:04 **** Clean-only build of project micro_wrapper ****
-000-buildplatform.bat 51107 micro_wrapper clean 
-000-XSDB Server Channel: tcfchan#1
-000-Cleaning the BSP for domain  - domain_microblaze_0
-000-make -C microblaze_0/libsrc/axidma_v9_11/src -s clean 
-000-
-000-make -C microblaze_0/libsrc/axiethernet_v5_10/src -s clean 
-000-
-000-make -C microblaze_0/libsrc/bram_v4_4/src -s clean 
-000-
-000-make -C microblaze_0/libsrc/cpu_v2_11/src -s clean 
-000-
-000-make -C microblaze_0/libsrc/gpio_v4_6/src -s clean 
-000-
-000-make -C microblaze_0/libsrc/intc_v3_11/src -s clean 
-000-
-000-make -C microblaze_0/libsrc/lwip211_v1_2/src -s clean 
-000-
-000-make -C microblaze_0/libsrc/standalone_v7_2/src -s clean 
-000-
-000-make -C microblaze_0/libsrc/tmrctr_v4_6/src -s clean 
-000-
-000-make -C microblaze_0/libsrc/uartlite_v3_4/src -s clean 
-000-
-000-rm -f microblaze_0/lib/libxil.a
-000-
-00255-
-21:18:09 Build Finished (took 4s.424ms)
-

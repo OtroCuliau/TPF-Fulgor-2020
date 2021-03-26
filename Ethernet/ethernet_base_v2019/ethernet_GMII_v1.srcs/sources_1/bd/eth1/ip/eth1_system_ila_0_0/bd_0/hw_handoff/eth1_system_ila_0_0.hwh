@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Fri Mar 19 17:59:49 2021" VIVADOVERSION="2019.2">
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Fri Mar 26 12:13:03 2021" VIVADOVERSION="2019.2">
 
   <SYSTEMINFO ARCH="kintex7" BOARD="xilinx.com:kc705:part0:1.6" DEVICE="7k325t" NAME="bd_9386" PACKAGE="ffg900" SPEEDGRADE="-2"/>
 
@@ -65,6 +65,21 @@
         <CONNECTION INSTANCE="g_inst" PORT="slot_1_axis_tvalid"/>
       </CONNECTIONS>
     </PORT>
+    <PORT DIR="I" LEFT="31" NAME="SLOT_2_GPIO_tri_i" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_SLOT_2_GPIO_tri_i">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="ila_lib" PORT="probe10"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" LEFT="31" NAME="SLOT_2_GPIO_tri_o" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_SLOT_2_GPIO_tri_o">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="ila_lib" PORT="probe11"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" LEFT="31" NAME="SLOT_2_GPIO_tri_t" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_SLOT_2_GPIO_tri_t">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="ila_lib" PORT="probe12"/>
+      </CONNECTIONS>
+    </PORT>
   </EXTERNALPORTS>
 
   <EXTERNALINTERFACES>
@@ -110,6 +125,13 @@
         <PORTMAP LOGICAL="TLAST" PHYSICAL="SLOT_1_AXIS_tlast"/>
         <PORTMAP LOGICAL="TREADY" PHYSICAL="SLOT_1_AXIS_tready"/>
         <PORTMAP LOGICAL="TVALID" PHYSICAL="SLOT_1_AXIS_tvalid"/>
+      </PORTMAPS>
+    </BUSINTERFACE>
+    <BUSINTERFACE BUSNAME="__NOC__" NAME="SLOT_2_GPIO" TYPE="MONITOR">
+      <PORTMAPS>
+        <PORTMAP LOGICAL="TRI_I" PHYSICAL="SLOT_2_GPIO_tri_i"/>
+        <PORTMAP LOGICAL="TRI_O" PHYSICAL="SLOT_2_GPIO_tri_o"/>
+        <PORTMAP LOGICAL="TRI_T" PHYSICAL="SLOT_2_GPIO_tri_t"/>
       </PORTMAPS>
     </BUSINTERFACE>
   </EXTERNALINTERFACES>
@@ -1687,7 +1709,7 @@
         <PARAMETER NAME="C_SLOT_0_AXI_PROTOCOL" VALUE="AXI4"/>
         <PARAMETER NAME="C_NUM_MONITOR_SLOTS" VALUE="1"/>
         <PARAMETER NAME="C_ENABLE_ILA_AXI_MON" VALUE="0"/>
-        <PARAMETER NAME="C_NUM_OF_PROBES" VALUE="10"/>
+        <PARAMETER NAME="C_NUM_OF_PROBES" VALUE="13"/>
         <PARAMETER NAME="C_DATA_DEPTH" VALUE="1024"/>
         <PARAMETER NAME="C_MAJOR_VERSION" VALUE="2019"/>
         <PARAMETER NAME="C_MINOR_VERSION" VALUE="2"/>
@@ -1721,9 +1743,9 @@
         <PARAMETER NAME="C_PROBE7_WIDTH" VALUE="1"/>
         <PARAMETER NAME="C_PROBE8_WIDTH" VALUE="1"/>
         <PARAMETER NAME="C_PROBE9_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="C_PROBE10_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="C_PROBE11_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="C_PROBE12_WIDTH" VALUE="1"/>
+        <PARAMETER NAME="C_PROBE10_WIDTH" VALUE="32"/>
+        <PARAMETER NAME="C_PROBE11_WIDTH" VALUE="32"/>
+        <PARAMETER NAME="C_PROBE12_WIDTH" VALUE="32"/>
         <PARAMETER NAME="C_PROBE13_WIDTH" VALUE="1"/>
         <PARAMETER NAME="C_PROBE14_WIDTH" VALUE="1"/>
         <PARAMETER NAME="C_PROBE15_WIDTH" VALUE="1"/>
@@ -4860,6 +4882,21 @@
         <PORT DIR="I" LEFT="0" NAME="probe9" RIGHT="0" SIGIS="undef" SIGNAME="g_inst_m_slot_1_axis_tlast">
           <CONNECTIONS>
             <CONNECTION INSTANCE="g_inst" PORT="m_slot_1_axis_tlast"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="probe10" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_SLOT_2_GPIO_tri_i">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="SLOT_2_GPIO_tri_i"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="probe11" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_SLOT_2_GPIO_tri_o">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="SLOT_2_GPIO_tri_o"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="probe12" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_SLOT_2_GPIO_tri_t">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="SLOT_2_GPIO_tri_t"/>
           </CONNECTIONS>
         </PORT>
       </PORTS>

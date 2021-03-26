@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7k325tffg900-2" LaunchTime="1616192864">
-  <File Type="PA-TCL" Name="eth1_wrapper.tcl"/>
-  <File Type="RDS-PROPCONSTRS" Name="eth1_wrapper_drc_synth.rpt"/>
-  <File Type="REPORTS-TCL" Name="eth1_wrapper_reports.tcl"/>
-  <File Type="RDS-RDS" Name="eth1_wrapper.vds"/>
-  <File Type="RDS-UTIL" Name="eth1_wrapper_utilization_synth.rpt"/>
-  <File Type="RDS-UTIL-PB" Name="eth1_wrapper_utilization_synth.pb"/>
-  <File Type="RDS-DCP" Name="eth1_wrapper.dcp"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="eth1_wrapper_timing_summary_synth.rpt"/>
+<GenRun Id="synth_1" LaunchPart="xc7k325tffg900-2" LaunchTime="1616773243">
   <File Type="VDS-TIMING-PB" Name="eth1_wrapper_timing_summary_synth.pb"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="eth1_wrapper_timing_summary_synth.rpt"/>
+  <File Type="RDS-DCP" Name="eth1_wrapper.dcp"/>
+  <File Type="RDS-UTIL-PB" Name="eth1_wrapper_utilization_synth.pb"/>
+  <File Type="RDS-UTIL" Name="eth1_wrapper_utilization_synth.rpt"/>
+  <File Type="RDS-PROPCONSTRS" Name="eth1_wrapper_drc_synth.rpt"/>
+  <File Type="RDS-RDS" Name="eth1_wrapper.vds"/>
+  <File Type="REPORTS-TCL" Name="eth1_wrapper_reports.tcl"/>
+  <File Type="PA-TCL" Name="eth1_wrapper.tcl"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/bd/eth1/eth1.bd">
@@ -65,15 +65,15 @@
     <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2019"/>
     <Step Id="synth_design"/>
   </Strategy>
-  <BlockFileSet Type="BlockSrcs" Name="eth1_xbar_1"/>
-  <BlockFileSet Type="BlockSrcs" Name="eth1_ilmb_bram_if_cntlr_3"/>
-  <BlockFileSet Type="BlockSrcs" Name="eth1_axis_data_fifo_0_1"/>
-  <BlockFileSet Type="BlockSrcs" Name="eth1_axi_ethernet_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="eth1_lmb_bram_3"/>
-  <BlockFileSet Type="BlockSrcs" Name="eth1_microblaze_0_axi_intc_3"/>
+  <BlockFileSet Type="BlockSrcs" Name="eth1_axi_gpio_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="eth1_axi_dma_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="eth1_system_ila_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="eth1_axi_ethernet_0_gtxclk_0"/>
   <BlockFileSet Type="BlockSrcs" Name="bd_d93c_mac_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="eth1_system_ila_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="eth1_axi_dma_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="eth1_axi_gpio_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="eth1_axis_data_fifo_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="eth1_axi_ethernet_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="eth1_microblaze_0_axi_intc_3"/>
+  <BlockFileSet Type="BlockSrcs" Name="eth1_xbar_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="eth1_lmb_bram_3"/>
+  <BlockFileSet Type="BlockSrcs" Name="eth1_ilmb_bram_if_cntlr_3"/>
 </GenRun>

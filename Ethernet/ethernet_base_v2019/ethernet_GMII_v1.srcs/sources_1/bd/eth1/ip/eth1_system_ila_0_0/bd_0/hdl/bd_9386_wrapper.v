@@ -17,6 +17,9 @@ module bd_9386_wrapper
     SLOT_1_AXIS_tlast,
     SLOT_1_AXIS_tready,
     SLOT_1_AXIS_tvalid,
+    SLOT_2_GPIO_tri_i,
+    SLOT_2_GPIO_tri_o,
+    SLOT_2_GPIO_tri_t,
     clk,
     resetn);
   input [511:0]SLOT_0_AXIS_tdata;
@@ -29,6 +32,9 @@ module bd_9386_wrapper
   input SLOT_1_AXIS_tlast;
   input SLOT_1_AXIS_tready;
   input SLOT_1_AXIS_tvalid;
+  input [31:0]SLOT_2_GPIO_tri_i;
+  input [31:0]SLOT_2_GPIO_tri_o;
+  input [31:0]SLOT_2_GPIO_tri_t;
   input clk;
   input resetn;
 
@@ -42,6 +48,9 @@ module bd_9386_wrapper
   wire SLOT_1_AXIS_tlast;
   wire SLOT_1_AXIS_tready;
   wire SLOT_1_AXIS_tvalid;
+  wire [31:0]SLOT_2_GPIO_tri_i;
+  wire [31:0]SLOT_2_GPIO_tri_o;
+  wire [31:0]SLOT_2_GPIO_tri_t;
   wire clk;
   wire resetn;
 
@@ -56,6 +65,9 @@ module bd_9386_wrapper
         .SLOT_1_AXIS_tlast(SLOT_1_AXIS_tlast),
         .SLOT_1_AXIS_tready(SLOT_1_AXIS_tready),
         .SLOT_1_AXIS_tvalid(SLOT_1_AXIS_tvalid),
+        .SLOT_2_GPIO_tri_i(SLOT_2_GPIO_tri_i),
+        .SLOT_2_GPIO_tri_o(SLOT_2_GPIO_tri_o),
+        .SLOT_2_GPIO_tri_t(SLOT_2_GPIO_tri_t),
         .clk(clk),
         .resetn(resetn));
 endmodule

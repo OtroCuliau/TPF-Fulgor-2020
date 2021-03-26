@@ -160,6 +160,8 @@ proc create_root_design { parentCell } {
 
   set SLOT_1_AXIS [ create_bd_intf_port -mode Monitor -vlnv xilinx.com:interface:axis_rtl:1.0 SLOT_1_AXIS ]
 
+  set SLOT_2_GPIO [ create_bd_intf_port -mode Monitor -vlnv xilinx.com:interface:gpio_rtl:1.0 SLOT_2_GPIO ]
+
 
   # Create ports
   set clk [ create_bd_port -dir I -type clk clk ]
@@ -207,9 +209,15 @@ proc create_root_design { parentCell } {
    CONFIG.C_ILA_CLK_FREQ {100000000} \
    CONFIG.C_INPUT_PIPE_STAGES {0} \
    CONFIG.C_MONITOR_TYPE {Native} \
-   CONFIG.C_NUM_OF_PROBES {10} \
+   CONFIG.C_NUM_OF_PROBES {13} \
    CONFIG.C_PROBE0_TYPE {0} \
    CONFIG.C_PROBE0_WIDTH {512} \
+   CONFIG.C_PROBE10_TYPE {0} \
+   CONFIG.C_PROBE10_WIDTH {32} \
+   CONFIG.C_PROBE11_TYPE {0} \
+   CONFIG.C_PROBE11_WIDTH {32} \
+   CONFIG.C_PROBE12_TYPE {0} \
+   CONFIG.C_PROBE12_WIDTH {32} \
    CONFIG.C_PROBE1_TYPE {0} \
    CONFIG.C_PROBE1_WIDTH {64} \
    CONFIG.C_PROBE2_TYPE {0} \
@@ -239,6 +247,9 @@ connect_bd_intf_net -intf_net Conn [get_bd_intf_ports SLOT_0_AXIS] [get_bd_intf_
 connect_bd_intf_net -intf_net Conn1 [get_bd_intf_ports SLOT_1_AXIS] [get_bd_intf_pins g_inst/slot_1_axis]
 
   # Create port connections
+  connect_bd_net -net SLOT_2_GPIO_tri_i_1 [get_bd_ports SLOT_2_GPIO_tri_i] [get_bd_pins ila_lib/probe10]
+  connect_bd_net -net SLOT_2_GPIO_tri_o_1 [get_bd_ports SLOT_2_GPIO_tri_o] [get_bd_pins ila_lib/probe11]
+  connect_bd_net -net SLOT_2_GPIO_tri_t_1 [get_bd_ports SLOT_2_GPIO_tri_t] [get_bd_pins ila_lib/probe12]
   connect_bd_net -net clk_1 [get_bd_ports clk] [get_bd_pins g_inst/aclk] [get_bd_pins ila_lib/clk]
   connect_bd_net -net net_slot_0_axis_tdata [get_bd_pins g_inst/m_slot_0_axis_tdata] [get_bd_pins ila_lib/probe0]
   connect_bd_net -net net_slot_0_axis_tkeep [get_bd_pins g_inst/m_slot_0_axis_tkeep] [get_bd_pins ila_lib/probe1]
