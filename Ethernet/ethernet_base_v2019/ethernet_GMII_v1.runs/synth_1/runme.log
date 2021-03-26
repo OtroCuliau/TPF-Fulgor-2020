@@ -12,49 +12,49 @@ source eth1_wrapper.tcl -notrace
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2019.2/data/ip'.
-add_files: Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 1524.203 ; gain = 85.906 ; free physical = 9905 ; free virtual = 28096
+add_files: Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 1518.105 ; gain = 79.805 ; free physical = 12287 ; free virtual = 29102
 Command: synth_design -top eth1_wrapper -part xc7k325tffg900-2
 Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7k325t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k325t'
 INFO: [Device 21-403] Loading part xc7k325tffg900-2
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 35279 
+INFO: Helper process launched with PID 5874 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1991.742 ; gain = 199.719 ; free physical = 9350 ; free virtual = 27541
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 1991.590 ; gain = 200.719 ; free physical = 11606 ; free virtual = 28450
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'eth1_wrapper' [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.srcs/sources_1/bd/eth1/hdl/eth1_wrapper.v:12]
 INFO: [Synth 8-6157] synthesizing module 'eth1' [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.srcs/sources_1/bd/eth1/synth/eth1.v:13]
-INFO: [Synth 8-6157] synthesizing module 'eth1_axi_dma_0_0' [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/.Xil/Vivado-35211-huaira/realtime/eth1_axi_dma_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'eth1_axi_dma_0_0' (1#1) [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/.Xil/Vivado-35211-huaira/realtime/eth1_axi_dma_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'eth1_axi_dma_0_0' [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/.Xil/Vivado-5799-huaira/realtime/eth1_axi_dma_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'eth1_axi_dma_0_0' (1#1) [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/.Xil/Vivado-5799-huaira/realtime/eth1_axi_dma_0_0_stub.v:6]
 WARNING: [Synth 8-7023] instance 'axi_dma_0' of module 'eth1_axi_dma_0_0' has 64 connections declared, but only 61 given [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.srcs/sources_1/bd/eth1/synth/eth1.v:552]
-INFO: [Synth 8-6157] synthesizing module 'eth1_axi_ethernet_0_0' [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/.Xil/Vivado-35211-huaira/realtime/eth1_axi_ethernet_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'eth1_axi_ethernet_0_0' (2#1) [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/.Xil/Vivado-35211-huaira/realtime/eth1_axi_ethernet_0_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'eth1_axi_ethernet_0_dma_0' [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/.Xil/Vivado-35211-huaira/realtime/eth1_axi_ethernet_0_dma_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'eth1_axi_ethernet_0_dma_0' (3#1) [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/.Xil/Vivado-35211-huaira/realtime/eth1_axi_ethernet_0_dma_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'eth1_axi_ethernet_0_0' [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/.Xil/Vivado-5799-huaira/realtime/eth1_axi_ethernet_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'eth1_axi_ethernet_0_0' (2#1) [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/.Xil/Vivado-5799-huaira/realtime/eth1_axi_ethernet_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'eth1_axi_ethernet_0_dma_0' [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/.Xil/Vivado-5799-huaira/realtime/eth1_axi_ethernet_0_dma_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'eth1_axi_ethernet_0_dma_0' (3#1) [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/.Xil/Vivado-5799-huaira/realtime/eth1_axi_ethernet_0_dma_0_stub.v:6]
 WARNING: [Synth 8-7023] instance 'axi_ethernet_0_dma' of module 'eth1_axi_ethernet_0_dma_0' has 106 connections declared, but only 105 given [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.srcs/sources_1/bd/eth1/synth/eth1.v:677]
-INFO: [Synth 8-6157] synthesizing module 'eth1_axi_ethernet_0_gtxclk_0' [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/.Xil/Vivado-35211-huaira/realtime/eth1_axi_ethernet_0_gtxclk_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'eth1_axi_ethernet_0_gtxclk_0' (4#1) [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/.Xil/Vivado-35211-huaira/realtime/eth1_axi_ethernet_0_gtxclk_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'eth1_axi_ethernet_0_gtxclk_0' [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/.Xil/Vivado-5799-huaira/realtime/eth1_axi_ethernet_0_gtxclk_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'eth1_axi_ethernet_0_gtxclk_0' (4#1) [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/.Xil/Vivado-5799-huaira/realtime/eth1_axi_ethernet_0_gtxclk_0_stub.v:5]
 WARNING: [Synth 8-7023] instance 'axi_ethernet_0_gtxclk' of module 'eth1_axi_ethernet_0_gtxclk_0' has 3 connections declared, but only 2 given [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.srcs/sources_1/bd/eth1/synth/eth1.v:783]
-INFO: [Synth 8-6157] synthesizing module 'eth1_axi_gpio_0_0' [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/.Xil/Vivado-35211-huaira/realtime/eth1_axi_gpio_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'eth1_axi_gpio_0_0' (5#1) [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/.Xil/Vivado-35211-huaira/realtime/eth1_axi_gpio_0_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'eth1_axi_smc_1' [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/.Xil/Vivado-35211-huaira/realtime/eth1_axi_smc_1_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'eth1_axi_smc_1' (6#1) [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/.Xil/Vivado-35211-huaira/realtime/eth1_axi_smc_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'eth1_axi_gpio_0_0' [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/.Xil/Vivado-5799-huaira/realtime/eth1_axi_gpio_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'eth1_axi_gpio_0_0' (5#1) [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/.Xil/Vivado-5799-huaira/realtime/eth1_axi_gpio_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'eth1_axi_smc_1' [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/.Xil/Vivado-5799-huaira/realtime/eth1_axi_smc_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'eth1_axi_smc_1' (6#1) [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/.Xil/Vivado-5799-huaira/realtime/eth1_axi_smc_1_stub.v:6]
 WARNING: [Synth 8-7023] instance 'axi_smc' of module 'eth1_axi_smc_1' has 216 connections declared, but only 192 given [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.srcs/sources_1/bd/eth1/synth/eth1.v:809]
-INFO: [Synth 8-6157] synthesizing module 'eth1_axi_timer_0_0' [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/.Xil/Vivado-35211-huaira/realtime/eth1_axi_timer_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'eth1_axi_timer_0_0' (7#1) [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/.Xil/Vivado-35211-huaira/realtime/eth1_axi_timer_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'eth1_axi_timer_0_0' [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/.Xil/Vivado-5799-huaira/realtime/eth1_axi_timer_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'eth1_axi_timer_0_0' (7#1) [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/.Xil/Vivado-5799-huaira/realtime/eth1_axi_timer_0_0_stub.v:6]
 WARNING: [Synth 8-7023] instance 'axi_timer_0' of module 'eth1_axi_timer_0_0' has 26 connections declared, but only 23 given [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.srcs/sources_1/bd/eth1/synth/eth1.v:1002]
-INFO: [Synth 8-6157] synthesizing module 'eth1_axi_uartlite_0_0' [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/.Xil/Vivado-35211-huaira/realtime/eth1_axi_uartlite_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'eth1_axi_uartlite_0_0' (8#1) [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/.Xil/Vivado-35211-huaira/realtime/eth1_axi_uartlite_0_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'eth1_axis_data_fifo_0_1' [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/.Xil/Vivado-35211-huaira/realtime/eth1_axis_data_fifo_0_1_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'eth1_axis_data_fifo_0_1' (9#1) [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/.Xil/Vivado-35211-huaira/realtime/eth1_axis_data_fifo_0_1_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'eth1_mdm_1_3' [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/.Xil/Vivado-35211-huaira/realtime/eth1_mdm_1_3_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'eth1_mdm_1_3' (10#1) [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/.Xil/Vivado-35211-huaira/realtime/eth1_mdm_1_3_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'eth1_microblaze_0_2' [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/.Xil/Vivado-35211-huaira/realtime/eth1_microblaze_0_2_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'eth1_microblaze_0_2' (11#1) [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/.Xil/Vivado-35211-huaira/realtime/eth1_microblaze_0_2_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'eth1_axi_uartlite_0_0' [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/.Xil/Vivado-5799-huaira/realtime/eth1_axi_uartlite_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'eth1_axi_uartlite_0_0' (8#1) [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/.Xil/Vivado-5799-huaira/realtime/eth1_axi_uartlite_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'eth1_axis_data_fifo_0_1' [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/.Xil/Vivado-5799-huaira/realtime/eth1_axis_data_fifo_0_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'eth1_axis_data_fifo_0_1' (9#1) [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/.Xil/Vivado-5799-huaira/realtime/eth1_axis_data_fifo_0_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'eth1_mdm_1_3' [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/.Xil/Vivado-5799-huaira/realtime/eth1_mdm_1_3_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'eth1_mdm_1_3' (10#1) [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/.Xil/Vivado-5799-huaira/realtime/eth1_mdm_1_3_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'eth1_microblaze_0_2' [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/.Xil/Vivado-5799-huaira/realtime/eth1_microblaze_0_2_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'eth1_microblaze_0_2' (11#1) [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/.Xil/Vivado-5799-huaira/realtime/eth1_microblaze_0_2_stub.v:6]
 WARNING: [Synth 8-7023] instance 'microblaze_0' of module 'eth1_microblaze_0_2' has 126 connections declared, but only 108 given [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.srcs/sources_1/bd/eth1/synth/eth1.v:1075]
-INFO: [Synth 8-6157] synthesizing module 'eth1_microblaze_0_axi_intc_3' [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/.Xil/Vivado-35211-huaira/realtime/eth1_microblaze_0_axi_intc_3_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'eth1_microblaze_0_axi_intc_3' (12#1) [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/.Xil/Vivado-35211-huaira/realtime/eth1_microblaze_0_axi_intc_3_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'eth1_microblaze_0_axi_intc_3' [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/.Xil/Vivado-5799-huaira/realtime/eth1_microblaze_0_axi_intc_3_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'eth1_microblaze_0_axi_intc_3' (12#1) [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/.Xil/Vivado-5799-huaira/realtime/eth1_microblaze_0_axi_intc_3_stub.v:6]
 INFO: [Synth 8-6157] synthesizing module 'eth1_microblaze_0_axi_periph_3' [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.srcs/sources_1/bd/eth1/synth/eth1.v:1490]
 INFO: [Synth 8-6157] synthesizing module 'm00_couplers_imp_F5HX7I' [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.srcs/sources_1/bd/eth1/synth/eth1.v:2567]
 INFO: [Synth 8-6155] done synthesizing module 'm00_couplers_imp_F5HX7I' (13#1) [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.srcs/sources_1/bd/eth1/synth/eth1.v:2567]
@@ -72,23 +72,23 @@ INFO: [Synth 8-6157] synthesizing module 'm06_couplers_imp_1L9DHWO' [/home/becar
 INFO: [Synth 8-6155] done synthesizing module 'm06_couplers_imp_1L9DHWO' (19#1) [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.srcs/sources_1/bd/eth1/synth/eth1.v:3345]
 INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_1UNJ14B' [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.srcs/sources_1/bd/eth1/synth/eth1.v:3711]
 INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_1UNJ14B' (20#1) [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.srcs/sources_1/bd/eth1/synth/eth1.v:3711]
-INFO: [Synth 8-6157] synthesizing module 'eth1_xbar_1' [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/.Xil/Vivado-35211-huaira/realtime/eth1_xbar_1_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'eth1_xbar_1' (21#1) [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/.Xil/Vivado-35211-huaira/realtime/eth1_xbar_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'eth1_xbar_1' [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/.Xil/Vivado-5799-huaira/realtime/eth1_xbar_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'eth1_xbar_1' (21#1) [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/.Xil/Vivado-5799-huaira/realtime/eth1_xbar_1_stub.v:6]
 WARNING: [Synth 8-7023] instance 'xbar' of module 'eth1_xbar_1' has 40 connections declared, but only 38 given [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.srcs/sources_1/bd/eth1/synth/eth1.v:2526]
 INFO: [Synth 8-6155] done synthesizing module 'eth1_microblaze_0_axi_periph_3' (22#1) [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.srcs/sources_1/bd/eth1/synth/eth1.v:1490]
 INFO: [Synth 8-6157] synthesizing module 'microblaze_0_local_memory_imp_15K586Y' [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.srcs/sources_1/bd/eth1/synth/eth1.v:3477]
-INFO: [Synth 8-6157] synthesizing module 'eth1_dlmb_bram_if_cntlr_3' [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/.Xil/Vivado-35211-huaira/realtime/eth1_dlmb_bram_if_cntlr_3_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'eth1_dlmb_bram_if_cntlr_3' (23#1) [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/.Xil/Vivado-35211-huaira/realtime/eth1_dlmb_bram_if_cntlr_3_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'eth1_dlmb_v10_3' [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/.Xil/Vivado-35211-huaira/realtime/eth1_dlmb_v10_3_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'eth1_dlmb_v10_3' (24#1) [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/.Xil/Vivado-35211-huaira/realtime/eth1_dlmb_v10_3_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'eth1_dlmb_bram_if_cntlr_3' [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/.Xil/Vivado-5799-huaira/realtime/eth1_dlmb_bram_if_cntlr_3_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'eth1_dlmb_bram_if_cntlr_3' (23#1) [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/.Xil/Vivado-5799-huaira/realtime/eth1_dlmb_bram_if_cntlr_3_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'eth1_dlmb_v10_3' [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/.Xil/Vivado-5799-huaira/realtime/eth1_dlmb_v10_3_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'eth1_dlmb_v10_3' (24#1) [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/.Xil/Vivado-5799-huaira/realtime/eth1_dlmb_v10_3_stub.v:6]
 WARNING: [Synth 8-7023] instance 'dlmb_v10' of module 'eth1_dlmb_v10_3' has 25 connections declared, but only 24 given [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.srcs/sources_1/bd/eth1/synth/eth1.v:3623]
-INFO: [Synth 8-6157] synthesizing module 'eth1_ilmb_bram_if_cntlr_3' [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/.Xil/Vivado-35211-huaira/realtime/eth1_ilmb_bram_if_cntlr_3_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'eth1_ilmb_bram_if_cntlr_3' (25#1) [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/.Xil/Vivado-35211-huaira/realtime/eth1_ilmb_bram_if_cntlr_3_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'eth1_ilmb_v10_3' [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/.Xil/Vivado-35211-huaira/realtime/eth1_ilmb_v10_3_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'eth1_ilmb_v10_3' (26#1) [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/.Xil/Vivado-35211-huaira/realtime/eth1_ilmb_v10_3_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'eth1_ilmb_bram_if_cntlr_3' [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/.Xil/Vivado-5799-huaira/realtime/eth1_ilmb_bram_if_cntlr_3_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'eth1_ilmb_bram_if_cntlr_3' (25#1) [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/.Xil/Vivado-5799-huaira/realtime/eth1_ilmb_bram_if_cntlr_3_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'eth1_ilmb_v10_3' [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/.Xil/Vivado-5799-huaira/realtime/eth1_ilmb_v10_3_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'eth1_ilmb_v10_3' (26#1) [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/.Xil/Vivado-5799-huaira/realtime/eth1_ilmb_v10_3_stub.v:6]
 WARNING: [Synth 8-7023] instance 'ilmb_v10' of module 'eth1_ilmb_v10_3' has 25 connections declared, but only 24 given [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.srcs/sources_1/bd/eth1/synth/eth1.v:3669]
-INFO: [Synth 8-6157] synthesizing module 'eth1_lmb_bram_3' [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/.Xil/Vivado-35211-huaira/realtime/eth1_lmb_bram_3_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'eth1_lmb_bram_3' (27#1) [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/.Xil/Vivado-35211-huaira/realtime/eth1_lmb_bram_3_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'eth1_lmb_bram_3' [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/.Xil/Vivado-5799-huaira/realtime/eth1_lmb_bram_3_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'eth1_lmb_bram_3' (27#1) [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/.Xil/Vivado-5799-huaira/realtime/eth1_lmb_bram_3_stub.v:6]
 WARNING: [Synth 8-7023] instance 'lmb_bram' of module 'eth1_lmb_bram_3' has 16 connections declared, but only 14 given [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.srcs/sources_1/bd/eth1/synth/eth1.v:3694]
 INFO: [Synth 8-6155] done synthesizing module 'microblaze_0_local_memory_imp_15K586Y' (28#1) [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.srcs/sources_1/bd/eth1/synth/eth1.v:3477]
 INFO: [Synth 8-6157] synthesizing module 'eth1_microblaze_0_xlconcat_3' [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.srcs/sources_1/bd/eth1/ip/eth1_microblaze_0_xlconcat_3/synth/eth1_microblaze_0_xlconcat_3.v:58]
@@ -129,23 +129,29 @@ INFO: [Synth 8-6157] synthesizing module 'xlconcat_v2_1_3_xlconcat' [/home/becar
 	Parameter NUM_PORTS bound to: 8 - type: integer 
 INFO: [Synth 8-6155] done synthesizing module 'xlconcat_v2_1_3_xlconcat' (29#1) [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.srcs/sources_1/bd/eth1/ipshared/442e/hdl/xlconcat_v2_1_vl_rfs.v:14]
 INFO: [Synth 8-6155] done synthesizing module 'eth1_microblaze_0_xlconcat_3' (30#1) [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.srcs/sources_1/bd/eth1/ip/eth1_microblaze_0_xlconcat_3/synth/eth1_microblaze_0_xlconcat_3.v:58]
-INFO: [Synth 8-6157] synthesizing module 'eth1_mig_7series_0_0' [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/.Xil/Vivado-35211-huaira/realtime/eth1_mig_7series_0_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'eth1_mig_7series_0_0' (31#1) [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/.Xil/Vivado-35211-huaira/realtime/eth1_mig_7series_0_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'eth1_mig_7series_0_0' [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/.Xil/Vivado-5799-huaira/realtime/eth1_mig_7series_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'eth1_mig_7series_0_0' (31#1) [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/.Xil/Vivado-5799-huaira/realtime/eth1_mig_7series_0_0_stub.v:5]
 WARNING: [Synth 8-7023] instance 'mig_7series_0' of module 'eth1_mig_7series_0_0' has 69 connections declared, but only 58 given [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.srcs/sources_1/bd/eth1/synth/eth1.v:1397]
-INFO: [Synth 8-6157] synthesizing module 'eth1_rst_mig_7series_0_100M_1' [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/.Xil/Vivado-35211-huaira/realtime/eth1_rst_mig_7series_0_100M_1_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'eth1_rst_mig_7series_0_100M_1' (32#1) [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/.Xil/Vivado-35211-huaira/realtime/eth1_rst_mig_7series_0_100M_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'eth1_rst_mig_7series_0_100M_1' [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/.Xil/Vivado-5799-huaira/realtime/eth1_rst_mig_7series_0_100M_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'eth1_rst_mig_7series_0_100M_1' (32#1) [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/.Xil/Vivado-5799-huaira/realtime/eth1_rst_mig_7series_0_100M_1_stub.v:6]
 WARNING: [Synth 8-7023] instance 'rst_mig_7series_0_100M' of module 'eth1_rst_mig_7series_0_100M_1' has 10 connections declared, but only 8 given [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.srcs/sources_1/bd/eth1/synth/eth1.v:1456]
-INFO: [Synth 8-6157] synthesizing module 'eth1_rst_mig_7series_0_200M_3' [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/.Xil/Vivado-35211-huaira/realtime/eth1_rst_mig_7series_0_200M_3_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'eth1_rst_mig_7series_0_200M_3' (33#1) [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/.Xil/Vivado-35211-huaira/realtime/eth1_rst_mig_7series_0_200M_3_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'eth1_rst_mig_7series_0_200M_3' [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/.Xil/Vivado-5799-huaira/realtime/eth1_rst_mig_7series_0_200M_3_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'eth1_rst_mig_7series_0_200M_3' (33#1) [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/.Xil/Vivado-5799-huaira/realtime/eth1_rst_mig_7series_0_200M_3_stub.v:6]
 WARNING: [Synth 8-7023] instance 'rst_mig_7series_0_200M' of module 'eth1_rst_mig_7series_0_200M_3' has 10 connections declared, but only 6 given [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.srcs/sources_1/bd/eth1/synth/eth1.v:1465]
 WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.srcs/sources_1/bd/eth1/synth/eth1.v:1472]
-INFO: [Synth 8-6157] synthesizing module 'eth1_system_ila_0_0' [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/.Xil/Vivado-35211-huaira/realtime/eth1_system_ila_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'eth1_system_ila_0_0' (34#1) [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/.Xil/Vivado-35211-huaira/realtime/eth1_system_ila_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'eth1_system_ila_0_0' [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/.Xil/Vivado-5799-huaira/realtime/eth1_system_ila_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'eth1_system_ila_0_0' (34#1) [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/.Xil/Vivado-5799-huaira/realtime/eth1_system_ila_0_0_stub.v:6]
 INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'axi_dma_0'. This will prevent further optimization [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.srcs/sources_1/bd/eth1/synth/eth1.v:552]
 INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'system_ila_0'. This will prevent further optimization [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.srcs/sources_1/bd/eth1/synth/eth1.v:1472]
 INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'axis_data_fifo_0'. This will prevent further optimization [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.srcs/sources_1/bd/eth1/synth/eth1.v:1049]
 INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'axi_gpio_0'. This will prevent further optimization [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.srcs/sources_1/bd/eth1/synth/eth1.v:786]
 INFO: [Synth 8-6155] done synthesizing module 'eth1' (35#1) [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.srcs/sources_1/bd/eth1/synth/eth1.v:13]
+INFO: [Synth 8-6157] synthesizing module 'IOBUF' [/tools/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:36196]
+	Parameter DRIVE bound to: 12 - type: integer 
+	Parameter IBUF_LOW_PWR bound to: TRUE - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'IOBUF' (36#1) [/tools/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:36196]
 WARNING: [Synth 8-3848] Net gpio_rtl_tri_i_0 in module/entity eth1_wrapper does not have driver. [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.srcs/sources_1/bd/eth1/hdl/eth1_wrapper.v:107]
 WARNING: [Synth 8-3848] Net gpio_rtl_tri_i_1 in module/entity eth1_wrapper does not have driver. [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.srcs/sources_1/bd/eth1/hdl/eth1_wrapper.v:108]
 WARNING: [Synth 8-3848] Net gpio_rtl_tri_i_2 in module/entity eth1_wrapper does not have driver. [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.srcs/sources_1/bd/eth1/hdl/eth1_wrapper.v:119]
@@ -178,8 +184,7 @@ WARNING: [Synth 8-3848] Net gpio_rtl_tri_i_28 in module/entity eth1_wrapper does
 WARNING: [Synth 8-3848] Net gpio_rtl_tri_i_29 in module/entity eth1_wrapper does not have driver. [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.srcs/sources_1/bd/eth1/hdl/eth1_wrapper.v:129]
 WARNING: [Synth 8-3848] Net gpio_rtl_tri_i_30 in module/entity eth1_wrapper does not have driver. [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.srcs/sources_1/bd/eth1/hdl/eth1_wrapper.v:131]
 WARNING: [Synth 8-3848] Net gpio_rtl_tri_i_31 in module/entity eth1_wrapper does not have driver. [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.srcs/sources_1/bd/eth1/hdl/eth1_wrapper.v:132]
-WARNING: [Synth 8-3848] Net mdio_mdc_mdio_i in module/entity eth1_wrapper does not have driver. [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.srcs/sources_1/bd/eth1/hdl/eth1_wrapper.v:236]
-INFO: [Synth 8-6155] done synthesizing module 'eth1_wrapper' (36#1) [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.srcs/sources_1/bd/eth1/hdl/eth1_wrapper.v:12]
+INFO: [Synth 8-6155] done synthesizing module 'eth1_wrapper' (37#1) [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.srcs/sources_1/bd/eth1/hdl/eth1_wrapper.v:12]
 WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat has unconnected port In8[0]
 WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat has unconnected port In9[0]
 WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat has unconnected port In10[0]
@@ -252,9 +257,8 @@ WARNING: [Synth 8-3331] design eth1_microblaze_0_axi_periph_3 has unconnected po
 WARNING: [Synth 8-3331] design eth1_microblaze_0_axi_periph_3 has unconnected port M06_ARESETN
 WARNING: [Synth 8-3331] design eth1_microblaze_0_axi_periph_3 has unconnected port S00_ACLK
 WARNING: [Synth 8-3331] design eth1_microblaze_0_axi_periph_3 has unconnected port S00_ARESETN
-WARNING: [Synth 8-3331] design eth1_wrapper has unconnected port mdio_mdc_mdio_io
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 2061.430 ; gain = 269.406 ; free physical = 9375 ; free virtual = 27568
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 2061.277 ; gain = 270.406 ; free physical = 11630 ; free virtual = 28478
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -267,12 +271,14 @@ Report Check Netlist:
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2064.398 ; gain = 272.375 ; free physical = 9374 ; free virtual = 27567
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 2064.246 ; gain = 273.375 ; free physical = 11630 ; free virtual = 28477
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2064.398 ; gain = 272.375 ; free physical = 9374 ; free virtual = 27567
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 2064.246 ; gain = 273.375 ; free physical = 11630 ; free virtual = 28477
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00.04 ; elapsed = 00:00:00.03 . Memory (MB): peak = 2064.398 ; gain = 0.000 ; free physical = 9367 ; free virtual = 27559
+Netlist sorting complete. Time (s): cpu = 00:00:00.05 ; elapsed = 00:00:00.07 . Memory (MB): peak = 2075.152 ; gain = 0.000 ; free physical = 11621 ; free virtual = 28468
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
@@ -329,21 +335,22 @@ Parsing XDC File [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_
 Finished Parsing XDC File [/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2207.992 ; gain = 0.000 ; free physical = 9250 ; free virtual = 27442
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2200.934 ; gain = 0.000 ; free physical = 11468 ; free virtual = 28342
 INFO: [Project 1-111] Unisim Transformation Summary:
-No Unisim elements were transformed.
+  A total of 1 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 1 instance 
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2207.992 ; gain = 0.000 ; free physical = 9250 ; free virtual = 27442
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.03 . Memory (MB): peak = 2200.934 ; gain = 0.000 ; free physical = 11468 ; free virtual = 28342
 WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'eth1_i/microblaze_0_local_memory/lmb_bram' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 2217.898 ; gain = 425.875 ; free physical = 9344 ; free virtual = 27537
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:16 . Memory (MB): peak = 2213.809 ; gain = 422.938 ; free physical = 11596 ; free virtual = 28461
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7k325tffg900-2
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 2217.898 ; gain = 425.875 ; free physical = 9344 ; free virtual = 27537
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:17 . Memory (MB): peak = 2213.809 ; gain = 422.938 ; free physical = 11596 ; free virtual = 28461
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
@@ -652,10 +659,10 @@ Applied set_property DONT_TOUCH = true for eth1_i/axis_data_fifo_0. (constraint 
 Applied set_property DONT_TOUCH = true for eth1_i/system_ila_0. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for eth1_i/axi_gpio_0. (constraint file  auto generated constraint, line ).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 2217.898 ; gain = 425.875 ; free physical = 9344 ; free virtual = 27537
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:17 . Memory (MB): peak = 2213.809 ; gain = 422.938 ; free physical = 11596 ; free virtual = 28461
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 2217.898 ; gain = 425.875 ; free physical = 9345 ; free virtual = 27538
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:17 . Memory (MB): peak = 2213.809 ; gain = 422.938 ; free physical = 11594 ; free virtual = 28460
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -706,9 +713,8 @@ WARNING: [Synth 8-3331] design eth1_microblaze_0_axi_periph_3 has unconnected po
 WARNING: [Synth 8-3331] design eth1_microblaze_0_axi_periph_3 has unconnected port M06_ARESETN
 WARNING: [Synth 8-3331] design eth1_microblaze_0_axi_periph_3 has unconnected port S00_ACLK
 WARNING: [Synth 8-3331] design eth1_microblaze_0_axi_periph_3 has unconnected port S00_ARESETN
-WARNING: [Synth 8-3331] design eth1_wrapper has unconnected port mdio_mdc_mdio_io
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 2217.898 ; gain = 425.875 ; free physical = 9329 ; free virtual = 27527
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:18 . Memory (MB): peak = 2213.809 ; gain = 422.938 ; free physical = 11586 ; free virtual = 28458
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -720,13 +726,13 @@ Report RTL Partitions:
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 2217.898 ; gain = 425.875 ; free physical = 9211 ; free virtual = 27410
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:25 . Memory (MB): peak = 2213.809 ; gain = 422.938 ; free physical = 11468 ; free virtual = 28347
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 2217.898 ; gain = 425.875 ; free physical = 9211 ; free virtual = 27410
+Finished Timing Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:25 . Memory (MB): peak = 2213.809 ; gain = 422.938 ; free physical = 11468 ; free virtual = 28346
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -738,7 +744,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 2217.898 ; gain = 425.875 ; free physical = 9211 ; free virtual = 27409
+Finished Technology Mapping : Time (s): cpu = 00:00:20 ; elapsed = 00:00:25 . Memory (MB): peak = 2213.809 ; gain = 422.938 ; free physical = 11468 ; free virtual = 28346
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -793,15 +799,14 @@ WARNING: [Synth 8-3295] tying undriven pin eth1_i:gpio_rtl_tri_i[3] to constant 
 WARNING: [Synth 8-3295] tying undriven pin eth1_i:gpio_rtl_tri_i[2] to constant 0
 WARNING: [Synth 8-3295] tying undriven pin eth1_i:gpio_rtl_tri_i[1] to constant 0
 WARNING: [Synth 8-3295] tying undriven pin eth1_i:gpio_rtl_tri_i[0] to constant 0
-WARNING: [Synth 8-3295] tying undriven pin eth1_i:mdio_mdc_mdio_i to constant 0
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:20 ; elapsed = 00:00:24 . Memory (MB): peak = 2217.898 ; gain = 425.875 ; free physical = 9211 ; free virtual = 27409
+Finished IO Insertion : Time (s): cpu = 00:00:22 ; elapsed = 00:00:28 . Memory (MB): peak = 2213.809 ; gain = 422.938 ; free physical = 11470 ; free virtual = 28348
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:20 ; elapsed = 00:00:24 . Memory (MB): peak = 2217.898 ; gain = 425.875 ; free physical = 9211 ; free virtual = 27409
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:22 ; elapsed = 00:00:28 . Memory (MB): peak = 2213.809 ; gain = 422.938 ; free physical = 11470 ; free virtual = 28348
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -820,25 +825,25 @@ Report Check Netlist:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:20 ; elapsed = 00:00:24 . Memory (MB): peak = 2217.898 ; gain = 425.875 ; free physical = 9211 ; free virtual = 27409
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:22 ; elapsed = 00:00:28 . Memory (MB): peak = 2213.809 ; gain = 422.938 ; free physical = 11470 ; free virtual = 28348
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:20 ; elapsed = 00:00:24 . Memory (MB): peak = 2217.898 ; gain = 425.875 ; free physical = 9211 ; free virtual = 27409
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:22 ; elapsed = 00:00:28 . Memory (MB): peak = 2213.809 ; gain = 422.938 ; free physical = 11470 ; free virtual = 28348
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:20 ; elapsed = 00:00:24 . Memory (MB): peak = 2217.898 ; gain = 425.875 ; free physical = 9211 ; free virtual = 27409
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:22 ; elapsed = 00:00:28 . Memory (MB): peak = 2213.809 ; gain = 422.938 ; free physical = 11470 ; free virtual = 28348
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:20 ; elapsed = 00:00:24 . Memory (MB): peak = 2217.898 ; gain = 425.875 ; free physical = 9211 ; free virtual = 27409
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:23 ; elapsed = 00:00:28 . Memory (MB): peak = 2213.809 ; gain = 422.938 ; free physical = 11470 ; free virtual = 28348
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -899,40 +904,44 @@ Report Cell Usage:
 |21    |eth1_system_ila_0_0           |     1|
 |22    |eth1_xbar_1                   |     1|
 |23    |IBUF                          |     2|
-|24    |OBUF                          |     4|
+|24    |IOBUF                         |     1|
+|25    |OBUF                          |     4|
 +------+------------------------------+------+
 
 Report Instance Areas: 
 +------+------------------------------+--------------------------------------+------+
 |      |Instance                      |Module                                |Cells |
 +------+------------------------------+--------------------------------------+------+
-|1     |top                           |                                      |  6733|
+|1     |top                           |                                      |  6734|
 |2     |  eth1_i                      |eth1                                  |  6727|
 |3     |    microblaze_0_axi_periph   |eth1_microblaze_0_axi_periph_3        |   818|
 |4     |    microblaze_0_xlconcat     |eth1_microblaze_0_xlconcat_3          |     0|
 |5     |    microblaze_0_local_memory |microblaze_0_local_memory_imp_15K586Y |   496|
 +------+------------------------------+--------------------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:20 ; elapsed = 00:00:24 . Memory (MB): peak = 2217.898 ; gain = 425.875 ; free physical = 9211 ; free virtual = 27409
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:23 ; elapsed = 00:00:28 . Memory (MB): peak = 2213.809 ; gain = 422.938 ; free physical = 11470 ; free virtual = 28348
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 50 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:17 ; elapsed = 00:00:21 . Memory (MB): peak = 2217.898 ; gain = 272.375 ; free physical = 9265 ; free virtual = 27463
-Synthesis Optimization Complete : Time (s): cpu = 00:00:20 ; elapsed = 00:00:24 . Memory (MB): peak = 2217.898 ; gain = 425.875 ; free physical = 9265 ; free virtual = 27463
+Synthesis finished with 0 errors, 0 critical warnings and 48 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:19 ; elapsed = 00:00:23 . Memory (MB): peak = 2213.809 ; gain = 273.375 ; free physical = 11524 ; free virtual = 28402
+Synthesis Optimization Complete : Time (s): cpu = 00:00:23 ; elapsed = 00:00:28 . Memory (MB): peak = 2213.809 ; gain = 422.938 ; free physical = 11524 ; free virtual = 28402
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2217.898 ; gain = 0.000 ; free physical = 9332 ; free virtual = 27530
+Netlist sorting complete. Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.03 . Memory (MB): peak = 2213.809 ; gain = 0.000 ; free physical = 11517 ; free virtual = 28397
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2217.898 ; gain = 0.000 ; free physical = 9273 ; free virtual = 27471
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2213.809 ; gain = 0.000 ; free physical = 11527 ; free virtual = 28408
 INFO: [Project 1-111] Unisim Transformation Summary:
-No Unisim elements were transformed.
+  A total of 1 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 1 instance 
 
 INFO: [Common 17-83] Releasing license: Synthesis
-89 Infos, 171 Warnings, 0 Critical Warnings and 0 Errors encountered.
+95 Infos, 167 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 2217.898 ; gain = 693.695 ; free physical = 9397 ; free virtual = 27595
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2217.898 ; gain = 0.000 ; free physical = 9397 ; free virtual = 27595
+synth_design: Time (s): cpu = 00:00:31 ; elapsed = 00:00:35 . Memory (MB): peak = 2213.809 ; gain = 695.703 ; free physical = 11649 ; free virtual = 28531
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2213.809 ; gain = 0.000 ; free physical = 11649 ; free virtual = 28530
 WARNING: [Constraints 18-5210] No constraints selected for write.
 Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
 INFO: [Common 17-1381] The checkpoint '/home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/synth_1/eth1_wrapper.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file eth1_wrapper_utilization_synth.rpt -pb eth1_wrapper_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Fri Mar 26 12:41:31 2021...
+INFO: [Common 17-206] Exiting Vivado at Fri Mar 26 18:52:56 2021...

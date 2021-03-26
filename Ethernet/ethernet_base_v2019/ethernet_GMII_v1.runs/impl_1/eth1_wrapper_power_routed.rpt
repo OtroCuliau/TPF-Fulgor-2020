@@ -1,7 +1,7 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2019.2 (lin64) Build 2708876 Wed Nov  6 21:39:14 MST 2019
-| Date             : Fri Mar 26 12:53:14 2021
+| Date             : Fri Mar 26 19:04:28 2021
 | Host             : huaira running 64-bit Linux Mint 20
 | Command          : report_power -file eth1_wrapper_power_routed.rpt -pb eth1_wrapper_power_summary_routed.pb -rpx eth1_wrapper_power_routed.rpx
 | Design           : eth1_wrapper
@@ -30,10 +30,10 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 3.063        |
+| Total On-Chip Power (W)  | 3.058        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
-| Dynamic (W)              | 2.877        |
+| Dynamic (W)              | 2.873        |
 | Device Static (W)        | 0.185        |
 | Effective TJA (C/W)      | 1.8          |
 | Max Ambient (C)          | 79.6         |
@@ -52,24 +52,24 @@ Table of Contents
 +--------------------------+-----------+----------+-----------+-----------------+
 | On-Chip                  | Power (W) | Used     | Available | Utilization (%) |
 +--------------------------+-----------+----------+-----------+-----------------+
-| Clocks                   |     0.343 |       60 |       --- |             --- |
-| Slice Logic              |     0.105 |   118539 |       --- |             --- |
-|   LUT as Logic           |     0.084 |    31400 |    203800 |           15.41 |
+| Clocks                   |     0.338 |       60 |       --- |             --- |
+| Slice Logic              |     0.104 |   118575 |       --- |             --- |
+|   LUT as Logic           |     0.083 |    31416 |    203800 |           15.42 |
 |   LUT as Distributed RAM |     0.013 |     6884 |     64000 |           10.76 |
-|   Register               |     0.005 |    55450 |    407600 |           13.60 |
+|   Register               |     0.005 |    55469 |    407600 |           13.61 |
 |   CARRY4                 |     0.002 |      831 |     50950 |            1.63 |
-|   F7/F8 Muxes            |    <0.001 |     1638 |    203800 |            0.80 |
+|   F7/F8 Muxes            |    <0.001 |     1644 |    203800 |            0.81 |
 |   LUT as Shift Register  |    <0.001 |     2516 |     64000 |            3.93 |
 |   Others                 |    <0.001 |     3276 |       --- |             --- |
-| Signals                  |     0.160 |    88255 |       --- |             --- |
+| Signals                  |     0.160 |    88533 |       --- |             --- |
 | Block RAM                |     0.076 |     94.5 |       445 |           21.24 |
 | MMCM                     |     0.322 |        3 |        10 |           30.00 |
 | PLL                      |     0.133 |        1 |        10 |           10.00 |
-| I/O                      |     1.074 |      145 |       500 |           29.00 |
+| I/O                      |     1.074 |      146 |       500 |           29.20 |
 | PHASER                   |     0.661 |       44 |       --- |             --- |
 | XADC                     |     0.004 |        1 |       --- |             --- |
 | Static Power             |     0.185 |          |           |                 |
-| Total                    |     3.063 |          |           |                 |
+| Total                    |     3.058 |          |           |                 |
 +--------------------------+-----------+----------+-----------+-----------------+
 
 
@@ -79,7 +79,7 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
 +-----------+-------------+-----------+-------------+------------+
-| Vccint    |       1.000 |     0.993 |       0.906 |      0.088 |
+| Vccint    |       1.000 |     0.988 |       0.901 |      0.088 |
 | Vccaux    |       1.800 |     0.763 |       0.734 |      0.029 |
 | Vcco33    |       3.300 |     0.000 |       0.000 |      0.000 |
 | Vcco25    |       2.500 |     0.006 |       0.005 |      0.001 |
@@ -205,23 +205,23 @@ Table of Contents
 +----------------------------------+-----------+
 | Name                             | Power (W) |
 +----------------------------------+-----------+
-| eth1_wrapper                     |     2.877 |
+| eth1_wrapper                     |     2.873 |
 |   dbg_hub                        |     0.003 |
 |     inst                         |     0.003 |
 |       BSCANID.u_xsdbm_id         |     0.003 |
-|   eth1_i                         |     2.871 |
-|     axi_dma_0                    |     0.026 |
-|       U0                         |     0.026 |
-|     axi_ethernet_0               |     0.082 |
-|       inst                       |     0.082 |
-|     axi_ethernet_0_dma           |     0.013 |
-|       U0                         |     0.013 |
+|   eth1_i                         |     2.866 |
+|     axi_dma_0                    |     0.024 |
+|       U0                         |     0.024 |
+|     axi_ethernet_0               |     0.083 |
+|       inst                       |     0.083 |
+|     axi_ethernet_0_dma           |     0.012 |
+|       U0                         |     0.012 |
 |     axi_ethernet_0_gtxclk        |     0.110 |
 |       inst                       |     0.110 |
 |     axi_gpio_0                   |     0.001 |
 |       U0                         |     0.001 |
-|     axi_smc                      |     0.238 |
-|       inst                       |     0.238 |
+|     axi_smc                      |     0.236 |
+|       inst                       |     0.236 |
 |     axi_timer_0                  |     0.003 |
 |       U0                         |     0.003 |
 |     axis_data_fifo_0             |     0.004 |
@@ -236,8 +236,8 @@ Table of Contents
 |       lmb_bram                   |     0.008 |
 |     mig_7series_0                |     2.280 |
 |       u_eth1_mig_7series_0_0_mig |     2.280 |
-|     system_ila_0                 |     0.054 |
-|       inst                       |     0.054 |
+|     system_ila_0                 |     0.052 |
+|       inst                       |     0.052 |
 +----------------------------------+-----------+
 
 

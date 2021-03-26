@@ -283,6 +283,7 @@ module eth1_wrapper
         .rs232_uart_txd(rs232_uart_txd),
         .sys_diff_clock_clk_n(sys_diff_clock_clk_n),
         .sys_diff_clock_clk_p(sys_diff_clock_clk_p));
+  
   /*IOBUF gpio_rtl_tri_iobuf_0
        (.I(gpio_rtl_tri_o_0),
         .IO(gpio_rtl_tri_io[0]),
@@ -443,9 +444,10 @@ module eth1_wrapper
         .IO(gpio_rtl_tri_io[9]),
         .O(gpio_rtl_tri_i_9),
         .T(gpio_rtl_tri_t_9));
+ */
   IOBUF mdio_mdc_mdio_iobuf
        (.I(mdio_mdc_mdio_o),
         .IO(mdio_mdc_mdio_io),
         .O(mdio_mdc_mdio_i),
-        .T(mdio_mdc_mdio_t));*/
+        .T(mdio_mdc_mdio_t));
 endmodule

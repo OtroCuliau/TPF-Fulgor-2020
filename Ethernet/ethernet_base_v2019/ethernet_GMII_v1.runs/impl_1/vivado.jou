@@ -2,8 +2,8 @@
 # Vivado v2019.2 (64-bit)
 # SW Build 2708876 on Wed Nov  6 21:39:14 MST 2019
 # IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
-# Start of session at: Fri Mar 26 12:41:37 2021
-# Process ID: 35452
+# Start of session at: Fri Mar 26 18:53:01 2021
+# Process ID: 6055
 # Current directory: /home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/impl_1
 # Command line: vivado -log eth1_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source eth1_wrapper.tcl -notrace
 # Log file: /home/becario/ethernet/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.runs/impl_1/eth1_wrapper.vdi

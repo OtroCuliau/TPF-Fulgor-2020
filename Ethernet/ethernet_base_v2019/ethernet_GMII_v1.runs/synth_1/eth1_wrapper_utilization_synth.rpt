@@ -1,7 +1,7 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2019.2 (lin64) Build 2708876 Wed Nov  6 21:39:14 MST 2019
-| Date         : Fri Mar 26 12:41:31 2021
+| Date         : Fri Mar 26 18:52:56 2021
 | Host         : huaira running 64-bit Linux Mint 20
 | Command      : report_utilization -file eth1_wrapper_utilization_synth.rpt -pb eth1_wrapper_utilization_synth.pb
 | Design       : eth1_wrapper
@@ -90,7 +90,7 @@ Table of Contents
 +-----------------------------+------+-------+-----------+-------+
 |          Site Type          | Used | Fixed | Available | Util% |
 +-----------------------------+------+-------+-----------+-------+
-| Bonded IOB                  |    6 |     0 |       500 |  1.20 |
+| Bonded IOB                  |    7 |     0 |       500 |  1.40 |
 | Bonded IPADs                |    0 |     0 |        50 |  0.00 |
 | Bonded OPADs                |    0 |     0 |        32 |  0.00 |
 | PHY_CONTROL                 |    0 |     0 |        10 |  0.00 |
@@ -152,7 +152,8 @@ Table of Contents
 | Ref Name | Used | Functional Category |
 +----------+------+---------------------+
 | OBUF     |    4 |                  IO |
-| IBUF     |    2 |                  IO |
+| IBUF     |    3 |                  IO |
+| OBUFT    |    1 |                  IO |
 +----------+------+---------------------+
 
 
