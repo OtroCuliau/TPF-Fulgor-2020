@@ -1,0 +1,28 @@
+timestamp=[2021-03-26 16:08:31], mode=WORKBENCH_START, duration=0:00:23.481, duration_ms=23481, data={}
+timestamp=[2021-03-26 16:09:19], mode=WORKBENCH_UI_INIT, duration=0:00:47.525, duration_ms=47525, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2021-03-26 16:11:22], mode=APP_CREATION, duration=0:00:42.349, duration_ms=42349, data={name=matpu2, project_type=sdk, os=standalone, processor=microblaze, runtime=cpp, platform=eth1_wrapper2, application_type=application}
+timestamp=[2021-03-26 16:13:20], mode=PLATFORM_GENERATION, duration=0:00:35.762, duration_ms=35762, data={name=eth1_wrapper2}
+timestamp=[2021-03-26 16:31:48], mode=PLATFORM_GENERATION, duration=0:00:08.812, duration_ms=8812, data={name=eth1_wrapper2}
+timestamp=[2021-03-26 16:32:23], mode=PLATFORM_GENERATION, duration=0:00:33.431, duration_ms=33431, data={name=eth1_wrapper2}
+timestamp=[2021-03-26 16:42:27], mode=PLATFORM_GENERATION, duration=0:00:08.809, duration_ms=8809, data={name=eth1_wrapper2}
+timestamp=[2021-03-26 16:42:58], mode=PLATFORM_GENERATION, duration=0:00:30.225, duration_ms=30225, data={name=eth1_wrapper2}
+timestamp=[2021-03-26 16:46:01], mode=PLATFORM_GENERATION, duration=0:00:08.810, duration_ms=8810, data={name=eth1_wrapper2}
+timestamp=[2021-03-26 16:46:31], mode=PLATFORM_GENERATION, duration=0:00:29.357, duration_ms=29357, data={name=eth1_wrapper2}
+timestamp=[2021-03-26 16:49:15], mode=PLATFORM_GENERATION, duration=0:00:09.238, duration_ms=9238, data={name=eth1_wrapper2}
+timestamp=[2021-03-26 16:49:46], mode=PLATFORM_GENERATION, duration=0:00:29.607, duration_ms=29607, data={name=eth1_wrapper2}
+timestamp=[2021-03-26 17:04:22], mode=PLATFORM_GENERATION, duration=0:00:09.440, duration_ms=9440, data={name=eth1_wrapper2}
+timestamp=[2021-03-26 17:04:53], mode=PLATFORM_GENERATION, duration=0:00:29.811, duration_ms=29811, data={name=eth1_wrapper2}
+timestamp=[2021-03-26 17:11:29], mode=WORKBENCH_START, duration=0:00:49.343, duration_ms=49343, data={}
+timestamp=[2021-03-26 17:11:36], mode=WORKBENCH_UI_INIT, duration=0:00:07.715, duration_ms=7715, data={editors_count=4, platform_editors_count=2, projects_count=4, platform_projects_count=1, active_platform_editor=true, projects=RemoteSystemsTempFiles,eth1_wrapper2,matpu2,matpu2_system}
+timestamp=[2021-03-26 17:51:37], mode=WORKBENCH_START, duration=0:00:34.389, duration_ms=34389, data={}
+timestamp=[2021-03-26 17:51:45], mode=WORKBENCH_UI_INIT, duration=0:00:07.289, duration_ms=7289, data={editors_count=4, platform_editors_count=2, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,eth1_wrapper2,matpu2,matpu2_system}
+timestamp=[2021-03-27 14:01:42], mode=WORKBENCH_START, duration=0:00:54.728, duration_ms=54728, data={}
+timestamp=[2021-03-27 14:01:52], mode=WORKBENCH_UI_INIT, duration=0:00:09.755, duration_ms=9755, data={editors_count=2, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,eth1_wrapper2,matpu2,matpu2_system}
+timestamp=[2021-03-27 14:16:56], mode=PLATFORM_GENERATION, duration=0:00:24.892, duration_ms=24892, data={name=eth1_wrapper2}
+timestamp=[2021-03-27 14:19:23], mode=PLATFORM_GENERATION, duration=0:00:08.531, duration_ms=8531, data={name=eth1_wrapper2}
+timestamp=[2021-03-27 14:19:51], mode=PLATFORM_GENERATION, duration=0:00:26.370, duration_ms=26370, data={name=eth1_wrapper2}
+timestamp=[2021-03-27 14:23:09], mode=APP_CREATION, duration=0:00:26.056, duration_ms=26056, data={name=matpu3, project_type=sdk, os=standalone, processor=microblaze, runtime=cpp, platform=eth1_wrapper2_1, application_type=application}
+timestamp=[2021-03-27 14:27:35], mode=APP_CREATION, duration=0:00:18.167, duration_ms=18167, data={name=matpu3, project_type=sdk, os=standalone, processor=microblaze, runtime=cpp, platform=eth1_wrapper2, application_type=application}
+timestamp=[2021-03-27 14:28:56], mode=PLATFORM_GENERATION, duration=0:00:26.644, duration_ms=26644, data={name=eth1_wrapper2}
+timestamp=[2021-03-27 14:37:51], mode=PLATFORM_GENERATION, duration=0:00:08.384, duration_ms=8384, data={name=eth1_wrapper2}
+timestamp=[2021-03-27 14:38:18], mode=PLATFORM_GENERATION, duration=0:00:26.481, duration_ms=26481, data={name=eth1_wrapper2}

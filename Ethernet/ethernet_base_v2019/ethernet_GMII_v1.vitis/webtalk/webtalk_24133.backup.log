@@ -1,0 +1,73 @@
+#-----------------------------------------------------------
+# Webtalk v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:39:14 MST 2019
+# 
+# Start of session at: Fri Mar 26 17:10:16 2021
+# Process ID: 24133
+# Current directory: /media/cliff/procom/elEther/repoTpf/ethernet_GMII_v1.vitis/webtalk
+# Command line: wbtcv -mode batch -source vitis_webtalk.tcl
+# Log file: /media/cliff/procom/elEther/repoTpf/ethernet_GMII_v1.vitis/webtalk/webtalk.log
+# Journal file: /media/cliff/procom/elEther/repoTpf/ethernet_GMII_v1.vitis/webtalk/webtalk.jou
+#-----------------------------------------------------------
+source vitis_webtalk.tcl
+# webtalk_init -webtalk_dir /media/cliff/procom/elEther/repoTpf/ethernet_GMII_v1.vitis/webtalk
+# webtalk_register_client -client project
+# webtalk_add_data -client project -key date_generated -value "2021-03-26 17:10:11" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key product_version -value "Vitis v2019.2" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key build_version -value "2019.2" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key os_platform -value "amd64" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key registration_id -value "NA" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key tool_flow -value "Vitis" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key beta -value "false" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key route_design -value "NA" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key target_family -value "NA" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key target_device -value "NA" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key target_package -value "NA" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key target_speed -value "NA" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key random_id -value "kt86jecqc4koi64ucr3pthkqds" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key project_id -value "2019.2_164" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key project_iteration -value "164" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key os_name -value "Ubuntu" -context "user_environment"
+# webtalk_add_data -client project -key os_release -value "Ubuntu 20.04.2 LTS" -context "user_environment"
+# webtalk_add_data -client project -key cpu_name -value "AMD Athlon(tm) II X3 425 Processor" -context "user_environment"
+# webtalk_add_data -client project -key cpu_speed -value "1500.000 MHz" -context "user_environment"
+# webtalk_add_data -client project -key total_processors -value "2" -context "user_environment"
+# webtalk_add_data -client project -key system_ram -value "5.177 GB" -context "user_environment"
+# webtalk_register_client -client vitis
+# webtalk_add_data -client vitis -key uid -value "1616785879000" -context "vitis\\\\application/1616785879000"
+# webtalk_add_data -client vitis -key project_type -value "sdk" -context "vitis\\\\application/1616785879000"
+# webtalk_add_data -client vitis -key os -value "standalone" -context "vitis\\\\application/1616785879000"
+# webtalk_add_data -client vitis -key processor -value "microblaze" -context "vitis\\\\application/1616785879000"
+# webtalk_add_data -client vitis -key runtime -value "cpp" -context "vitis\\\\application/1616785879000"
+# webtalk_add_data -client vitis -key template -value "sdk" -context "vitis\\\\application/1616785879000"
+# webtalk_add_data -client vitis -key platform -value "NA" -context "vitis\\\\application/1616785879000"
+# webtalk_add_data -client vitis -key platform_type -value "NA" -context "vitis\\\\application/1616785879000"
+# webtalk_add_data -client vitis -key application_type -value "application" -context "vitis\\\\application/1616785879000"
+# webtalk_add_data -client vitis -key platform_source -value "dsa" -context "vitis\\\\application/1616785879000"
+# webtalk_add_data -client vitis -key device_family -value "NA" -context "vitis\\\\application/1616785879000"
+# webtalk_add_data -client vitis -key fpga -value "7k325t" -context "vitis\\\\application/1616785879000"
+# webtalk_add_data -client vitis -key uid -value "NA" -context "vitis\\\\tool/1616789411316"
+# webtalk_add_data -client vitis -key RecordType -value "ToolUsage" -context "vitis\\\\tool/1616789411316"
+# webtalk_add_data -client vitis -key BOOTGEN_count -value "0" -context "vitis\\\\tool/1616789411316"
+# webtalk_add_data -client vitis -key FLASH_count -value "0" -context "vitis\\\\tool/1616789411316"
+# webtalk_add_data -client vitis -key MOVE_APP_TO_SYSTEM_count -value "0" -context "vitis\\\\tool/1616789411316"
+# webtalk_add_data -client vitis -key SDX_EXPORT_count -value "0" -context "vitis\\\\tool/1616789411316"
+# webtalk_add_data -client vitis -key SDX_IMPORT_count -value "0" -context "vitis\\\\tool/1616789411316"
+# webtalk_add_data -client vitis -key SDX_BUILD_count -value "0" -context "vitis\\\\tool/1616789411316"
+# webtalk_add_data -client vitis -key SDX_NO_OP_BUILD_count -value "5" -context "vitis\\\\tool/1616789411316"
+# webtalk_add_data -client vitis -key TCF_APP_DEBUG_count -value "10" -context "vitis\\\\tool/1616789411316"
+# webtalk_add_data -client vitis -key TCF_SYSTEM_DEBUG_count -value "0" -context "vitis\\\\tool/1616789411316"
+# webtalk_add_data -client vitis -key GDB_DEBUG_count -value "0" -context "vitis\\\\tool/1616789411316"
+# webtalk_add_data -client vitis -key QEMU_DEBUG_count -value "0" -context "vitis\\\\tool/1616789411316"
+# webtalk_add_data -client vitis -key ESTIMATION_DEBUG_count -value "0" -context "vitis\\\\tool/1616789411316"
+# webtalk_add_data -client vitis -key SDSOC_TRACE_count -value "0" -context "vitis\\\\tool/1616789411316"
+# webtalk_add_data -client vitis -key PERFORMANCE_ANALYSIS_count -value "0" -context "vitis\\\\tool/1616789411316"
+# webtalk_add_data -client vitis -key SPM_ANALYSIS_count -value "0" -context "vitis\\\\tool/1616789411316"
+# webtalk_add_data -client vitis -key CROSS_TRIGGER_count -value "0" -context "vitis\\\\tool/1616789411316"
+# webtalk_add_data -client vitis -key TCF_PROFILER_count -value "0" -context "vitis\\\\tool/1616789411316"
+# webtalk_add_data -client vitis -key APPLICATION_PLATFORM_CHANGE_count -value "0" -context "vitis\\\\tool/1616789411316"
+# webtalk_add_data -client vitis -key APPLICATION_SYS_CONFIG_CHANGE_count -value "0" -context "vitis\\\\tool/1616789411316"
+# webtalk_add_data -client vitis -key SYSTEM_PLATFORM_CHANGE_count -value "0" -context "vitis\\\\tool/1616789411316"
+# webtalk_transmit -clientid 1241258474 -regid "" -xml /media/cliff/procom/elEther/repoTpf/ethernet_GMII_v1.vitis/webtalk/usage_statistics_ext_vitis.xml -html /media/cliff/procom/elEther/repoTpf/ethernet_GMII_v1.vitis/webtalk/usage_statistics_ext_vitis.html -wdm /media/cliff/procom/elEther/repoTpf/ethernet_GMII_v1.vitis/webtalk/vitis_webtalk.wdm -intro "<H3>Vitis Usage Report</H3><BR>"
+# webtalk_terminate
+INFO: [Common 17-206] Exiting Webtalk at Fri Mar 26 17:10:16 2021...

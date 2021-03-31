@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="false" key="matpu2-skip_rev_check"/>
+	<item value="_ide/bitstream/eth1_wrapper2.bit" key="matpu2-bitFile"/>
+	<item value="vpnaranjo" key="matpu2-target"/>
+	<item value="Digilent JTAG-SMT1 210203339927A/1-xc7k325t" key="matpu2-device"/>
+	<item value="bootloop" key="matpu2-microblaze_0-initElf"/>
+	<item value="_ide/bitstream/eth1_wrapper2.mmi" key="matpu2-bmmFile"/>
+	<item value="false" key="matpu2-partial_bit"/>
+	<item value="matpu2" key="programfpga.sdxproject"/>
+</section>

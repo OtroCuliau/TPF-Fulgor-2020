@@ -1,0 +1,6 @@
+/*eth1_wrapper2*/
+the_ROM_image:
+{
+   <bitstream> 
+   <elf> 
+}
