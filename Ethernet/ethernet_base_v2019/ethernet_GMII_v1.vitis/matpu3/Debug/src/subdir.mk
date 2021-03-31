@@ -50,7 +50,7 @@ C_DEPS += \
 src/%.o: ../src/%.c
 	@echo 'Building file: $<'
 	@echo 'Invoking: MicroBlaze gcc compiler'
-	mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"$@" -I/media/cliff/procom/elEther/repoTpf/ethernet_GMII_v1.vitis/eth1_wrapper2/export/eth1_wrapper2/sw/eth1_wrapper2/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@)" -o "$@" "$<"
+	mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"$@" -I/media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/export/eth1_wrapper2/sw/eth1_wrapper2/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@)" -o "$@" "$<"
 	@echo 'Finished building: $<'
 	@echo ' '
 

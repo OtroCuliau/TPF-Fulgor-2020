@@ -1,6 +1,21 @@
-14:43:15 **** Incremental Build of configuration Debug for project matpu3 ****
+21:33:24 **** Incremental Build of configuration Debug for project matpu3 ****
 make all 
-make: Nothing to be done for 'all'.
+Building file: ../src/echo.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/echo.o" -I/media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/export/eth1_wrapper2/sw/eth1_wrapper2/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/echo.d" -MT"src/echo.o" -o "src/echo.o" "../src/echo.c"
+Finished building: ../src/echo.c
+ 
+Building target: matpu3.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L/media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/export/eth1_wrapper2/sw/eth1_wrapper2/standalone_domain/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "matpu3.elf"  ./src/echo.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+Finished building target: matpu3.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size matpu3.elf  |tee "matpu3.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 126518	   2036	3960694	4089248	 3e65a0	matpu3.elf
+Finished building: matpu3.elf.size
+ 
 
-14:43:15 Build Finished (took 253ms)
+21:33:25 Build Finished (took 1s.19ms)
 

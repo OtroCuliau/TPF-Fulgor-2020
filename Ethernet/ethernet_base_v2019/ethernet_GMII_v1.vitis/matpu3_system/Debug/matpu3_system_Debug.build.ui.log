@@ -1,6 +1,6 @@
-2021-03-27T14:38:35.660305121171255-14:38:35 **** Build of configuration Debug for project matpu3_system ****
+2021-03-30T21:29:29.965167121171255-21:29:29 **** Build of configuration Debug for project matpu3_system ****
 233235237-make all 
 233235237-Skipping SD card image generation. Reason: The system project only has applications for microblaze processors.
 121171255-
-14:38:35 Build Finished (took 273ms)
+21:29:30 Build Finished (took 383ms)
 

@@ -26,3 +26,7 @@ timestamp=[2021-03-27 14:27:35], mode=APP_CREATION, duration=0:00:18.167, durati
 timestamp=[2021-03-27 14:28:56], mode=PLATFORM_GENERATION, duration=0:00:26.644, duration_ms=26644, data={name=eth1_wrapper2}
 timestamp=[2021-03-27 14:37:51], mode=PLATFORM_GENERATION, duration=0:00:08.384, duration_ms=8384, data={name=eth1_wrapper2}
 timestamp=[2021-03-27 14:38:18], mode=PLATFORM_GENERATION, duration=0:00:26.481, duration_ms=26481, data={name=eth1_wrapper2}
+timestamp=[2021-03-30 21:25:45], mode=WORKBENCH_START, duration=0:01:09.869, duration_ms=69869, data={}
+timestamp=[2021-03-30 21:25:53], mode=WORKBENCH_UI_INIT, duration=0:00:07.323, duration_ms=7323, data={editors_count=5, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,eth1_wrapper2,matpu3,matpu3_system}
+timestamp=[2021-03-30 21:28:33], mode=PLATFORM_GENERATION, duration=0:00:24.024, duration_ms=24024, data={name=eth1_wrapper2}
+timestamp=[2021-03-30 21:29:09], mode=PLATFORM_GENERATION, duration=0:00:33.396, duration_ms=33396, data={name=eth1_wrapper2}

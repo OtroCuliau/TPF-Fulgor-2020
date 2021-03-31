@@ -2111,3 +2111,400 @@ TRACE::2021-03-27.14:38:15::SCWMssOS::Checking the sw design at  /media/cliff/pr
 TRACE::2021-03-27.14:38:15::SCWMssOS::DEBUG:  swdes dump  /media/cliff/procom/elEther/repoTpf/ethernet_GMII_v1.vitis/eth1_wrapper2/microblaze_0/standalone_domain/bsp/system.mss|system||
 
 TRACE::2021-03-27.14:38:15::SCWMssOS::Sw design exists and opened at  /media/cliff/procom/elEther/repoTpf/ethernet_GMII_v1.vitis/eth1_wrapper2/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-03-30.21:28:16::SCWPlatform::Trying to open the hw design at /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/hw/eth1_wrapper2.xsa
+TRACE::2021-03-30.21:28:16::SCWPlatform::DSA given /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/hw/eth1_wrapper2.xsa
+TRACE::2021-03-30.21:28:16::SCWPlatform::DSA absoulate path /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/hw/eth1_wrapper2.xsa
+TRACE::2021-03-30.21:28:22::SCWPlatform::DSA directory /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/hw
+TRACE::2021-03-30.21:28:22::SCWPlatform:: Platform Path /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/hw/eth1_wrapper2.xsa
+TRACE::2021-03-30.21:28:22::SCWPlatform:: Unique name xilinx:kc705::0.0
+TRACE::2021-03-30.21:28:22::SCWPlatform::Do not have an existing db opened. 
+TRACE::2021-03-30.21:28:29::SCWPlatform::Opened new HwDB with name eth1_wrapper
+TRACE::2021-03-30.21:28:29::SCWReader::Active system found as  eth1_wrapper2
+TRACE::2021-03-30.21:28:29::SCWReader::Handling sysconfig eth1_wrapper2
+TRACE::2021-03-30.21:28:29::SCWDomain::checking for install qemu data   : 
+TRACE::2021-03-30.21:28:29::SCWPlatform::Trying to open the hw design at /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/hw/eth1_wrapper2.xsa
+TRACE::2021-03-30.21:28:29::SCWPlatform::DSA given /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/hw/eth1_wrapper2.xsa
+TRACE::2021-03-30.21:28:29::SCWPlatform::DSA absoulate path /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/hw/eth1_wrapper2.xsa
+TRACE::2021-03-30.21:28:29::SCWPlatform::DSA directory /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/hw
+TRACE::2021-03-30.21:28:29::SCWPlatform:: Platform Path /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/hw/eth1_wrapper2.xsa
+TRACE::2021-03-30.21:28:29::SCWPlatform:: Unique name xilinx:kc705::0.0
+TRACE::2021-03-30.21:28:29::SCWPlatform::Trying to set the existing hwdb with name eth1_wrapper
+TRACE::2021-03-30.21:28:29::SCWPlatform::Opened existing hwdb eth1_wrapper
+TRACE::2021-03-30.21:28:29::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-03-30.21:28:29::SCWPlatform::Trying to open the hw design at /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/hw/eth1_wrapper2.xsa
+TRACE::2021-03-30.21:28:29::SCWPlatform::DSA given /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/hw/eth1_wrapper2.xsa
+TRACE::2021-03-30.21:28:29::SCWPlatform::DSA absoulate path /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/hw/eth1_wrapper2.xsa
+TRACE::2021-03-30.21:28:29::SCWPlatform::DSA directory /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/hw
+TRACE::2021-03-30.21:28:29::SCWPlatform:: Platform Path /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/hw/eth1_wrapper2.xsa
+TRACE::2021-03-30.21:28:29::SCWPlatform:: Unique name xilinx:kc705::0.0
+TRACE::2021-03-30.21:28:29::SCWPlatform::Trying to set the existing hwdb with name eth1_wrapper
+TRACE::2021-03-30.21:28:29::SCWPlatform::Opened existing hwdb eth1_wrapper
+TRACE::2021-03-30.21:28:29::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-03-30.21:28:29::SCWPlatform::Trying to open the hw design at /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/hw/eth1_wrapper2.xsa
+TRACE::2021-03-30.21:28:29::SCWPlatform::DSA given /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/hw/eth1_wrapper2.xsa
+TRACE::2021-03-30.21:28:29::SCWPlatform::DSA absoulate path /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/hw/eth1_wrapper2.xsa
+TRACE::2021-03-30.21:28:29::SCWPlatform::DSA directory /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/hw
+TRACE::2021-03-30.21:28:29::SCWPlatform:: Platform Path /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/hw/eth1_wrapper2.xsa
+TRACE::2021-03-30.21:28:29::SCWPlatform:: Unique name xilinx:kc705::0.0
+TRACE::2021-03-30.21:28:29::SCWPlatform::Trying to set the existing hwdb with name eth1_wrapper
+TRACE::2021-03-30.21:28:29::SCWPlatform::Opened existing hwdb eth1_wrapper
+TRACE::2021-03-30.21:28:29::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-03-30.21:28:29::SCWMssOS::Checking the sw design at  /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-03-30.21:28:29::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2021-03-30.21:28:29::SCWMssOS::No sw design opened at  /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-03-30.21:28:29::SCWMssOS::mss exists loading the mss file  /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-03-30.21:28:29::SCWMssOS::Opened the sw design from mss  /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-03-30.21:28:29::SCWMssOS::Adding the swdes entry /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/microblaze_0/standalone_domain/bsp/system.mss with des name system
+TRACE::2021-03-30.21:28:29::SCWMssOS::updating the scw layer about changes
+TRACE::2021-03-30.21:28:29::SCWMssOS::Opened the sw design.  /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-03-30.21:28:29::SCWPlatform::Trying to open the hw design at /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/hw/eth1_wrapper2.xsa
+TRACE::2021-03-30.21:28:29::SCWPlatform::DSA given /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/hw/eth1_wrapper2.xsa
+TRACE::2021-03-30.21:28:29::SCWPlatform::DSA absoulate path /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/hw/eth1_wrapper2.xsa
+TRACE::2021-03-30.21:28:29::SCWPlatform::DSA directory /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/hw
+TRACE::2021-03-30.21:28:29::SCWPlatform:: Platform Path /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/hw/eth1_wrapper2.xsa
+TRACE::2021-03-30.21:28:29::SCWPlatform:: Unique name xilinx:kc705::0.0
+TRACE::2021-03-30.21:28:29::SCWPlatform::Trying to set the existing hwdb with name eth1_wrapper
+TRACE::2021-03-30.21:28:29::SCWPlatform::Opened existing hwdb eth1_wrapper
+TRACE::2021-03-30.21:28:29::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-03-30.21:28:29::SCWMssOS::Checking the sw design at  /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-03-30.21:28:29::SCWMssOS::DEBUG:  swdes dump  /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-03-30.21:28:29::SCWMssOS::Sw design exists and opened at  /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-03-30.21:28:29::SCWMssOS:: library already available in sw design:  lwip211:1.1
+TRACE::2021-03-30.21:28:29::SCWPlatform::Trying to open the hw design at /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/hw/eth1_wrapper2.xsa
+TRACE::2021-03-30.21:28:29::SCWPlatform::DSA given /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/hw/eth1_wrapper2.xsa
+TRACE::2021-03-30.21:28:29::SCWPlatform::DSA absoulate path /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/hw/eth1_wrapper2.xsa
+TRACE::2021-03-30.21:28:29::SCWPlatform::DSA directory /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/hw
+TRACE::2021-03-30.21:28:29::SCWPlatform:: Platform Path /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/hw/eth1_wrapper2.xsa
+TRACE::2021-03-30.21:28:29::SCWPlatform:: Unique name xilinx:kc705::0.0
+TRACE::2021-03-30.21:28:29::SCWPlatform::Trying to set the existing hwdb with name eth1_wrapper
+TRACE::2021-03-30.21:28:29::SCWPlatform::Opened existing hwdb eth1_wrapper
+TRACE::2021-03-30.21:28:29::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-03-30.21:28:29::SCWMssOS::Checking the sw design at  /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-03-30.21:28:29::SCWMssOS::DEBUG:  swdes dump  /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-03-30.21:28:29::SCWMssOS::Sw design exists and opened at  /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-03-30.21:28:29::SCWPlatform::Trying to open the hw design at /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/hw/eth1_wrapper2.xsa
+TRACE::2021-03-30.21:28:29::SCWPlatform::DSA given /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/hw/eth1_wrapper2.xsa
+TRACE::2021-03-30.21:28:29::SCWPlatform::DSA absoulate path /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/hw/eth1_wrapper2.xsa
+TRACE::2021-03-30.21:28:29::SCWPlatform::DSA directory /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/hw
+TRACE::2021-03-30.21:28:29::SCWPlatform:: Platform Path /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/hw/eth1_wrapper2.xsa
+TRACE::2021-03-30.21:28:29::SCWPlatform:: Unique name xilinx:kc705::0.0
+TRACE::2021-03-30.21:28:29::SCWPlatform::Trying to set the existing hwdb with name eth1_wrapper
+TRACE::2021-03-30.21:28:29::SCWPlatform::Opened existing hwdb eth1_wrapper
+TRACE::2021-03-30.21:28:29::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-03-30.21:28:29::SCWMssOS::Checking the sw design at  /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-03-30.21:28:29::SCWMssOS::DEBUG:  swdes dump  /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-03-30.21:28:29::SCWMssOS::Sw design exists and opened at  /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-03-30.21:28:29::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2021-03-30.21:28:29::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2021-03-30.21:28:29::SCWPlatform::Trying to open the hw design at /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/hw/eth1_wrapper2.xsa
+TRACE::2021-03-30.21:28:29::SCWPlatform::DSA given /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/hw/eth1_wrapper2.xsa
+TRACE::2021-03-30.21:28:29::SCWPlatform::DSA absoulate path /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/hw/eth1_wrapper2.xsa
+TRACE::2021-03-30.21:28:29::SCWPlatform::DSA directory /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/hw
+TRACE::2021-03-30.21:28:29::SCWPlatform:: Platform Path /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/hw/eth1_wrapper2.xsa
+TRACE::2021-03-30.21:28:29::SCWPlatform:: Unique name xilinx:kc705::0.0
+TRACE::2021-03-30.21:28:29::SCWPlatform::Trying to set the existing hwdb with name eth1_wrapper
+TRACE::2021-03-30.21:28:29::SCWPlatform::Opened existing hwdb eth1_wrapper
+TRACE::2021-03-30.21:28:29::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-03-30.21:28:29::SCWMssOS::Checking the sw design at  /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-03-30.21:28:29::SCWMssOS::DEBUG:  swdes dump  /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-03-30.21:28:29::SCWMssOS::Sw design exists and opened at  /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-03-30.21:28:29::SCWReader::No isolation master present  
+TRACE::2021-03-30.21:28:29::SCWMssOS::cleaning the bsp 
+TRACE::2021-03-30.21:28:29::SCWMssOS::System Command Ran  cd  /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/microblaze_0/standalone_domain/bsp ; bash -c "make  clean " 
+TRACE::2021-03-30.21:28:29::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_5/src -s clean 
+
+TRACE::2021-03-30.21:28:29::SCWMssOS::make -C microblaze_0/libsrc/axiethernet_v5_9/src -s clean 
+
+TRACE::2021-03-30.21:28:29::SCWMssOS::make -C microblaze_0/libsrc/axidma_v9_10/src -s clean 
+
+TRACE::2021-03-30.21:28:29::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_3/src -s clean 
+
+TRACE::2021-03-30.21:28:29::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_3/src -s clean 
+
+TRACE::2021-03-30.21:28:29::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_1/src -s clean 
+
+TRACE::2021-03-30.21:28:30::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_5/src -s clean 
+
+TRACE::2021-03-30.21:28:30::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_10/src -s clean 
+
+TRACE::2021-03-30.21:28:30::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_10/src -s clean 
+
+TRACE::2021-03-30.21:28:30::SCWMssOS::make -C microblaze_0/libsrc/lwip211_v1_1/src -s clean 
+
+TRACE::2021-03-30.21:28:30::SCWMssOS::rm -f microblaze_0/lib/libxil.a
+
+LOG::2021-03-30.21:28:42::SCWPlatform::Started generating the artifacts platform eth1_wrapper2
+TRACE::2021-03-30.21:28:42::SCWPlatform::Sanity checking of platform is completed
+LOG::2021-03-30.21:28:42::SCWPlatform::Started generating the artifacts for system configuration eth1_wrapper2
+LOG::2021-03-30.21:28:42::SCWSystem::Checking the domain standalone_domain
+LOG::2021-03-30.21:28:42::SCWSystem::Not a boot domain 
+LOG::2021-03-30.21:28:43::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2021-03-30.21:28:43::SCWDomain::Generating domain artifcats
+TRACE::2021-03-30.21:28:43::SCWMssOS::Generating standalone artifcats
+TRACE::2021-03-30.21:28:43::SCWMssOS:: Copying the user libraries. 
+TRACE::2021-03-30.21:28:43::SCWPlatform::Trying to open the hw design at /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/hw/eth1_wrapper2.xsa
+TRACE::2021-03-30.21:28:43::SCWPlatform::DSA given /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/hw/eth1_wrapper2.xsa
+TRACE::2021-03-30.21:28:43::SCWPlatform::DSA absoulate path /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/hw/eth1_wrapper2.xsa
+TRACE::2021-03-30.21:28:43::SCWPlatform::DSA directory /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/hw
+TRACE::2021-03-30.21:28:43::SCWPlatform:: Platform Path /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/hw/eth1_wrapper2.xsa
+TRACE::2021-03-30.21:28:43::SCWPlatform:: Unique name xilinx:kc705::0.0
+TRACE::2021-03-30.21:28:43::SCWPlatform::Trying to set the existing hwdb with name eth1_wrapper
+TRACE::2021-03-30.21:28:43::SCWPlatform::Opened existing hwdb eth1_wrapper
+TRACE::2021-03-30.21:28:43::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-03-30.21:28:43::SCWMssOS::Checking the sw design at  /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-03-30.21:28:43::SCWMssOS::DEBUG:  swdes dump  /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-03-30.21:28:43::SCWMssOS::Sw design exists and opened at  /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-03-30.21:28:43::SCWMssOS::Completed writing the mss file at /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/microblaze_0/standalone_domain/bsp
+TRACE::2021-03-30.21:28:43::SCWMssOS::Mss edits present, copying mssfile into export location /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-03-30.21:28:43::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2021-03-30.21:28:43::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2021-03-30.21:28:43::SCWDomain::Building the domain as part of full build :  standalone_domain
+TRACE::2021-03-30.21:28:43::SCWMssOS::doing bsp build ... 
+TRACE::2021-03-30.21:28:43::SCWMssOS::System Command Ran  cd  /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/microblaze_0/standalone_domain/bsp ; bash -c "make  " 
+TRACE::2021-03-30.21:28:43::SCWMssOS::Running Make include in microblaze_0/libsrc/tmrctr_v4_5/src
+
+TRACE::2021-03-30.21:28:43::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_5/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2021-03-30.21:28:43::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2021-03-30.21:28:43::SCWMssOS::-Wall -Wextra"
+
+TRACE::2021-03-30.21:28:43::SCWMssOS::Running Make include in microblaze_0/libsrc/axiethernet_v5_9/src
+
+TRACE::2021-03-30.21:28:43::SCWMssOS::make -C microblaze_0/libsrc/axiethernet_v5_9/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-a
+TRACE::2021-03-30.21:28:43::SCWMssOS::r" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sect
+TRACE::2021-03-30.21:28:43::SCWMssOS::ions -Wall -Wextra"
+
+TRACE::2021-03-30.21:28:43::SCWMssOS::Running Make include in microblaze_0/libsrc/axidma_v9_10/src
+
+TRACE::2021-03-30.21:28:43::SCWMssOS::make -C microblaze_0/libsrc/axidma_v9_10/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "
+TRACE::2021-03-30.21:28:43::SCWMssOS::COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections
+TRACE::2021-03-30.21:28:43::SCWMssOS:: -Wall -Wextra"
+
+TRACE::2021-03-30.21:28:43::SCWMssOS::Running Make include in microblaze_0/libsrc/uartlite_v3_3/src
+
+TRACE::2021-03-30.21:28:43::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_3/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" 
+TRACE::2021-03-30.21:28:43::SCWMssOS::"COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-section
+TRACE::2021-03-30.21:28:43::SCWMssOS::s -Wall -Wextra"
+
+TRACE::2021-03-30.21:28:43::SCWMssOS::Running Make include in microblaze_0/libsrc/bram_v4_3/src
+
+TRACE::2021-03-30.21:28:43::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_3/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2021-03-30.21:28:43::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2021-03-30.21:28:43::SCWMssOS::all -Wextra"
+
+TRACE::2021-03-30.21:28:43::SCWMssOS::Running Make include in microblaze_0/libsrc/standalone_v7_1/src
+
+TRACE::2021-03-30.21:28:43::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_1/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar
+TRACE::2021-03-30.21:28:43::SCWMssOS::" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-secti
+TRACE::2021-03-30.21:28:43::SCWMssOS::ons -Wall -Wextra"
+
+TRACE::2021-03-30.21:28:43::SCWMssOS::Running Make include in microblaze_0/libsrc/gpio_v4_5/src
+
+TRACE::2021-03-30.21:28:43::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_5/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2021-03-30.21:28:43::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2021-03-30.21:28:43::SCWMssOS::all -Wextra"
+
+TRACE::2021-03-30.21:28:43::SCWMssOS::Running Make include in microblaze_0/libsrc/cpu_v2_10/src
+
+TRACE::2021-03-30.21:28:43::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_10/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2021-03-30.21:28:43::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2021-03-30.21:28:43::SCWMssOS::all -Wextra"
+
+TRACE::2021-03-30.21:28:43::SCWMssOS::Running Make include in microblaze_0/libsrc/intc_v3_10/src
+
+TRACE::2021-03-30.21:28:43::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_10/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+TRACE::2021-03-30.21:28:43::SCWMssOS::MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -
+TRACE::2021-03-30.21:28:43::SCWMssOS::Wall -Wextra"
+
+TRACE::2021-03-30.21:28:43::SCWMssOS::Running Make include in microblaze_0/libsrc/lwip211_v1_1/src
+
+TRACE::2021-03-30.21:28:43::SCWMssOS::make -C microblaze_0/libsrc/lwip211_v1_1/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "
+TRACE::2021-03-30.21:28:43::SCWMssOS::COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections
+TRACE::2021-03-30.21:28:43::SCWMssOS:: -Wall -Wextra"
+
+TRACE::2021-03-30.21:28:43::SCWMssOS::Running Make libs in microblaze_0/libsrc/tmrctr_v4_5/src
+
+TRACE::2021-03-30.21:28:43::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_5/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2021-03-30.21:28:43::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wa
+TRACE::2021-03-30.21:28:43::SCWMssOS::ll -Wextra"
+
+TRACE::2021-03-30.21:28:43::SCWMssOS::Compiling tmrctr
+
+TRACE::2021-03-30.21:28:45::SCWMssOS::Running Make libs in microblaze_0/libsrc/axiethernet_v5_9/src
+
+TRACE::2021-03-30.21:28:45::SCWMssOS::make -C microblaze_0/libsrc/axiethernet_v5_9/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" 
+TRACE::2021-03-30.21:28:45::SCWMssOS::"COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-section
+TRACE::2021-03-30.21:28:45::SCWMssOS::s -Wall -Wextra"
+
+TRACE::2021-03-30.21:28:45::SCWMssOS::Compiling axiethernet
+
+TRACE::2021-03-30.21:28:46::SCWMssOS::Running Make libs in microblaze_0/libsrc/axidma_v9_10/src
+
+TRACE::2021-03-30.21:28:46::SCWMssOS::make -C microblaze_0/libsrc/axidma_v9_10/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2021-03-30.21:28:46::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2021-03-30.21:28:46::SCWMssOS::all -Wextra"
+
+TRACE::2021-03-30.21:28:46::SCWMssOS::Compiling axidma
+
+TRACE::2021-03-30.21:28:47::SCWMssOS::Running Make libs in microblaze_0/libsrc/uartlite_v3_3/src
+
+TRACE::2021-03-30.21:28:47::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_3/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+TRACE::2021-03-30.21:28:47::SCWMssOS::MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -
+TRACE::2021-03-30.21:28:47::SCWMssOS::Wall -Wextra"
+
+TRACE::2021-03-30.21:28:47::SCWMssOS::Compiling uartlite
+
+TRACE::2021-03-30.21:28:48::SCWMssOS::Running Make libs in microblaze_0/libsrc/bram_v4_3/src
+
+TRACE::2021-03-30.21:28:48::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_3/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2021-03-30.21:28:48::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2021-03-30.21:28:48::SCWMssOS:: -Wextra"
+
+TRACE::2021-03-30.21:28:48::SCWMssOS::Compiling bram
+
+TRACE::2021-03-30.21:28:49::SCWMssOS::Running Make libs in microblaze_0/libsrc/standalone_v7_1/src
+
+TRACE::2021-03-30.21:28:49::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_1/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "
+TRACE::2021-03-30.21:28:49::SCWMssOS::COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections
+TRACE::2021-03-30.21:28:49::SCWMssOS:: -Wall -Wextra"
+
+TRACE::2021-03-30.21:28:49::SCWMssOS::Compiling standalone
+
+TRACE::2021-03-30.21:28:53::SCWMssOS::Running Make libs in microblaze_0/libsrc/gpio_v4_5/src
+
+TRACE::2021-03-30.21:28:53::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_5/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2021-03-30.21:28:53::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2021-03-30.21:28:53::SCWMssOS:: -Wextra"
+
+TRACE::2021-03-30.21:28:53::SCWMssOS::Compiling gpio
+
+TRACE::2021-03-30.21:28:54::SCWMssOS::Running Make libs in microblaze_0/libsrc/cpu_v2_10/src
+
+TRACE::2021-03-30.21:28:54::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_10/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2021-03-30.21:28:54::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2021-03-30.21:28:54::SCWMssOS:: -Wextra"
+
+TRACE::2021-03-30.21:28:54::SCWMssOS::Compiling cpu
+
+TRACE::2021-03-30.21:28:54::SCWMssOS::Running Make libs in microblaze_0/libsrc/intc_v3_10/src
+
+TRACE::2021-03-30.21:28:54::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_10/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPI
+TRACE::2021-03-30.21:28:54::SCWMssOS::LER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wal
+TRACE::2021-03-30.21:28:54::SCWMssOS::l -Wextra"
+
+TRACE::2021-03-30.21:28:54::SCWMssOS::Compiling intc
+
+TRACE::2021-03-30.21:28:55::SCWMssOS::Running Make libs in microblaze_0/libsrc/lwip211_v1_1/src
+
+TRACE::2021-03-30.21:28:55::SCWMssOS::make -C microblaze_0/libsrc/lwip211_v1_1/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2021-03-30.21:28:55::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2021-03-30.21:28:55::SCWMssOS::all -Wextra"
+
+TRACE::2021-03-30.21:28:55::SCWMssOS::Compiling lwip src and adapter files
+
+TRACE::2021-03-30.21:29:04::SCWMssOS::Finished building libraries
+
+TRACE::2021-03-30.21:29:05::SCWMssOS::Copying to export directory.
+TRACE::2021-03-30.21:29:05::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2021-03-30.21:29:05::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2021-03-30.21:29:05::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2021-03-30.21:29:05::SCWSystem::Completed Processing the sysconfig eth1_wrapper2
+LOG::2021-03-30.21:29:05::SCWPlatform::Completed generating the artifacts for system configuration eth1_wrapper2
+TRACE::2021-03-30.21:29:05::SCWPlatform::Started preparing the platform 
+TRACE::2021-03-30.21:29:05::SCWSystem::Writing the bif file for system config eth1_wrapper2
+TRACE::2021-03-30.21:29:05::SCWSystem::dir created 
+TRACE::2021-03-30.21:29:05::SCWSystem::Writing the bif 
+TRACE::2021-03-30.21:29:05::SCWPlatform::Started writing the spfm file 
+TRACE::2021-03-30.21:29:05::SCWPlatform::Started writing the xpfm file 
+TRACE::2021-03-30.21:29:05::SCWPlatform::Completed generating the platform
+TRACE::2021-03-30.21:29:05::SCWPlatform::Trying to open the hw design at /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/hw/eth1_wrapper2.xsa
+TRACE::2021-03-30.21:29:05::SCWPlatform::DSA given /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/hw/eth1_wrapper2.xsa
+TRACE::2021-03-30.21:29:05::SCWPlatform::DSA absoulate path /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/hw/eth1_wrapper2.xsa
+TRACE::2021-03-30.21:29:05::SCWPlatform::DSA directory /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/hw
+TRACE::2021-03-30.21:29:05::SCWPlatform:: Platform Path /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/hw/eth1_wrapper2.xsa
+TRACE::2021-03-30.21:29:05::SCWPlatform:: Unique name xilinx:kc705::0.0
+TRACE::2021-03-30.21:29:05::SCWPlatform::Trying to set the existing hwdb with name eth1_wrapper
+TRACE::2021-03-30.21:29:05::SCWPlatform::Opened existing hwdb eth1_wrapper
+TRACE::2021-03-30.21:29:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-03-30.21:29:05::SCWMssOS::Checking the sw design at  /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-03-30.21:29:05::SCWMssOS::DEBUG:  swdes dump  /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-03-30.21:29:05::SCWMssOS::Sw design exists and opened at  /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-03-30.21:29:05::SCWWriter::formatted JSON is {
+	"platformName":	"eth1_wrapper2",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"eth1_wrapper2",
+	"platHandOff":	"/media/cliff/procom/elEther/repoTpf/TPF-Fulgor-2020/Ethernet/ethernet_base_v2019/eth1_wrapper2.xsa",
+	"platIntHandOff":	"<platformDir>/hw/eth1_wrapper2.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"eth1_wrapper2",
+	"systems":	[{
+			"systemName":	"eth1_wrapper2",
+			"systemDesc":	"eth1_wrapper2",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"eth1_wrapper2",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"9dd63abf346d0eb62d5ffe611dd8a6f4",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["lwip211:1.1"],
+					"libOptions":	{
+						"lwip211":	{
+							"pbuf_pool_size":	"2048",
+							"libOptionNames":	["pbuf_pool_size"]
+						},
+						"libsContainingOptions":	["lwip211"]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2021-03-30.21:29:05::SCWPlatform::updated the xpfm file.
+TRACE::2021-03-30.21:29:05::SCWPlatform::Trying to open the hw design at /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/hw/eth1_wrapper2.xsa
+TRACE::2021-03-30.21:29:05::SCWPlatform::DSA given /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/hw/eth1_wrapper2.xsa
+TRACE::2021-03-30.21:29:05::SCWPlatform::DSA absoulate path /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/hw/eth1_wrapper2.xsa
+TRACE::2021-03-30.21:29:05::SCWPlatform::DSA directory /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/hw
+TRACE::2021-03-30.21:29:05::SCWPlatform:: Platform Path /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/hw/eth1_wrapper2.xsa
+TRACE::2021-03-30.21:29:05::SCWPlatform:: Unique name xilinx:kc705::0.0
+TRACE::2021-03-30.21:29:05::SCWPlatform::Trying to set the existing hwdb with name eth1_wrapper
+TRACE::2021-03-30.21:29:05::SCWPlatform::Opened existing hwdb eth1_wrapper
+TRACE::2021-03-30.21:29:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-03-30.21:29:05::SCWMssOS::Checking the sw design at  /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-03-30.21:29:05::SCWMssOS::DEBUG:  swdes dump  /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-03-30.21:29:05::SCWMssOS::Sw design exists and opened at  /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/eth1_wrapper2/microblaze_0/standalone_domain/bsp/system.mss

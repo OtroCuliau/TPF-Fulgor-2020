@@ -730,3 +730,88 @@ con
 ----------------End of Script----------------
 
 14:45:01 INFO  : Launch script is exported to file '/media/cliff/procom/elEther/repoTpf/ethernet_GMII_v1.vitis/.sdk/launch_scripts/single_application_debug/debugger_matpu3-default.tcl'
+21:25:32 INFO  : Launching XSCT server: xsct -n  -interactive /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/temp_xsdb_launch_script.tcl
+21:25:50 INFO  : XSCT server has started successfully.
+21:25:50 INFO  : plnx-install-location is set to ''
+21:25:50 INFO  : Successfully done setting XSCT server connection channel  
+21:25:50 INFO  : Successfully done setting workspace for the tool. 
+21:25:57 INFO  : Registering command handlers for Vitis TCF services
+21:26:44 INFO  : Successfully done query RDI_DATADIR 
+21:29:09 INFO  : Checking for BSP changes to sync application flags for project 'matpu3'...
+21:31:08 INFO  : Connected through redirection to target on host '172.16.0.163' and port '3122'.
+21:31:09 INFO  : Jtag cable 'Digilent JTAG-SMT1 210203339927A' is selected.
+21:31:10 INFO  : 'jtag frequency' command is executed.
+21:31:10 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203339927A" && level==0} -index 0' command is executed.
+21:31:40 INFO  : FPGA configured successfully with bitstream "/media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/matpu3/_ide/bitstream/eth1_wrapper2.bit"
+21:31:41 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+21:31:41 INFO  : Context for processor 'microblaze_0' is selected.
+21:31:41 INFO  : System reset is completed.
+21:31:44 INFO  : 'after 3000' command is executed.
+21:31:44 INFO  : Context for processor 'microblaze_0' is selected.
+21:31:46 INFO  : The application '/media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/matpu3/Debug/matpu3.elf' is downloaded to processor 'microblaze_0'.
+21:31:46 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:172.16.0.163:3122]
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203339927A" && level==0} -index 0
+fpga -file /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/matpu3/_ide/bitstream/eth1_wrapper2.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent JTAG-SMT1 210203339927A"} -index 0
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent JTAG-SMT1 210203339927A"} -index 0
+dow /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/matpu3/Debug/matpu3.elf
+----------------End of Script----------------
+
+21:31:48 INFO  : Memory regions updated for context PA
+21:31:48 INFO  : Memory regions updated for context PA
+21:31:48 INFO  : Context for processor 'microblaze_0' is selected.
+21:31:49 INFO  : 'con' command is executed.
+21:31:49 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent JTAG-SMT1 210203339927A"} -index 0
+con
+----------------End of Script----------------
+
+21:31:49 INFO  : Launch script is exported to file '/media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/.sdk/launch_scripts/single_application_debug/debugger_matpu3-default.tcl'
+21:33:23 INFO  : Checking for BSP changes to sync application flags for project 'matpu3'...
+21:33:46 INFO  : Disconnected from the channel tcfchan#3.
+21:33:47 INFO  : Connected through redirection to target on host '172.16.0.163' and port '3122'.
+21:33:47 INFO  : Jtag cable 'Digilent JTAG-SMT1 210203339927A' is selected.
+21:33:47 ERROR : port closed
+21:33:47 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:172.16.0.163:3122]
+----------------End of Script----------------
+
+21:33:47 ERROR : port closed
+21:33:55 INFO  : Connected through redirection to target on host '172.16.0.163' and port '3122'.
+21:33:56 INFO  : Jtag cable 'Digilent JTAG-SMT1 210203339927A' is selected.
+21:33:56 INFO  : 'jtag frequency' command is executed.
+21:33:56 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203339927A" && level==0} -index 0' command is executed.
+21:34:27 INFO  : FPGA configured successfully with bitstream "/media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/matpu3/_ide/bitstream/eth1_wrapper2.bit"
+21:34:28 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+21:34:28 INFO  : Context for processor 'microblaze_0' is selected.
+21:34:28 INFO  : System reset is completed.
+21:34:31 INFO  : 'after 3000' command is executed.
+21:34:32 INFO  : Context for processor 'microblaze_0' is selected.
+21:34:33 INFO  : The application '/media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/matpu3/Debug/matpu3.elf' is downloaded to processor 'microblaze_0'.
+21:34:33 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:172.16.0.163:3122]
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203339927A" && level==0} -index 0
+fpga -file /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/matpu3/_ide/bitstream/eth1_wrapper2.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent JTAG-SMT1 210203339927A"} -index 0
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent JTAG-SMT1 210203339927A"} -index 0
+dow /media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/matpu3/Debug/matpu3.elf
+----------------End of Script----------------
+
+21:34:35 INFO  : Memory regions updated for context PA
+21:34:35 INFO  : Memory regions updated for context PA
+21:34:36 INFO  : Context for processor 'microblaze_0' is selected.
+21:34:36 INFO  : 'con' command is executed.
+21:34:36 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent JTAG-SMT1 210203339927A"} -index 0
+con
+----------------End of Script----------------
+
+21:34:36 INFO  : Launch script is exported to file '/media/cliff/procom/elEther/repoTpf/Ethernet/ethernet_base_v2019/ethernet_GMII_v1.vitis/.sdk/launch_scripts/single_application_debug/debugger_matpu3-default.tcl'
+21:35:27 INFO  : Disconnected from the channel tcfchan#4.

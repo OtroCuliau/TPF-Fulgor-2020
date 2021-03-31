@@ -1,6 +1,6 @@
-2021-03-27T14:37:52.517391121171255-14:37:52 **** Build of project eth1_wrapper2 ****
-233235237-buildplatform.sh 38815 eth1_wrapper2  
-233235237-XSDB Server Channel: tcfchan#10
+2021-03-30T21:28:35.927586121171255-21:28:35 **** Build of project eth1_wrapper2 ****
+233235237-buildplatform.sh 40711 eth1_wrapper2  
+233235237-XSDB Server Channel: tcfchan#2
 233235237-Building the BSP Library for domain  - standalone_domain on processor microblaze_0
 233235237-Running Make include in microblaze_0/libsrc/tmrctr_v4_5/src
 233235237-
@@ -169,11 +169,11 @@
 233235237/eth1_wrapper2/microblaze_0/standalone_domain/bsp/microblaze_0/libsrc/lwip211_v1_1/src/contrib/ports/xilinx/netif/xaxiemacif_dma.c195-1-1passing argument 2 of 'inet_chksum_pseudo' makes integer from pointer without a cast [-Wint-conversion]1-contrib/ports/xilinx/netif/xaxiemacif_dma.c:195:6: warning: passing argument 2 of 'inet_chksum_pseudo' makes integer from pointer without a cast [-Wint-conversion]
 233235237-      (ip_addr_t *)&ehdr->ip.src, (ip_addr_t *)&ehdr->ip.dest,
 233235237-      ^~~~~~~~~~~~~~~~~~~~~~~~~~
-233235237/eth1_wrapper2/microblaze_0/standalone_domain/bsp/microblaze_0/libsrc/lwip211_v1_1/src/lwip-2.1.1/src/include/lwip/def.h119-1-1in definition of macro 'htons'0-../../../include/lwip/def.h:119:29: note: in definition of macro 'htons'
+233235237/eth1_wrapper2/microblaze_0/standalone_domain/bsp/microblaze_0/include/lwip/def.h119-1-1in definition of macro 'htons'0-../../../include/lwip/def.h:119:29: note: in definition of macro 'htons'
 233235237- #define htons(x) lwip_htons(x)
 233235237-                             ^
 233235237-In file included from contrib/ports/xilinx/netif/xaxiemacif_dma.c:47:
-233235237/eth1_wrapper2/microblaze_0/standalone_domain/bsp/microblaze_0/libsrc/lwip211_v1_1/src/lwip-2.1.1/src/include/lwip/inet_chksum.h81-1-1expected 'u8_t' {aka 'unsigned char'} but argument is of type 'ip_addr_t *' {aka 'struct ip4_addr *'}0-../../../include/lwip/inet_chksum.h:81:47: note: expected 'u8_t' {aka 'unsigned char'} but argument is of type 'ip_addr_t *' {aka 'struct ip4_addr *'}
+233235237/eth1_wrapper2/microblaze_0/standalone_domain/bsp/microblaze_0/include/lwip/inet_chksum.h81-1-1expected 'u8_t' {aka 'unsigned char'} but argument is of type 'ip_addr_t *' {aka 'struct ip4_addr *'}0-../../../include/lwip/inet_chksum.h:81:47: note: expected 'u8_t' {aka 'unsigned char'} but argument is of type 'ip_addr_t *' {aka 'struct ip4_addr *'}
 233235237- u16_t inet_chksum_pseudo(struct pbuf *p, u8_t proto, u16_t proto_len,
 233235237-                                          ~~~~~^~~~~
 233235237-In file included from ../../../include/lwip/ip_addr.h:41,
@@ -182,11 +182,11 @@
 233235237/eth1_wrapper2/microblaze_0/standalone_domain/bsp/microblaze_0/libsrc/lwip211_v1_1/src/contrib/ports/xilinx/netif/xaxiemacif_dma.c195-1-1passing argument 3 of 'inet_chksum_pseudo' makes integer from pointer without a cast [-Wint-conversion]1-contrib/ports/xilinx/netif/xaxiemacif_dma.c:195:34: warning: passing argument 3 of 'inet_chksum_pseudo' makes integer from pointer without a cast [-Wint-conversion]
 233235237-      (ip_addr_t *)&ehdr->ip.src, (ip_addr_t *)&ehdr->ip.dest,
 233235237-                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~
-233235237/eth1_wrapper2/microblaze_0/standalone_domain/bsp/microblaze_0/libsrc/lwip211_v1_1/src/lwip-2.1.1/src/include/lwip/def.h119-1-1in definition of macro 'htons'0-../../../include/lwip/def.h:119:29: note: in definition of macro 'htons'
+233235237/eth1_wrapper2/microblaze_0/standalone_domain/bsp/microblaze_0/include/lwip/def.h119-1-1in definition of macro 'htons'0-../../../include/lwip/def.h:119:29: note: in definition of macro 'htons'
 233235237- #define htons(x) lwip_htons(x)
 233235237-                             ^
 233235237-In file included from contrib/ports/xilinx/netif/xaxiemacif_dma.c:47:
-233235237/eth1_wrapper2/microblaze_0/standalone_domain/bsp/microblaze_0/libsrc/lwip211_v1_1/src/lwip-2.1.1/src/include/lwip/inet_chksum.h81-1-1expected 'u16_t' {aka 'short unsigned int'} but argument is of type 'ip_addr_t *' {aka 'struct ip4_addr *'}0-../../../include/lwip/inet_chksum.h:81:60: note: expected 'u16_t' {aka 'short unsigned int'} but argument is of type 'ip_addr_t *' {aka 'struct ip4_addr *'}
+233235237/eth1_wrapper2/microblaze_0/standalone_domain/bsp/microblaze_0/include/lwip/inet_chksum.h81-1-1expected 'u16_t' {aka 'short unsigned int'} but argument is of type 'ip_addr_t *' {aka 'struct ip4_addr *'}0-../../../include/lwip/inet_chksum.h:81:60: note: expected 'u16_t' {aka 'short unsigned int'} but argument is of type 'ip_addr_t *' {aka 'struct ip4_addr *'}
 233235237- u16_t inet_chksum_pseudo(struct pbuf *p, u8_t proto, u16_t proto_len,
 233235237-                                                      ~~~~~~^~~~~~~~~
 233235237-In file included from ../../../include/lwip/ip_addr.h:41,
@@ -195,11 +195,11 @@
 233235237/eth1_wrapper2/microblaze_0/standalone_domain/bsp/microblaze_0/libsrc/lwip211_v1_1/src/contrib/ports/xilinx/netif/xaxiemacif_dma.c196-1-1passing argument 4 of 'inet_chksum_pseudo' makes pointer from integer without a cast [-Wint-conversion]1-contrib/ports/xilinx/netif/xaxiemacif_dma.c:196:6: warning: passing argument 4 of 'inet_chksum_pseudo' makes pointer from integer without a cast [-Wint-conversion]
 233235237-      proto, tcp_payload_len));
 233235237-      ^~~~~
-233235237/eth1_wrapper2/microblaze_0/standalone_domain/bsp/microblaze_0/libsrc/lwip211_v1_1/src/lwip-2.1.1/src/include/lwip/def.h119-1-1in definition of macro 'htons'0-../../../include/lwip/def.h:119:29: note: in definition of macro 'htons'
+233235237/eth1_wrapper2/microblaze_0/standalone_domain/bsp/microblaze_0/include/lwip/def.h119-1-1in definition of macro 'htons'0-../../../include/lwip/def.h:119:29: note: in definition of macro 'htons'
 233235237- #define htons(x) lwip_htons(x)
 233235237-                             ^
 233235237-In file included from contrib/ports/xilinx/netif/xaxiemacif_dma.c:47:
-233235237/eth1_wrapper2/microblaze_0/standalone_domain/bsp/microblaze_0/libsrc/lwip211_v1_1/src/lwip-2.1.1/src/include/lwip/inet_chksum.h82-1-1expected 'const ip4_addr_t *' {aka 'const struct ip4_addr *'} but argument is of type 'u8_t' {aka 'unsigned char'}0-../../../include/lwip/inet_chksum.h:82:26: note: expected 'const ip4_addr_t *' {aka 'const struct ip4_addr *'} but argument is of type 'u8_t' {aka 'unsigned char'}
+233235237/eth1_wrapper2/microblaze_0/standalone_domain/bsp/microblaze_0/include/lwip/inet_chksum.h82-1-1expected 'const ip4_addr_t *' {aka 'const struct ip4_addr *'} but argument is of type 'u8_t' {aka 'unsigned char'}0-../../../include/lwip/inet_chksum.h:82:26: note: expected 'const ip4_addr_t *' {aka 'const struct ip4_addr *'} but argument is of type 'u8_t' {aka 'unsigned char'}
 233235237-        const ip4_addr_t *src, const ip4_addr_t *dest);
 233235237-        ~~~~~~~~~~~~~~~~~~^~~
 233235237-In file included from ../../../include/lwip/ip_addr.h:41,
@@ -208,15 +208,15 @@
 233235237/eth1_wrapper2/microblaze_0/standalone_domain/bsp/microblaze_0/libsrc/lwip211_v1_1/src/contrib/ports/xilinx/netif/xaxiemacif_dma.c196-1-1passing argument 5 of 'inet_chksum_pseudo' makes pointer from integer without a cast [-Wint-conversion]1-contrib/ports/xilinx/netif/xaxiemacif_dma.c:196:13: warning: passing argument 5 of 'inet_chksum_pseudo' makes pointer from integer without a cast [-Wint-conversion]
 233235237-      proto, tcp_payload_len));
 233235237-             ^~~~~~~~~~~~~~~
-233235237/eth1_wrapper2/microblaze_0/standalone_domain/bsp/microblaze_0/libsrc/lwip211_v1_1/src/lwip-2.1.1/src/include/lwip/def.h119-1-1in definition of macro 'htons'0-../../../include/lwip/def.h:119:29: note: in definition of macro 'htons'
+233235237/eth1_wrapper2/microblaze_0/standalone_domain/bsp/microblaze_0/include/lwip/def.h119-1-1in definition of macro 'htons'0-../../../include/lwip/def.h:119:29: note: in definition of macro 'htons'
 233235237- #define htons(x) lwip_htons(x)
 233235237-                             ^
 233235237-In file included from contrib/ports/xilinx/netif/xaxiemacif_dma.c:47:
-233235237/eth1_wrapper2/microblaze_0/standalone_domain/bsp/microblaze_0/libsrc/lwip211_v1_1/src/lwip-2.1.1/src/include/lwip/inet_chksum.h82-1-1expected 'const ip4_addr_t *' {aka 'const struct ip4_addr *'} but argument is of type 'u16_t' {aka 'short unsigned int'}0-../../../include/lwip/inet_chksum.h:82:49: note: expected 'const ip4_addr_t *' {aka 'const struct ip4_addr *'} but argument is of type 'u16_t' {aka 'short unsigned int'}
+233235237/eth1_wrapper2/microblaze_0/standalone_domain/bsp/microblaze_0/include/lwip/inet_chksum.h82-1-1expected 'const ip4_addr_t *' {aka 'const struct ip4_addr *'} but argument is of type 'u16_t' {aka 'short unsigned int'}0-../../../include/lwip/inet_chksum.h:82:49: note: expected 'const ip4_addr_t *' {aka 'const struct ip4_addr *'} but argument is of type 'u16_t' {aka 'short unsigned int'}
 233235237-        const ip4_addr_t *src, const ip4_addr_t *dest);
 233235237-                               ~~~~~~~~~~~~~~~~~~^~~~
 233235237-Finished building libraries
 233235237-
 121171255-
-14:38:18 Build Finished (took 26s.248ms)
+21:29:08 Build Finished (took 32s.989ms)
 
