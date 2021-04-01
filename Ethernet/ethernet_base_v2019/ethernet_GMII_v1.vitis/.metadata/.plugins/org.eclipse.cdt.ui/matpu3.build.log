@@ -1,4 +1,4 @@
-21:33:24 **** Incremental Build of configuration Debug for project matpu3 ****
+20:53:17 **** Incremental Build of configuration Debug for project matpu3 ****
 make all 
 Building file: ../src/echo.c
 Invoking: MicroBlaze gcc compiler
@@ -13,9 +13,9 @@ Finished building target: matpu3.elf
 Invoking: MicroBlaze Print Size
 mb-size matpu3.elf  |tee "matpu3.elf.size"
    text	   data	    bss	    dec	    hex	filename
- 126518	   2036	3960694	4089248	 3e65a0	matpu3.elf
+ 125346	   2036	3960714	4088096	 3e6120	matpu3.elf
 Finished building: matpu3.elf.size
  
 
-21:33:25 Build Finished (took 1s.19ms)
+20:53:18 Build Finished (took 711ms)
 

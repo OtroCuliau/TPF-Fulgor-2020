@@ -30,3 +30,7 @@ timestamp=[2021-03-30 21:25:45], mode=WORKBENCH_START, duration=0:01:09.869, dur
 timestamp=[2021-03-30 21:25:53], mode=WORKBENCH_UI_INIT, duration=0:00:07.323, duration_ms=7323, data={editors_count=5, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,eth1_wrapper2,matpu3,matpu3_system}
 timestamp=[2021-03-30 21:28:33], mode=PLATFORM_GENERATION, duration=0:00:24.024, duration_ms=24024, data={name=eth1_wrapper2}
 timestamp=[2021-03-30 21:29:09], mode=PLATFORM_GENERATION, duration=0:00:33.396, duration_ms=33396, data={name=eth1_wrapper2}
+timestamp=[2021-03-31 20:10:05], mode=WORKBENCH_START, duration=0:00:22.093, duration_ms=22093, data={}
+timestamp=[2021-03-31 20:10:09], mode=WORKBENCH_UI_INIT, duration=0:00:04.902, duration_ms=4902, data={editors_count=7, platform_editors_count=3, projects_count=4, platform_projects_count=1, active_platform_editor=true, projects=RemoteSystemsTempFiles,eth1_wrapper2,matpu3,matpu3_system}
+timestamp=[2021-03-31 20:29:57], mode=PLATFORM_GENERATION, duration=0:00:19.420, duration_ms=19420, data={name=eth1_wrapper2}
+timestamp=[2021-03-31 20:30:25], mode=PLATFORM_GENERATION, duration=0:00:26.888, duration_ms=26888, data={name=eth1_wrapper2}

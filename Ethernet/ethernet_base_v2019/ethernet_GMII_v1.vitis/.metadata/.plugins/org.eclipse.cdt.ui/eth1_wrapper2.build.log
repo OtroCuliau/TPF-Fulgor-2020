@@ -1,6 +1,6 @@
-21:28:35 **** Build of project eth1_wrapper2 ****
-buildplatform.sh 40711 eth1_wrapper2  
-XSDB Server Channel: tcfchan#2
+20:29:58 **** Build of project eth1_wrapper2 ****
+buildplatform.sh 46879 eth1_wrapper2  
+XSDB Server Channel: tcfchan#6
 Building the BSP Library for domain  - standalone_domain on processor microblaze_0
 Running Make include in microblaze_0/libsrc/tmrctr_v4_5/src
 
@@ -218,5 +218,5 @@ In file included from contrib/ports/xilinx/netif/xaxiemacif_dma.c:47:
 Finished building libraries
 
 
-21:29:08 Build Finished (took 32s.989ms)
+20:30:25 Build Finished (took 26s.679ms)
 

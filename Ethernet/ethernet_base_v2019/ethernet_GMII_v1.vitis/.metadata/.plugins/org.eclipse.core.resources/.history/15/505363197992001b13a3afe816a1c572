@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="matpu3" location="/media/cliff/procom/elEther/repoTpf/ethernet_GMII_v1.vitis/matpu3" platform="/media/cliff/procom/elEther/repoTpf/ethernet_GMII_v1.vitis/eth1_wrapper2/export/eth1_wrapper2/eth1_wrapper2.xpfm" platformUID="xilinx:kc705::0.0(custom)" systemProject="matpu3_system" sysConfig="eth1_wrapper2" runtime="cpp" cpu="standalone_domain" cpuInstance="microblaze_0" os="standalone" mssSignature="137d4288fc346f40d75e7adc2bda9d4e">
+  <configuration name="Debug" id="xilinx.gnu.mb.exe.debug.936130484">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.mb.exe.release.1010201145" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="lwip_echo_server" hasBspSettings="true"/>
+</sdkproject:SdkProject>

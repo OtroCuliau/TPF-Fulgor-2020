@@ -234,7 +234,7 @@ int main()
 		}
 		xemacif_input(echo_netif);
 
-		//if(flagPack==1) transfer_data();
+		if(flagPack==1) transfer_data();
 	}
 
 	/* never reached */

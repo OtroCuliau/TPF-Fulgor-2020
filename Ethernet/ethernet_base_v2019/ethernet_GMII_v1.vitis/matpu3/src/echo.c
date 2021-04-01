@@ -64,23 +64,23 @@ void lwip_init();
 err_t recv_callback(void *arg, struct tcp_pcb *tpcb, struct pbuf *p, err_t err);
 err_t accept_callback(void *arg, struct tcp_pcb *newpcb, err_t err);
 
-void eth2ddr(unsigned char *payload, u16_t len);
+void eth2ddr(char *payload, u16_t len);
 
 /*
  * flag para manejar interrupcion y cantidad de datos faltantes
  */
 unsigned char flagPack=0;
-unsigned char nData=0;
-unsigned char *pPayloadPack;
-u16_t lenPack;
+unsigned short nData=0;
+char *pPayloadPack;
+unsigned short lenPack;
 
 char cfgMatpu=0;
 
 /*
  * punteros de entrada y salida de datos
  */
-char *pIn=(char*)INBUFFBASE;
-char *pOut=(char*)OUTBUFFBASE;
+char *pIn;
+char *pOut;
 
 int transfer_data() {
 	flagPack=0;
@@ -89,12 +89,17 @@ int transfer_data() {
 	 * en caso de que no falten datos para completar un bloque, detectar la cabecera
 	 */
 	if(nData==0){
-		if(*pPayloadPack==0xAA){
+		if(*pPayloadPack==(char)0xAA){
+			/*
+			 * inicializar punteros
+			 */
+			pIn=(char*)INBUFFBASE;
+
 			/*
 			 * guardar configuracion y tamaño total del payload
 			 */
 			cfgMatpu=pPayloadPack[1];
-			lenPack=(u16_t)(pPayloadPack[3]<<8)|pPayloadPack[2];
+			nData=(unsigned short)(pPayloadPack[3]<<8)|pPayloadPack[2];
 
 			/*
 			 * mover al bloque de datos de entrada
@@ -111,7 +116,7 @@ int transfer_data() {
 	return 0;
 }
 
-void eth2ddr(unsigned char *payload, u16_t len){
+void eth2ddr(char *payload, u16_t len){
 	/*
 	 * si esta el EOF en este bloque, ignorarlo
 	 */
@@ -125,17 +130,19 @@ void eth2ddr(unsigned char *payload, u16_t len){
 		*pIn=payload[i];
 
 		if(pIn<=(char*)INBUFFTOP) pIn++;
-		else pIn=(char*)INBUFFBASE;
+		else {
+			pIn=(char*)INBUFFBASE;
+			xil_printf("Desbordo el buffer de %d bytes...\n\r",BLK);
+		}
 	}
 
 	/*
 	 * actualizar la cantidad de bytes faltantes
 	 */
 	nData-=len;
-	xil_printf("Bytes faltantes: %d", nData);
+	xil_printf("Bytes faltantes: %d\n\r", nData);
 
 	return;
-
 }
 
 void print_app_header()
@@ -165,8 +172,8 @@ err_t recv_callback(void *arg, struct tcp_pcb *tpcb,
 	 * para no recargar la interrupcion solo se recuperan datos utiles
 	 * y se setea una bandera
 	 */
-	pPayloadPack=(unsigned char*)p->payload;
-	lenPack=p->len;
+	pPayloadPack=(char*)p->payload;
+	lenPack=(unsigned short)p->len;
 	flagPack=1;
 
 	/*
@@ -174,10 +181,10 @@ err_t recv_callback(void *arg, struct tcp_pcb *tpcb,
 	 */
 	/* echo back the payload */
 	/* in this case, we assume that the payload is < TCP_SND_BUF */
-	if (tcp_sndbuf(tpcb) > p->len) {
-		err = tcp_write(tpcb, p->payload, p->len, 1);
-	} else
-		xil_printf("no space in tcp_sndbuf\n\r");
+//	if (tcp_sndbuf(tpcb) > p->len) {
+//		err = tcp_write(tpcb, p->payload, p->len, 1);
+//	} else
+//		xil_printf("no space in tcp_sndbuf\n\r");
 
 	/* free the received pbuf */
 	pbuf_free(p);
